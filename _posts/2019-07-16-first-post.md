@@ -10,7 +10,7 @@ categories: jekyll update
 I made my own Blog!
 From Today, I will commit what I learned everyday.
 
-#Todo List
-1.Making my own github page
-2.Study algorithm
-3.Making timer app using React, Redux
+## To do List
+* Making my own github page
+* Study algorithm
+* Making timer app using React, Redux
