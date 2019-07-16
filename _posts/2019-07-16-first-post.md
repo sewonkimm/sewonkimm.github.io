@@ -9,6 +9,6 @@ TIL (Today I Laearned)
 From Today, I will commit what I learned everyday.
 
 😊Todo
-*Making my own github page
-*Study algorithm
-*Making timer app using React, Redux
+1.Making my own github page
+2.Study algorithm
+3.Making timer app using React, Redux
