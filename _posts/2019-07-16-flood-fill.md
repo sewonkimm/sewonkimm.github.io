@@ -55,6 +55,7 @@ categories: jekyll 백준 Algorithm TIL
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <stdio.h>
 using namespace std;
 
 int n;
@@ -63,8 +64,8 @@ int check[26][26];
 int dx[4] = { 1,-1,0,0 };
 int dy[4] = { 0,0,1,-1 };
 
-int dfs(int x, int y, int cnt){
-	
+int dfs(int x, int y, int cnt) {
+
 	check[x][y] = 1;
 
 	for (int k = 1; k <= 4; k++) {
@@ -81,12 +82,12 @@ int dfs(int x, int y, int cnt){
 }
 
 int main() {
-	cin >> n;
+	scanf("%d", &n);
 
 	//n*n 지도 입력
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-			cin >> arr[i][j];
+			scanf("%1d", &arr[i][j]);
 		}
 	}
 
@@ -109,5 +110,12 @@ int main() {
 	}
 
 	return 0;
-}  
+}
+
 ```
+
+## Review
+입력시 공백 없이 입력받기 때문에 cin >> arr[i][j] 를 이용해 입력받았을 때, 오답처리되었다.
+
+이것을 **scanf("%1d", &arr[i][j])** 로 수정하고 나서야 정답처리를 받을 수 있었다. 
+
