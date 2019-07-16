@@ -3,7 +3,7 @@ title: "Start TIL (Today I Learned)"
 subtitle: "Hello World!"
 date: 2019-07-16 10:09:28 -0400
 author: "SeWonKim"
-categories: jekyll update
+categories: jekyll
 ---
 
 ## TIL (Today I Laearned)
