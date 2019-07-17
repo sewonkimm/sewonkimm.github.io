@@ -11,7 +11,7 @@ I made my own Blog!
 From Today, I will commit what I learned everyday.
 
 ## To do List 
-### July 17, 2019
+### July 16, 2019
 * Making my own github page
 * Study algorithm
 * Making timer app using React, Redux
