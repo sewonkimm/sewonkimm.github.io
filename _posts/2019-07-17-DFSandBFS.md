@@ -1,5 +1,5 @@
 ---
-title: "DFS & BFS"
+title: "백준 1260:DFS & BFS"
 date: 2019-07-17 10:06:00 -0400
 author: "SeWon Kim"
 categories: jekyll 백준 Algorithm TIL
