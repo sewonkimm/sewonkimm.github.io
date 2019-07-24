@@ -1,9 +1,13 @@
 ---
-title: "Start TIL (Today I Learned)"
-subtitle: "Hello World!"
-date: 2019-07-16 10:09:28 -0400
+layout: post
+title: Start TIL (Today I Learned)
+date: 2019-07-16 10:09:28 
 author: "SeWonKim"
-categories: jekyll
+categories: [TIL]
+tags: [jekyll, TIL]
+fullview: false
+comments: true
+description: 
 ---
 
 ## TIL (Today I Laearned)

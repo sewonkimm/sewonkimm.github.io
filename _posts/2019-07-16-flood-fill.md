@@ -1,9 +1,15 @@
 ---
-title: "백준 2667:단지번호 붙이기 (Flood-fill)"
-date: 2019-07-16 10:09:28 -0400
-author: "SeWon Kim"
-categories: jekyll 백준 Algorithm TIL
+layout: post
+title: 백준 2667:단지번호 붙이기 (Flood-fill)
+date: 2019-07-16 10:09:28
+author: "SeWonKim"
+categories: [algorithm]
+tags: [jekyll, algorithm, Baekjoon]
+fullview: false
+comments: true
+description: 
 ---
+
 
 [Baekjoon 2667](https://www.acmicpc.net/problem/2667)
 
