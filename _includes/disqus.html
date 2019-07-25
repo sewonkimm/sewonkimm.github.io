@@ -4,6 +4,11 @@
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = '{{ site.disqus }}';
 
+    var disqus_config = function () {
+        this.page.url = '{{ page.url | absolute_url }}';
+        this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
