@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Youtube Clone Coding] NodeJS Theory
+title: NodeJS Theory
 date: 2019-07-29 19:21:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Youtube Clone Coding] Website vs Webapp
+title: Website vs Webapp
 date: 2019-07-29 19:10:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
