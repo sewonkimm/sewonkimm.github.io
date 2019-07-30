@@ -27,7 +27,7 @@ Data를 Reatime으로 활용할 때, JS기반 API를 활용할 때 등등... (ex
 또한 거의 모든 것을 customize할 수 있을 만큼 자유롭기 때문에 백지에서 시작하는 것을 좋아하는 스타일이라면 사용하기 좋다.      
 
 Django(Pthyon 프레임워크), Laravel(PHP 프레임워크)는 JS를 사용하기 싫다거나, 하드웨어적인 것을 다뤄야할 때, 이미 만들어져 있는 것을 활용하는 것을 좋아하는 사람에게 좋다.      
-인스타그램처럼 이미지를 crop하고, filter를 적용하고 등등 서버의 램, 하드웨어를 사용해야하는 하드코어 프로세싱에 Node JS는 부적합하다.
+인스타그램처럼 이미지를 crop하고, filter를 적용하고 등등 서버의 램, 하드웨어를 사용해야하는 하드코어 프로세싱에 Node JS는 부적합하다. 
 
 👉Nomad Coders Youtube about [Node JS vs Django](https://www.youtube.com/watch?v=PnhmeFakkXg)
 
