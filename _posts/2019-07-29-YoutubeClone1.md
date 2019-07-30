@@ -51,3 +51,23 @@ description: 💪LEGGO~
 Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript, API+AJAX... lots of things!          
 
 이 과정을 수강하고 나서 만들고 싶은 서비스를 혼자서도 만들 수 있는 능력치를 업그레이드 할 수 있기를 기대한다.
+
+
+
+---
+
+## Construction of Project
+```
+📂 Metube        
+    📄 index.js
+    📄 package.json
+```    
+
+⚠ 프로젝트를 막 만들어 나갈 때
+1. npm init으로 **package.json**을 생성해준다.
+2. npm install 모듈명 으로 필요한 npm 모듈을 설치한다.
+
+모듈을 설치하면 package.json에 dependencies 항목에 자동으로 기록된다.       
+또 node_modules 폴더가 자동으로 생기는데 여기에는 npm을 통해 다운로드 받은 모든 모듈들이 들어있다.       
+
+package.json은 협업할 때 아주아주아주 유용하다. npm install 명령어만 치면 자동으로 package.json에 적혀있는 필요한 모든 모듈들을 설치할 수 있다.
