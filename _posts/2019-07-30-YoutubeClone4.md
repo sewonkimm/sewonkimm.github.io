@@ -37,6 +37,12 @@ Express로 할 수 있는 것
 
 
 
+## Framework ??!
+Framework is **pre-code** that makes development convienient.
+
+**NodeJS는 Framework가 아니다.** NodeJS is just Javascript on the backend. It is a runtime.
+
+
 
 ## Install Express
 NPM(Node Package Manager) 이용하기 <- NodeJS 설치하면 자동으로 설치되어 있음.
