@@ -41,5 +41,9 @@ sidebar_background_image: https://images.unsplash.com/photo-1563873699-933a3985a
 
 BASE_PATH:
 
+mermaid:
+  src: '/js/mermaid.js'
+  src_config: '/js/mermaid_config.js'
+  
 plugins:
   - jekyll-paginate
