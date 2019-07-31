@@ -23,12 +23,13 @@ Express 작동 방식은 다음과 같다.
 ```
 이 과정에서 request와 response 사이의 something을 middleware라고 한다.
 
+{% raw %}
 {% mermaid %}
 graph LR
     A[Request] --> B[Middlewares]
     B --> C[Response]
 {% endmermaid %}
-
+{% \endraw %}
 
 
 ## How it works
