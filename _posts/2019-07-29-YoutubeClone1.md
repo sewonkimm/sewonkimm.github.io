@@ -69,6 +69,11 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
     📂 controllers
         📄 userController.js
         📄 videoController.js
+    📂 views
+        📂 layouts
+            📄main.pug
+        📄home.pug
+        
     📄 package.json
     📄 .babelrc
 ```    
