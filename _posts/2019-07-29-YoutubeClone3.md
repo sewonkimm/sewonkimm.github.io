@@ -4,7 +4,7 @@ title: NodeJS Theory
 date: 2019-07-29 19:21:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, NodeJS]
 fullview: false
 comments: true
 description: What is NodeJS?

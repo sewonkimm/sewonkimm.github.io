@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Middelware
-date: 2019-07-31 15:08:00
+date: 2019-07-31 14:08:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, Express, Middleware]
 fullview: false
 comments: true
 description: Middelware in Express

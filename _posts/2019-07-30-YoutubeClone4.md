@@ -4,7 +4,7 @@ title: Express Server
 date: 2019-07-30 18:40:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, Server, Express]
 fullview: false
 comments: true
 description: What is Express.js?

@@ -4,7 +4,7 @@ title: Connect with github
 date: 2019-07-30 19:20:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, github]
 fullview: false
 comments: true
 description: Setting github things

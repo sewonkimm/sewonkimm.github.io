@@ -59,8 +59,18 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 ## Construction of Project
 ```
 📂 Metube        
-    📄 index.js
+    📄 app.js
+    📄 init.js
+    📄 routes.js
+    📂 routers
+        📄 globalRouter.js
+        📄 userRouter.js
+        📄 videoRouter.js
+    📂 controllers
+        📄 userController.js
+        📄 videoController.js
     📄 package.json
+    📄 .babelrc
 ```    
 
 ⚠ 프로젝트를 막 만들어 나갈 때

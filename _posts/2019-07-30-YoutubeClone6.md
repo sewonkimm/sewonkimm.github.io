@@ -4,7 +4,7 @@ title: GET & POST
 date: 2019-07-30 19:10:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, Express]
 fullview: false
 comments: true
 description: How the http works?

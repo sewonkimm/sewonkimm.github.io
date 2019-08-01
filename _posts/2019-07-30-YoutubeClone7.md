@@ -4,7 +4,7 @@ title: Babel
 date: 2019-07-30 20:33:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, Babel, ES6]
 fullview: false
 comments: true
 description: What is Babel?
