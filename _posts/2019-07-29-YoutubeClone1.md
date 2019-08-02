@@ -62,6 +62,7 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
     📄 app.js
     📄 init.js
     📄 routes.js
+    📄 middlewares.js
     📂 routers
         📄 globalRouter.js
         📄 userRouter.js
@@ -71,8 +72,18 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
         📄 videoController.js
     📂 views
         📂 layouts
-            📄main.pug
-        📄home.pug
+            🐶 main.pug
+        📂 partials
+            🐶 header.pug
+            🐶 footer.pug
+        🐶 home.pug
+        🐶 join.pug
+        🐶 login.pug
+        🐶 logout.pug
+        .
+        .
+        .
+        
         
     📄 package.json
     📄 .babelrc
