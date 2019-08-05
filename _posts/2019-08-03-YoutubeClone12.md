@@ -7,7 +7,7 @@ categories: [Youtube Clone Coding]
 tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, HTML, GET, POST, query]
 fullview: false
 comments: true
-description: About <form></form>
+description: About form tag
 ---
 
 ## HTML form tag

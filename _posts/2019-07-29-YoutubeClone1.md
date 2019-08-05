@@ -56,13 +56,14 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 
 ---
 
-## Construction of Project
+## Construction of Project (계속 업데이트 중...)
 ```
 📂 Metube        
     📄 app.js
     📄 init.js
     📄 routes.js
     📄 middlewares.js
+    📄 db.js
     📂 routers
         📄 globalRouter.js
         📄 userRouter.js
@@ -76,10 +77,11 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
         📂 partials
             🐶 header.pug
             🐶 footer.pug
+        📂 mixins
+            🐶 videoBlock.pug
         🐶 home.pug
         🐶 join.pug
         🐶 login.pug
-        🐶 logout.pug
         .
         .
         .
@@ -97,3 +99,7 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 또 node_modules 폴더가 자동으로 생기는데 여기에는 npm을 통해 다운로드 받은 모든 모듈들이 들어있다.       
 
 package.json은 협업할 때 아주아주아주 유용하다. npm install 명령어만 치면 자동으로 package.json에 적혀있는 필요한 모든 모듈들을 설치할 수 있다.
+
+⚠ 개발 진행    
+개발을 진행할 때에는 백엔드 작업과 프론트엔드 작업을 동시에 하기보다는 그 작업을 마치고 난 뒤 다른 작업을 실행하는 게 좋다.   
+서버작업을 진행할 때에는 디자인에 신경쓰지 말고 일단 진행을 한다. 그리고 서버작업을 마치면 CSS 작업을 시작해주는 게 좋다.

@@ -16,6 +16,18 @@ description: What is routing?
 ## Routing
 **Url의 정의, Url이 클라이언트의 request에 response하는 방식**
 
+A router is in charge of mapping URLS with Controller Functions.    
+And a controller's job is to get the data and render the page.
+
+
+## Usage of Router
+  Router is kinda class of Express, so when you use it you don't need to install router.
+
+  The arguments of a Get Route is `get([URL], [Controller])`   
+  The arguments of a Post Route is `post([URL], [Controller])`   
+
+
+
 
 ## Constructure
 ```

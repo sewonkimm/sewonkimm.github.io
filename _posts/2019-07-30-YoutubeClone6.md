@@ -46,3 +46,10 @@ app.get("/profile", handleProfile);
 GET method는 request와 response를 작성해줘야한다.       
 / 로 GET request를 보내면 handleHome 함수의 response를 받아 화면에서 확인할 수 있다.
 
+
+## res.render()와 res.redirect()
+To render a page I use `res.render()`
+
+그런데 join을 구현할 때, password와 password1 값이 다르면 res.render("/join")을 쓰고 값이 같으면 res.redirect("/home")을 써 준다.     
+여기서 render와 redirect의 차이점은 url의 변경 여부에 있다.     
+res.render()는 단순히 pug temeplate을 render해 주는 것이고, redirect는 url을 변경해주는 것이다.
