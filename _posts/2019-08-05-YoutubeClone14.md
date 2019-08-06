@@ -33,3 +33,65 @@ MongoDB를 NodeJS에서 사용하려면 Adapter가 필요하다.
 데이터베이스를 이용하기 위해 필요한 것
 1. MongoDB
 2. mongoose
+
+---
+
+## What MongoDB is good for
+is to saving documents like JSON file
+
+먼저 MongoDB에 Data들이 어떤 Shape를 가졌는지(어떤 식으로 생겼는지) 알려줘야한다. 아무거나 생성할 수 없다.    
+👉 Shape에 대한 정보를 📂models 폴더에 저장
+
+```javascript
+import mongoose from 'mongoose';
+
+const VideoSchema = new mongoose.Schema({
+    fileUrl: {
+        type: String,
+        required: 'File URL is required'
+    },
+    title: {
+        type: String,
+        required: 'Title is required'
+    },
+    description: String,
+    views: {
+        type: Number,
+        default: 0
+    },
+    createdAt: {
+        type: Date,
+        default: Date.now
+    }
+
+});
+
+const model = mongoose.model("Video", VideoSchema);
+export default model;
+```
+1. model : Document name, actuall data
+2. schema : Shape
+
+### Video와 Comment를 연결하는 2가지 방법
+1. Video에 모든 Comment ID가 담긴 array를 추가하기 
+```javascript
+comments: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref:"Comment"
+}]
+```
+2. Comment에 Video ID를 추가하기 
+```javascript
+video: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref:"Video"
+}
+```
+
+
+---
+
+
+## How do I use these models?
+model은 Data element를 받는 통로이지 element 그 자체는 아니다.    
+element ≠ model

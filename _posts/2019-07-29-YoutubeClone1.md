@@ -85,7 +85,10 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
         .
         .
         .
-        
+    📂 models
+        📄 Video.js
+        📄 Comment.js
+    📂 videos
         
     📄 package.json
     📄 .babelrc
