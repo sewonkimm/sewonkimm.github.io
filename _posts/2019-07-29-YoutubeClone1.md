@@ -88,7 +88,7 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
     📂 models
         📄 Video.js
         📄 Comment.js
-    📂 videos
+    📂 videos (upload 된 파일 url저장)
         
     📄 package.json
     📄 .babelrc
