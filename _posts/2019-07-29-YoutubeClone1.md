@@ -90,7 +90,20 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
         📂 js
             📄 main.js
         📂 scss
+            📂 config
+                📄 _variables.scss
+                📄 reset.scss
+            📂 pages
+                📄 home.scss
+                📄 videoDetail.scss
+            📂 partials
+                📄 header.scss
+                📄 footer.scss
+                📄 form.scss
+                📄 socialLogin.scss
+                📄 videoBlock.scss
             📄 styles.scss
+            📄 main.scss
 ```
 
 ⚠ 프로젝트를 막 만들어 나갈 때
