@@ -56,6 +56,7 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
     📄 routes.js
     📄 middlewares.js
     📄 db.js
+    📄 passport.js
     📂 routers
         📄 globalRouter.js
         📄 userRouter.js
@@ -80,6 +81,7 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
     📂 models
         📄 Video.js
         📄 Comment.js
+        📄 User.js
     📂 uploads
         📂 videos (upload 된 파일 url저장)
     📂 static (webpack output)
