@@ -28,6 +28,15 @@ n개 중 n/2개를 뽑는 문제 👉 조합 nC(n/2)
 
 ### 효율성 개선
 
+조합을 전혀 사용하지 않아도 풀 수 있다. 😬
+
+1. 배열 visit[i]를 만든다. 이 배열은 i번 폰켓몬이 선택되었는지 안되었는지 체크하는 배열이다.
+2. 변수 count가 n/2가 될 때까지 반복문을 진행한다.
+3. 배열 nums를 가리킬 index 변수도 만든다.
+4. index가 0부터 (n-1)까지 탐색하면서 nums[index] 폰켓몬을 포함할지 안할지 체크한다.
+5. 폰켓몬 종류가 처음 본 거라면 visit[i]에 체크하고, count를 1 늘린다.
+6. 이미 포함한 폰켓몬이라면 index에 1을 더해 배열의 다음 원소를 탐색한다.
+
 ---
 
 ## Code
@@ -93,9 +102,31 @@ int solution(vector<int> nums)
 2. 효율성을 개선한 코드
 
 ```cpp
+#include <vector>
+using namespace std;
 
+int visit[200001];
+int solution(vector<int> nums)
+{
+    int n = nums.size();
+
+    int count = 0;
+    int index = 0;
+    while(count < n/2 && index < n){
+        if(visit[nums[index]] == 0){
+            visit[nums[index]] =1;
+            count++;
+        }
+        index++;
+    }
+
+	return count;
+}
 ```
 
 ---
 
 ## Review
+
+생각보다 간단...
+n개중에 n/2개를 뽑는다는 생각에 갇혀서 조합에 집착했던 것 같다.
