@@ -48,5 +48,6 @@ mermaid:
 plugins:
   - jekyll-paginate
   - jekyll-mermaid
+  - jekyll-sitemap
 
 future: true
