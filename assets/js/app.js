@@ -9,7 +9,7 @@
 
     /* Sidebar height set */
     $sidebarStyles = $(".sidebar").attr("style") || "";
-    $sidebarStyles += " min-height: " + $(document).height() + "px;";
+    $sidebarStyles += ' min-height: ' + $(document).height() + 'px;';
     $(".sidebar").attr("style", $sidebarStyles);
 
     /* Secondary contact links */
