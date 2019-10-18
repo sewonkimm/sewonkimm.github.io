@@ -7,12 +7,10 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: SeWon Kim  #Navtop
-
+title: SeWon Kim #Navtop
 
 defaults:
-  -
-    url: "https://sewonkimm.github.io" # 블로그 주소
+  - url: "https://sewonkimm.github.io" # 블로그 주소
     repository: "sewonkimm/sewonkimm.github.io" # 블로그 github 리포지토리
     search: true # 사이트 우측 상단 검색 활성화
     search_full_content: true # 제목이 아닌 내용까지도 검색할 것인지에 대한 설정
@@ -37,17 +35,12 @@ tags_path: tags.html
 
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
-sidebar_background_image: https://images.unsplash.com/photo-1563873699-933a3985a6f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80
+sidebar_background_image: https://user-images.githubusercontent.com/30452963/67110043-ce871780-f20c-11e9-8a9a-93087869276c.jpg
 
 BASE_PATH:
 
-
-mermaid:
-     src: '/js/mermaid.js'
-
 plugins:
   - jekyll-paginate
-  - jekyll-mermaid
   - jekyll-sitemap
 
 future: true
