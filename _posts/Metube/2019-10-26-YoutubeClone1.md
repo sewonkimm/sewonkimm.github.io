@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Challenge 'Youtube Clone Coding'
-date: 2019-07-29 17:07:00
+date: 2019-10-26 22:59:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
 tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
@@ -39,86 +39,45 @@ description: 💪LEGGO~
 
 개발 공부에 대해 참고할 만한 좋은 글[🔗링크](https://jbee.io/essay/how_do_i_study_2/?source=post_page---------------------------)
 
-## So what can I learn through this?
+## What I expect
+### I will clone a Youtube Website, not a Youtube Webapp. With Vanilla JS.
 
-Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript, API+AJAX... lots of things!
+Website는 **단순 콘텐츠를 소비**하는 홈페이지           
+그에 비해 Webapp은 조금 더 **Interactive 작업**을 힌다. (클릭, Drag & Drop, 반응 등등)         
+    
+vanilla JS는 Interactive한 작업에 부적합하기 때문에 이번 프로젝트에서 사용한다. 만약 Webapp을 만든다면 React나... 뭐 다른걸 썼겠지?
 
+### So what can I learn through this?
+Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript, API+AJAX... lots of things!      
 이 과정을 수강하고 나서 만들고 싶은 서비스를 혼자서도 만들 수 있는 능력치를 업그레이드 할 수 있기를 기대한다.
 
 ---
 
-## Construction of Project (계속 업데이트 중...)
+# Curriculum
 
-```
-📂 Metube
-    📄 app.js
-    📄 init.js
-    📄 routes.js
-    📄 middlewares.js
-    📄 db.js
-    📄 passport.js
-    📂 routers
-        📄 globalRouter.js
-        📄 userRouter.js
-        📄 videoRouter.js
-    📂 controllers
-        📄 userController.js
-        📄 videoController.js
-    📂 views
-        📂 layouts
-            🐶 main.pug
-        📂 partials
-            🐶 header.pug
-            🐶 footer.pug
-        📂 mixins
-            🐶 videoBlock.pug
-        🐶 home.pug
-        🐶 join.pug
-        🐶 login.pug
-        .
-        .
-        .
-    📂 models
-        📄 Video.js
-        📄 Comment.js
-        📄 User.js
-    📂 uploads
-        📂 videos (upload 된 파일 url저장)
-    📂 static (webpack output)
+만들어야 할 기능
+[] Home화면
+[] 회원가입
+[] 로그인
+[] 프로필 수정
+[] 비디오 재생
+[] 댓글
+[] 비디오 업로드
+[] 녹화
 
-    📄 package.json
-    📄 .babelrc
-    📄 webpack.config.js
-    📂 assets
-        📂 js
-            📄 main.js
-        📂 scss
-            📂 config
-                📄 _variables.scss
-                📄 reset.scss
-            📂 pages
-                📄 home.scss
-                📄 videoDetail.scss
-            📂 partials
-                📄 header.scss
-                📄 footer.scss
-                📄 form.scss
-                📄 socialLogin.scss
-                📄 videoBlock.scss
-            📄 styles.scss
-            📄 main.scss
-```
+1. 📄[init project & push to Github]()
+2. 📄[Server - Install Node.js / ExpressJS]()
+3. 📄[MVC pattern]()
+4. 📄[DB - MongoDB]()
+5. 📄[Frontend - Pug / scss]()
+6. 📄[Function1 - Join]()
+7. 📄[Function2 - Login]()
+8. 📄[Function3 - Upload video, recording]()
+9. 📄[Function4 - Update profile]()
+10. 📄[Function5 - Video view, add comments]()
+11. 📄[Deploy - AWS S3 / MongoDB Atlas / Heroku]()
 
-⚠ 프로젝트를 막 만들어 나갈 때
+---
 
-1. npm init으로 **package.json**을 생성해준다.
-2. npm install 모듈명 으로 필요한 npm 모듈을 설치한다.
-
-모듈을 설치하면 package.json에 dependencies 항목에 자동으로 기록된다.  
-또 node_modules 폴더가 자동으로 생기는데 여기에는 npm을 통해 다운로드 받은 모든 모듈들이 들어있다.
-
-package.json은 협업할 때 아주아주아주 유용하다. npm install 명령어만 치면 자동으로 package.json에 적혀있는 필요한 모든 모듈들을 설치할 수 있다.
-
-⚠ 개발 진행  
-개발을 진행할 때에는 백엔드 작업과 프론트엔드 작업을 동시에 하기보다는 그 작업을 마치고 난 뒤 다른 작업을 실행하는 게 좋다.  
-서버작업을 진행할 때에는 디자인에 신경쓰지 말고 일단 진행을 한다. 그리고 서버작업을 마치면 CSS 작업을 시작해주는 게 좋다.
+게시물 첫 작성일 2019-07-29
+마지막 수정일 2019-10-26
