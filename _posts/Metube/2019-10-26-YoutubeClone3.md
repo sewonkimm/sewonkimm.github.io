@@ -124,7 +124,8 @@ node index.js
 
 ![Alt text](https://i.stack.imgur.com/gNMR2.png)
 
-<Express 서버를 만들고 localhost:4000에 접속했을 때 볼 수 있는 화면>      
+<< Express 서버를 만들고 localhost:4000에 접속했을 때 볼 수 있는 화면 >>   
+
 이때 GET은?
 
 ### GET & POST
