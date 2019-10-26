@@ -65,9 +65,9 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 [] 비디오 업로드
 [] 녹화
 
-1. 📄[init project & push to Github]()
-2. 📄[Server - Install Node.js / ExpressJS]()
-3. 📄[MVC pattern]()
+1. 📄[init project & push to Github](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/26/YoutubeClone2.html)
+2. 📄[Server - Install Node.js / ExpressJS](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/26/YoutubeClone3.html)
+3. 📄[MVC pattern](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone4.html)
 4. 📄[DB - MongoDB]()
 5. 📄[Frontend - Pug / scss]()
 6. 📄[Function1 - Join]()
@@ -79,5 +79,5 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 
 ---
 
-게시물 첫 작성일 2019-07-29
+게시물 첫 작성일 2019-07-29       
 마지막 수정일 2019-10-26

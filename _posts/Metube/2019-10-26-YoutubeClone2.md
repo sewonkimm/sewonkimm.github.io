@@ -1,19 +1,19 @@
 ---
 layout: post
-title: init project & push to Github
+title: YCC📄init project & push to Github
 date: 2019-10-26 23:01:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, Website, Webapp]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
 fullview: false
 comments: true
-description: What's difference between Website and Webapp?
+description: The way to create my own project.
 ---
 
 # init project
 1. Install Node.js [(🔗download link)](https://nodejs.org/ko/download/)
 2. Create a project 
-3. git init 하고, intial commit을 push!
+3. [Connect with github](https://sewonkimm.github.io/youtube%20clone%20coding/2019/07/30/gothub.html)
 
 ## ⚠ How to Create a project ⚠
 
