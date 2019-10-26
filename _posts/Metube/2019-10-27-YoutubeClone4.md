@@ -23,6 +23,8 @@ The arguments of a Post Route is `post([URL], [Controller])`
 
 이렇게 쪼개어 놓으면 여러 파일에서 재사용 될 수 있고, 수정할 때에도 파일 하나만 수정하면 모든 파일에 적용되어 간편하다.
 
+**☀️One single source of truth☀️**
+
 ```
   M : Data
   V : How does data look 
