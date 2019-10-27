@@ -4,7 +4,7 @@ title: Async & Await
 date: 2019-08-06 16:57:00
 author: "SeWonKim"
 categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, javascript, async await]
+tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
 fullview: false
 comments: true
 description: Async & Await 

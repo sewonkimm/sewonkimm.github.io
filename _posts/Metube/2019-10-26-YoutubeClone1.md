@@ -70,8 +70,8 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 3. 📄[MVC pattern](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone4.html)
 4. 📄[Frontend - Pug / scss](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone5.html)
 5. 📄[DB - MongoDB](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone6.html)
-6. 📄[Function1 - Join]()
-7. 📄[Function2 - Login]()
+6. 📄[Function1 - Join (Local / Facebook / Github)](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone7.html)
+7. 📄[Function2 - Login (Local / Facebook / Github)](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone8.html)
 8. 📄[Function3 - Upload video, recording]()
 9. 📄[Function4 - Update profile]()
 10. 📄[Function5 - Video view, add comments]()
@@ -80,4 +80,4 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 ---
 
 게시물 첫 작성일 2019-07-29       
-마지막 수정일 2019-10-26
+마지막 수정일 2019-10-27
