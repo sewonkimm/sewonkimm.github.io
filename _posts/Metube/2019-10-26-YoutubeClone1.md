@@ -72,12 +72,12 @@ Node Js, Express JS, Mongo DB, Webpack, Styling, Recording Video with JavaScript
 5. 📄[DB - MongoDB](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone6.html)
 6. 📄[Function1 - Join (Local / Facebook / Github)](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone7.html)
 7. 📄[Function2 - Login (Local / Facebook / Github)](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/27/YoutubeClone8.html)
-8. 📄[Function3 - Upload video, recording]()
-9. 📄[Function4 - Update profile]()
-10. 📄[Function5 - Video view, add comments]()
-11. 📄[Deploy - AWS S3 / MongoDB Atlas / Heroku]()
+8. 📄[Function3 - Upload video, recording](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/28/YoutubeClone9.html)
+9. 📄[Function4 - Update profile](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/28/YoutubeClone10.html)
+10. 📄[Function5 - Video player, add comments](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/28/YoutubeClone11.html)
+11. 📄Deploy - [AWS S3](https://sewonkimm.github.io/youtube%20clone%20coding/2019/10/28/AWSS3.html) / [MongoDB Atlas]() / [Heroku]()
 
 ---
 
 게시물 첫 작성일 2019-07-29       
-마지막 수정일 2019-10-27
+마지막 수정일 2019-10-28
