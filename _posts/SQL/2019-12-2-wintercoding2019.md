@@ -3,7 +3,7 @@ layout: post
 title: 프로그래머스:우유와 요거트가 담긴 장바구니
 date: 2019-12-2 13:38:00
 author: "SeWonKim"
-categories: [etc]
+categories: [SQL]
 tags: [jekyll, etc, SQL]
 fullview: false
 comments: true
