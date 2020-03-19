@@ -10,4 +10,9 @@ stylish, minimalistic theme [dbyll](https://github.com/dbtek/dbyll)
 
 1. TIL
 2. Algorithm
-3. Youtube Clone Coding
+3. Data structure
+4. OS
+5. SQL
+6. Youtube Clone Coding
+7. Interview
+8. ETC
