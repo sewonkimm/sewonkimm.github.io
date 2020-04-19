@@ -15,4 +15,5 @@ stylish, minimalistic theme [dbyll](https://github.com/dbtek/dbyll)
 5. SQL
 6. Youtube Clone Coding
 7. Interview
-8. ETC
+8. Git
+9. ETC
