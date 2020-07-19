@@ -4,7 +4,7 @@ title: Case style
 date: 2020-07-19 23:36:00
 author: "SeWonKim"
 categories: [etc]
-tags: [jekyll, etc, post]
+tags: [jekyll, etc, post, case]
 fullview: false
 comments: true
 description: Camel, Pascal, Snake, Kebab
