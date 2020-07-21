@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git rebase로 commit 합치기
+title: 🕐git rebase로 commit 합치기
 date: 2020-04-21 17:20:00
 author: "SeWonKim"
 categories: [Git]
