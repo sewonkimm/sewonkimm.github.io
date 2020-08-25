@@ -1,0 +1,21 @@
+---
+layout: post
+title: OSI 7계층
+date: 2020-08-25 16:22:00
+author: "SeWonKim"
+categories: [Network]
+tags: [jekyll, Network, OSI]
+fullview: false
+comments: true
+description: OSI 7계층
+---
+
+[▶동영상 링크](https://www.youtube.com/watch?v=1pfTxp25MA8)
+
+우아한 Tech 코스의 크루들이 진행하는 Tech 톡
+
+OSI 7계층에 대한 설명을 해주셨는데  
+서버 알못인 나에게 큰 도움이 되었다.
+
+두고두고 보려고 블로그에 남겨놓는다.  
+네트워크 공부도 시작해야지...!
