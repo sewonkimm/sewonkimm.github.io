@@ -6,7 +6,8 @@ author: 'SeWonKim'
 categories: [Java]
 tags: [jekyll, TIL, Java, web, servlet]
 fullview: false
-comments: Servlet을 사용한 방명록 만들기
+comments: true
+description: Servlet을 사용한 방명록 만들기
 ---
 
 ## 구현 화면
