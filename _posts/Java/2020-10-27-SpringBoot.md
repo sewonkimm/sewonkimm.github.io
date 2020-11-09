@@ -2,7 +2,7 @@
 layout: post
 title: 🍮Spring boot
 date: 2020-10-27 02:48:00
-author: 'SeWonKim'
+author: "SeWonKim"
 categories: [Java]
 tags: [jekyll, TIL, Java, web, spring, springboot]
 fullview: false
@@ -14,6 +14,7 @@ description: Spring boot 개념
 
 - Spring Boot
 - Spring Boot Project
+- 실습 : Spring Boot에서 jsp 파일 사용하기
 
 &nbsp;  
 &nbsp;  
@@ -75,6 +76,72 @@ spring.mvc.view.prefix=/WEB-INF/jsp/
 spring.mvc.view.suffix=.jsp
 ```
 
+&nbsp;  
+&nbsp;  
+&nbsp;
+
+## 실습 : Spring Boot에서 jsp 파일 사용하기
+
+### 환경
+
+- Spring Boot
+- Gradle
+
+&nbsp;  
+&nbsp;  
+&nbsp;
+
+### build.gradle
+
+```
+compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+compile('javax.servlet:jstl:1.2')
+```
+
+두 라이브러리를 추가하고 refresh gradle project 해준다.
+
+&nbsp;  
+&nbsp;
+
+### webapp/WEB-INF/views 폴더 추가
+
+폴더를 추가하고, jsp 파일을 생성한다.
+
+&nbsp;  
+&nbsp;
+
+### application.properties
+
+```
+#jsp setting
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+```
+
+prefix와 suffix 설정 추가
+
+&nbsp;  
+&nbsp;
+
+### Controller 작성
+
+```java
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+	@RequestMapping("/")
+	public String hello() {
+		return "index";
+	}
+}
+
+```
+
+localhost 로 접속하면 index.jsp view가 나온다!
+
+![image](https://user-images.githubusercontent.com/30452963/98481842-96e87480-2240-11eb-903b-8e07cf3d1ccd.png)
 &nbsp;  
 &nbsp;  
 &nbsp;
