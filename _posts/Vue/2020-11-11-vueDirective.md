@@ -58,9 +58,6 @@ description: vue directive 익히기
 </div>
 </details>
 
-&nbsp;  
-&nbsp;
-
 <details>
 <summary>v-if</summary>
 <div markdown="1">
@@ -84,9 +81,6 @@ description: vue directive 익히기
 
 </div>
 </details>
-
-&nbsp;  
-&nbsp;
 
 <details>
 <summary>v-for</summary>
@@ -117,9 +111,6 @@ description: vue directive 익히기
 
 </div>
 </details>
-
-&nbsp;  
-&nbsp;
 
 <details>
 <summary>v-on</summary>
@@ -152,9 +143,6 @@ description: vue directive 익히기
 
 </div>
 </details>
-
-&nbsp;  
-&nbsp;
 
 <details>
 <summary>v-model</summary>
