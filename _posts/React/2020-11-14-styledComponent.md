@@ -106,6 +106,42 @@ render(
 );
 ```
 
+### 단일 props 사용 시
+
+`styled.div< {props명 : type} >`
+
+```javascript
+const Container =
+  styled.div <
+  { age: number } >
+  `
+  color: ${(props) => (props.age > 20 ? 'red' : 'gray')};
+`;
+```
+
+이런식으로 사용 할 수있습니다.
+
+### 다수 props 사용 시: interface 작성
+
+```javascript
+interface Container extends 상속타입 {
+  isActive: boolean;
+  age: number;
+}
+
+// styled-components에 interface type 지정
+const Container =
+  styled.div <
+  Container >
+  `
+  color: ${(props) => (props.age > 20 ? 'red' : 'gray')};
+  background-color: ${(props) => (props.isActive ? 'red' : 'gray')};
+`;
+```
+
+&nbsp;  
+&nbsp;
+
 ## 🎳Extending Styles (상속)
 
 ```javascript
@@ -131,6 +167,9 @@ render(
   </div>
 );
 ```
+
+&nbsp;  
+&nbsp;
 
 ## 🏉Animations
 
