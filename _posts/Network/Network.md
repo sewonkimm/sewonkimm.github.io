@@ -3,8 +3,8 @@ layout: post
 title: TCP/IP 쉽게, 더 쉽게
 date: 2020-12-09 14:51:00
 author: 'SeWonKim'
-categories: [Network]
-tags: [jekyll, CS, Network, TCPIP]
+categories: [네트워크]
+tags: [jekyll, CS, network, TCPIP]
 fullview: false
 comments: true
 description: 책으로 Network 공부하기 - TCP/IP
