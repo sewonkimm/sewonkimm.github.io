@@ -3,7 +3,7 @@ layout: post
 title: TCP/IP 쉽게, 더 쉽게
 date: 2020-12-09 14:51:00
 author: 'SeWonKim'
-categories: [CS - Network]
+categories: [Network]
 tags: [jekyll, CS, Network, TCPIP]
 fullview: false
 comments: true

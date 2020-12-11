@@ -3,7 +3,7 @@ layout: post
 title: OSI 7계층
 date: 2020-08-25 16:22:00
 author: 'SeWonKim'
-categories: [CS - Network]
+categories: [Network]
 tags: [jekyll, CS, Network, OSI]
 fullview: false
 comments: true

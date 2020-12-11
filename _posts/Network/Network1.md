@@ -3,7 +3,7 @@ layout: post
 title: 네트워크의 전체 그림 이해하기
 date: 2020-12-09 14:55:00
 author: 'SeWonKim'
-categories: [CS - Network]
+categories: [Network]
 tags: [jekyll, CS, Network, TCPIP]
 fullview: false
 comments: true
