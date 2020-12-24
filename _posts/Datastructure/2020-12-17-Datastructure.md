@@ -40,7 +40,7 @@ description: 그림으로 정리한 알고리즘과 자료구조
 
 데이터들이 일렬로 쭉 저장되어 있는 형태
 
-1. 리스트
+1. [리스트](https://sewonkimm.github.io/data%20structure/2020/12/17/list.html)
    - 리스트
    - 연결 리스트
 2. 배열
