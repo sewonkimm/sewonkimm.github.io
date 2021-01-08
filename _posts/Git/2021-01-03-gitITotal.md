@@ -14,6 +14,8 @@ description: git 명령어들
 
 &nbsp;
 
+> 모든 이미지[git with D3](https://onlywei.github.io/explain-git-with-d3)
+
 # 1. local과 remote 연결
 
 ```vim
@@ -47,12 +49,16 @@ $ git pull <remote> <branch>
 
 ## 병합
 
+![image](https://user-images.githubusercontent.com/30452963/103888140-8ca30380-5127-11eb-8dfb-088d3edad953.png)
+
 ```vim
 $ git merge <branch>    (다른 branch를 현재 branch에 병합)
 $ git merge --abort     (conflict 발생 시, merge 취소)
 ```
 
 ## 되돌리기
+
+![image](https://user-images.githubusercontent.com/30452963/103888238-c70ca080-5127-11eb-91cd-4568382ce295.png)
 
 ```vim
 $ git reset --soft <commit> (commit만 취소하고, 변경 내용은 그대로)
@@ -72,7 +78,7 @@ $ git rebase --continue     (수정 마무리)
 # 3. Release
 
 ```vim
-$ git tage <version>
+$ git tag <version>
 ```
 
 &nbsp;
