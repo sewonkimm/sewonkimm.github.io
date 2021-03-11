@@ -18,7 +18,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: TIL; Today I Learned #Leftside
+      title: 회사원말고 프로그래머 #Leftside
 
 description: Stylish Jekyll Theme
 author:
