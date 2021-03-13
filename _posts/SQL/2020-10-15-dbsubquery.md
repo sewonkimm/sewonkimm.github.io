@@ -31,8 +31,12 @@ description: Subquery
 - insert문의 values
 - update문의 set
 
+&nbsp;
+&nbsp;
 ---
 
+&nbsp;
+&nbsp;
 ### Nested subquery
 ```SQL
 -- nested query 단일행 

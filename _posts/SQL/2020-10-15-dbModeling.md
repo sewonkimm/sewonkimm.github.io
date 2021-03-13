@@ -52,6 +52,7 @@ description: 데이터베이스 모델링
 
 
  ### 물리적 DB 모델링
+ 
  - 스키마를 좀 더 효율적으로 구현하기 위해 DBMS 특성에 맞게 개체들을 정의 ex) coulmn의 domain 설정(int, varchar...)
  - 효과적인 index 정의 (select가 주 용도일 경우 index를 쓰면 빨라지지만 DML이 빈번하게 일어나는 경우 성능이 저하된다)
  - 상황에 따른 역정규화(Denomalization) 작업을 수행
