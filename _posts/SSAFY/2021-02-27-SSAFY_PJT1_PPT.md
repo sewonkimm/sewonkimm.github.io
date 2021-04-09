@@ -3,7 +3,7 @@ layout: post
 title: Ctrl Z 발표 회고
 date: 2021-02-27 18:05:00
 author: "SeWonKim"
-categories: [etc]
+categories: [SSAFY]
 tags: [jekyll, etc, post, ssafy]
 fullview: false
 comments: true
