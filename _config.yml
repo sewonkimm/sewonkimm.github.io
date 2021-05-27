@@ -43,10 +43,7 @@ exclude: [Gemfile, Gemfile.lock, tale.gemspec]
 # Disqus (Set to your disqus id)
 disqus: jekyll-tale
 
-
-
 paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
 highlighter: rouge
 
 future: true
