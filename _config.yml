@@ -33,18 +33,13 @@ plugins:
   - jekyll-sitemap
   - jemoji #Uncomment this to allow emoji in your post
 
-# Permalinks
-permalink: /:year-:month-:day/:title
-paginate: 5
-
 # Excludes
 exclude: [Gemfile, Gemfile.lock, tale.gemspec]
 
 # Disqus (Set to your disqus id)
 disqus: jekyll-tale
 
-
-
+paginate: 5
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
