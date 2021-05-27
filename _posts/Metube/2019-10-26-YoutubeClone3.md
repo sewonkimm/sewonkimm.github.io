@@ -3,8 +3,8 @@ layout: post
 title: YCC📄Server - Install Node.js / ExpressJS
 date: 2019-10-26 23:19:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, Server, NodeJS, Express, Middleware]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders, Server, NodeJS, Express, Middleware]
 fullview: false
 comments: true
 description: Server에 관하여

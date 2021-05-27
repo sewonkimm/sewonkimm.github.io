@@ -3,8 +3,8 @@ layout: post
 title: 🎨 React + Typescript + Styled Component
 date: 2020-11-14 17:34:00
 author: 'SeWonKim'
-categories: [React]
-tags: [jekyll, React, css]
+categories: [Web, React]
+tags: [React, css]
 fullview: false
 comments: true
 description: CSS in React

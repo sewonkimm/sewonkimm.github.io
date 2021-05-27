@@ -3,8 +3,8 @@ layout: post
 title: Start TIL (Today I Learned)
 date: 2019-07-16 10:09:28 
 author: "SeWonKim"
-categories: [2019TIL]
-tags: [jekyll, TIL]
+categories: [TIL, 2019TIL]
+tags: [TIL]
 fullview: false
 comments: true
 description: 

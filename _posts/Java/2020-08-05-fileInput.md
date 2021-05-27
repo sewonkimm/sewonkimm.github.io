@@ -3,8 +3,8 @@ layout: post
 title: 💾java에서 txt파일 입력받는 법
 date: 2020-08-05 13:00:00
 author: "SeWonKim"
-categories: [Java]
-tags: [jekyll, TIL, Java]
+categories: [Web, Java]
+tags: [TIL, Java]
 fullview: false
 comments: true
 description: 알고리즘 케이스들 노가다로 안쳐도 된다구욧!

@@ -3,8 +3,8 @@ layout: post
 title: 백준 2667:단지번호 붙이기 (Flood-fill)
 date: 2019-07-16 10:09:28
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Baekjoon]
+categories: [CS, Algorithm]
+tags: [알고리즘, 백준, BOJ]
 fullview: false
 comments: true
 description: 

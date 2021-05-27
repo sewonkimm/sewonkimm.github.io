@@ -3,8 +3,8 @@ layout: post
 title: Firebase 호스팅하기
 date: 2020-07-18 23:40:00
 author: "SeWonKim"
-categories: [Devlog]
-tags: [jekyll, Devlog, post, firebase, hosting]
+categories: [Devlog, ETC]
+tags: [  firebase, hosting]
 fullview: false
 comments: true
 description: Firebase hosting

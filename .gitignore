@@ -3,3 +3,9 @@ _site/*
 *Thumbs.db
 Gemfile.lock
 node_modules
+
+*.gem
+.bundle
+.DS_Store
+.sass-cache
+.jekyll-cache

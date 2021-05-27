@@ -3,8 +3,8 @@ layout: post
 title: 🪞Repository 복사해오고 싶을 땐, Git mirror
 date: 2021-05-24 10:20:00
 author: "SeWonKim"
-categories: [Git]
-tags: [jekyll, Git, Github]
+categories: [Git, ETC]
+tags: [Git, Github]
 fullview: false
 comments: true
 description: Git mirror 4줄이면 끝!

@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:위장
 date: 2020-04-13 16:08:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers, hash, map]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers, hash, map]
 fullview: false
 comments: true
 description: Programmers Coding Test

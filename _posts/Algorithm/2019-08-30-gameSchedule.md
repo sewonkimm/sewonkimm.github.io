@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:예상 대진표
 date: 2019-08-30 10:55:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers]
 fullview: false
 comments: true
 description: Programmers skill check lv.2

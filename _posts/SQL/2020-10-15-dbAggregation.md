@@ -3,8 +3,8 @@ layout: post
 title: 🚁DB Aggregation
 date: 2020-10-15 11:00:00
 author: "SeWonKim"
-categories: [SQL]
-tags: [jekyll, etc, SQL]
+categories: [CS, SQL]
+tags: [etc, SQL]
 fullview: false
 comments: true
 description: 집계함수

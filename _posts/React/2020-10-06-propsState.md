@@ -3,8 +3,8 @@ layout: post
 title: 👥props와 state의 차이점은 무엇인가요?
 date: 2020-10-06 22:13:00
 author: "SeWonKim"
-categories: [React]
-tags: [jekyll, React, props, state]
+categories: [Web, React]
+tags: [React, props, state]
 fullview: false
 comments: true
 description: React 자습서

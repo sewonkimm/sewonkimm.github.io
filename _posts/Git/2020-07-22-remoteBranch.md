@@ -3,8 +3,8 @@ layout: post
 title: 👏remote branch 가져오기
 date: 2020-07-22 16:41:00
 author: "SeWonKim"
-categories: [Git]
-tags: [jekyll, Git, Github, checkout, remote]
+categories: [Git, ETC]
+tags: [Git, Github, checkout, remote]
 fullview: false
 comments: true
 description: git checkout -t origin/branchName

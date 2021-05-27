@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:숫자의 표현
 date: 2019-09-03 13:29:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers]
 fullview: false
 comments: true
 description: Programmers Coding Test

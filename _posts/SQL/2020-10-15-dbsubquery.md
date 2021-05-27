@@ -3,8 +3,8 @@ layout: post
 title: 🌈DB Subquery
 date: 2020-10-15 12:00:00
 author: "SeWonKim"
-categories: [SQL]
-tags: [jekyll, etc, SQL]
+categories: [CS, SQL]
+tags: [etc, SQL]
 fullview: false
 comments: true
 description: Subquery

@@ -3,8 +3,8 @@ layout: post
 title: 🔮Spring MVC
 date: 2020-10-25 23:40:00
 author: 'SeWonKim'
-categories: [Java]
-tags: [jekyll, TIL, Java, web, spring, mvc]
+categories: [Web, Java]
+tags: [TIL, Java, web, spring, mvc]
 fullview: false
 comments: true
 description: Spring web MVC

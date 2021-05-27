@@ -3,8 +3,8 @@ layout: post
 title: Vue Directives
 date: 2020-11-12 10:20:00
 author: 'SeWonKim'
-categories: [Vue]
-tags: [jekyll, vue, web]
+categories: [Web, Vue]
+tags: [vue, web]
 fullview: false
 comments: true
 description: vue directive 익히기

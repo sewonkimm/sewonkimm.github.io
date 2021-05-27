@@ -3,8 +3,8 @@ layout: post
 title: 🔁 vue router 새로고침
 date: 2021-05-01 16:50:00
 author: 'SeWonKim'
-categories: [Vue]
-tags: [jekyll, vue, web]
+categories: [Web, Vue]
+tags: [vue, web]
 fullview: false
 comments: true
 description: vue router 인스턴스 메소드를 사용해 네비게이션 하기

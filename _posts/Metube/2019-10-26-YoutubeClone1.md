@@ -3,8 +3,8 @@ layout: post
 title: New Challenge 'Youtube Clone Coding'
 date: 2019-10-26 22:59:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders]
 fullview: false
 comments: true
 description: 💪LEGGO~

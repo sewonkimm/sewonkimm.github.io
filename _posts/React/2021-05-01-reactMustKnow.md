@@ -3,8 +3,8 @@ layout: post
 title: 🔔 React를 할 줄 안다면 알아야할 것들 List!
 date: 2021-05-01 17:10:00
 author: 'SeWonKim'
-categories: [React]
-tags: [jekyll, React, web]
+categories: [Web, React]
+tags: [React, web]
 fullview: false
 comments: true
 description: 설명할 수 있나요?

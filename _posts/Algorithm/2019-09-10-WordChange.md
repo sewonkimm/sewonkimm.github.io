@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:단어 변환
 date: 2019-09-10 11:35:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers, BFS]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers, BFS]
 fullview: false
 comments: true
 description: Programmers Coding Test

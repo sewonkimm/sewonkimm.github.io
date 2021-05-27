@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:숫자 야구
 date: 2019-11-04 22:01:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers]
 fullview: false
 comments: true
 description: Programmers Coding Test

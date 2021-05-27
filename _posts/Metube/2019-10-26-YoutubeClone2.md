@@ -3,8 +3,8 @@ layout: post
 title: YCC📄init project & push to Github
 date: 2019-10-26 23:01:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders]
 fullview: false
 comments: true
 description: The way to create my own project.

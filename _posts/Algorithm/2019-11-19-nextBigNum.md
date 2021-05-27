@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:다음 큰 숫자
 date: 2019-11-19 11:13:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers]
 fullview: false
 comments: true
 description: Programmers Coding Test

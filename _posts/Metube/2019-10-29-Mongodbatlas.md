@@ -3,8 +3,8 @@ layout: post
 title: MongoDB Atlas
 date: 2019-10-29 19:15:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, DB, MongoDB]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders, DB, MongoDB]
 fullview: false
 comments: true
 description: Migrating the DB to MongoDB Atlas

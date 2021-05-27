@@ -3,8 +3,8 @@ layout: post
 title: 🎭java web - 방명록에 MVC 패턴 적용1
 date: 2020-10-06 14:17:00
 author: 'SeWonKim'
-categories: [Java]
-tags: [jekyll, TIL, Java, web, mvc]
+categories: [Web, Java]
+tags: [TIL, Java, web, mvc]
 fullview: false
 comments: true
 description: Login, Logout 구현

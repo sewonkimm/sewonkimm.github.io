@@ -3,8 +3,8 @@ layout: post
 title: 세그먼트 트리
 date: 2020-10-04 18:10:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Baekjoon, Tree]
+categories: [CS, Algorithm]
+tags: [알고리즘, Baekjoon, Tree]
 fullview: false
 comments: true
 description: Segment Tree

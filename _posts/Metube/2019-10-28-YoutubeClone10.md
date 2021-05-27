@@ -3,15 +3,8 @@ layout: post
 title: YCC📄Function4 - Update profile
 date: 2019-10-28 19:06:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags:
-  [
-    jekyll,
-    Youtube Clone Coding,
-    Clone Coding,
-    Nomadcoders
-  ]
-fullview: false
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders]
 comments: true
 description: User profile page 구현 과정
 ---

@@ -3,8 +3,8 @@ layout: post
 title: 🎭java web - 방명록 기능 구현
 date: 2020-10-07 23:32:00
 author: 'SeWonKim'
-categories: [Java]
-tags: [jekyll, TIL, Java, web, mvc]
+categories: [Web, Java]
+tags: [TIL, Java, web, mvc]
 fullview: false
 comments: true
 description: 글쓰기, 삭제, 게시글 목록 보기, 특정 게시글 보기, 검색 구현

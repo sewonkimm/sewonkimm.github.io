@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:큰 수 만들기
 date: 2019-08-18 16:41:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers, Brute Force]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers, Brute Force]
 fullview: false
 comments: true
 description: Programmers skill check lv.2

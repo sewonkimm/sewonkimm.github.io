@@ -3,8 +3,8 @@ layout: post
 title: 🎭java web - JSP 방명록
 date: 2020-10-06 10:57:00
 author: 'SeWonKim'
-categories: [Java]
-tags: [jekyll, TIL, Java, web, jsp]
+categories: [Web, Java]
+tags: [TIL, Java, web, jsp]
 fullview: false
 comments: true
 description: JSP를 사용한 방명록 만들기

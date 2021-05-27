@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스:점프와 순간 이동
 date: 2019-09-17 12:19:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers]
 fullview: false
 comments: true
 description: Programmers Coding Test

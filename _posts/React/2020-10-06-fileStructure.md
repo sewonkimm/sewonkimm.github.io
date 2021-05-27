@@ -3,8 +3,8 @@ layout: post
 title: 🗃 React의 프로젝트 구조
 date: 2020-10-06 22:49:00
 author: "SeWonKim"
-categories: [React]
-tags: [jekyll, React]
+categories: [Web, React]
+tags: [React]
 fullview: false
 comments: true
 description: React 자습서
