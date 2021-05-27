@@ -3,8 +3,8 @@ layout: post
 title: 📙자료구조
 date: 2020-12-17 16:40:00
 author: "SeWonKim"
-categories: [Data Structure]
-tags: [jekyll, Data Structure, CS, 자료구조]
+categories: [CS, Data Structure]
+tags: [CS, 자료구조]
 fullview: false
 comments: true
 description: 그림으로 정리한 알고리즘과 자료구조

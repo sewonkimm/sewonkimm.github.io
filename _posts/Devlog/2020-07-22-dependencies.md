@@ -3,9 +3,7 @@ layout: post
 title: dependencies와 devDependencies의 차이
 date: 2020-07-22 13:20:00
 author: "SeWonKim"
-categories: [Devlog]
-tags: [jekyll, Devlog, post]
-fullview: false
+categories: [Devlog, ETC]
 comments: true
 description: 맨날 헷갈려!
 ---

@@ -3,16 +3,9 @@ layout: post
 title: YCC📄Function2 - Login (Local / Facebook / Github)
 date: 2019-10-27 19:50:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
+categories: [Youtube Clone Coding, Web]
 tags:
-  [
-    jekyll,
-    Youtube Clone Coding,
-    Clone Coding,
-    Nomadcoders,
-    Passport
-  ]
-fullview: false
+  [Nomadcoders, Passport]
 comments: true
 description: Login - Local / Facebook / Github
 ---

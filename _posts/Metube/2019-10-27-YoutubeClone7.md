@@ -3,15 +3,9 @@ layout: post
 title: YCC📄Function1 - Join (Local / Facebook / Github)
 date: 2019-10-27 19:29:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
+categories: [Youtube Clone Coding, Web]
 tags:
-  [
-    jekyll,
-    Youtube Clone Coding,
-    Clone Coding,
-    Nomadcoders,
-    Passport
-  ]
+  [Nomadcoders, Passport]
 fullview: false
 comments: true
 description: Join - Local / Facebook / Github

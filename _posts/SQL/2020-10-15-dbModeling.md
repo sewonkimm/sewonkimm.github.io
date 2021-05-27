@@ -3,8 +3,8 @@ layout: post
 title: 🔅DB Modeling
 date: 2020-10-15 14:06:00
 author: "SeWonKim"
-categories: [SQL]
-tags: [jekyll, etc, SQL]
+categories: [CS, SQL]
+tags: [etc, SQL]
 fullview: false
 comments: true
 description: 데이터베이스 모델링

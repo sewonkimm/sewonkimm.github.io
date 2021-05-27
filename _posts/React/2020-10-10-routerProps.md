@@ -3,8 +3,8 @@ layout: post
 title: 👛 React-router에서 props 전달하는 방법
 date: 2020-10-10 02:05:00
 author: "SeWonKim"
-categories: [React]
-tags: [jekyll, React, router, props]
+categories: [Web, React]
+tags: [React, router, props]
 fullview: false
 comments: true
 description: 그냥 props 전달하면 전달이 안될 때

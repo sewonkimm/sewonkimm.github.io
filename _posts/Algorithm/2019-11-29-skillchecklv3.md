@@ -3,8 +3,8 @@ layout: post
 title: 프로그래머스 스킬체크 Lv3
 date: 2019-11-29 18:00:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Programmers]
+categories: [CS, Algorithm]
+tags: [알고리즘, Programmers]
 fullview: false
 comments: true
 description: Programmers skill check Lv3.

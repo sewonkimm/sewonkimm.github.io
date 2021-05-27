@@ -3,8 +3,8 @@ layout: post
 title: YCC📄Function5 - Video view, add comments
 date: 2019-10-28 19:31:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders]
 fullview: false
 comments: true
 description: Creating video player & comment function

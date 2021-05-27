@@ -3,8 +3,8 @@ layout: post
 title: 🎭java web - Servlet 방명록
 date: 2020-10-06 02:00:00
 author: 'SeWonKim'
-categories: [Java]
-tags: [jekyll, TIL, Java, web, servlet]
+categories: [Web, Java]
+tags: [TIL, Java, web, servlet]
 fullview: false
 comments: true
 description: Servlet을 사용한 방명록 만들기

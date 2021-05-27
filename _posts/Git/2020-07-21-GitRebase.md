@@ -3,8 +3,8 @@ layout: post
 title: 🕐git rebase로 commit 합치기
 date: 2020-04-21 17:20:00
 author: "SeWonKim"
-categories: [Git]
-tags: [jekyll, Git, Github, rebase, commit]
+categories: [Git, ETC]
+tags: [Git, Github, rebase, commit]
 fullview: false
 comments: true
 description: git rebase -i HEAD^

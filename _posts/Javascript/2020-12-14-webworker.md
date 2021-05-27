@@ -3,8 +3,8 @@ layout: post
 title: 👜Web worker 
 date: 2020-12-14 19:58:00
 author: 'SeWonKim'
-categories: [Javascript]
-tags: [jekyll, TIL, web, javascript]
+categories: [Web, Javascript]
+tags: [TIL, web, javascript]
 fullview: false
 comments: true
 description: 웹 워커

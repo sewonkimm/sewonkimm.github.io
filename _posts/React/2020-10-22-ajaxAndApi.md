@@ -3,8 +3,8 @@ layout: post
 title: 🤖 React AJAX와 APIs
 date: 2020-10-22 23:16:00
 author: "SeWonKim"
-categories: [React]
-tags: [jekyll, React, ajax, api]
+categories: [Web, React]
+tags: [React, ajax, api]
 fullview: false
 comments: true
 description: ajax 호출

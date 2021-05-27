@@ -3,8 +3,8 @@ layout: post
 title: Vue router
 date: 2020-11-14 14:09:00
 author: 'SeWonKim'
-categories: [Vue]
-tags: [jekyll, vue, web]
+categories: [Web, Vue]
+tags: [vue, web]
 fullview: false
 comments: true
 description: vue-router로 라우팅하기

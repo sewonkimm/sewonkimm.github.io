@@ -3,8 +3,8 @@ layout: post
 title: YCC📄MVC pattern
 date: 2019-10-27 00:35:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, MVC]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders, MVC]
 fullview: false
 comments: true
 description: MVC pattern에 관하여

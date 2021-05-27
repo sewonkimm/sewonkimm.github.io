@@ -3,8 +3,8 @@ layout: post
 title: 🍬Cookie와 Session
 date: 2020-10-25 20:36:00
 author: 'SeWonKim'
-categories: [Java]
-tags: [jekyll, TIL, Java, web, cookie, session]
+categories: [Web, Java]
+tags: [TIL, Java, web, cookie, session]
 fullview: false
 comments: true
 description: coockie는 client, session은 server

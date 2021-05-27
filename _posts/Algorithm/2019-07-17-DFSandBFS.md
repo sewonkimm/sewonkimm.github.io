@@ -3,8 +3,8 @@ layout: post
 title: 백준 1260:DFS & BFS
 date: 2019-07-17 10:06:00
 author: "SeWonKim"
-categories: [algorithm]
-tags: [jekyll, algorithm, Baekjoon]
+categories: [CS, Algorithm]
+tags: [알고리즘, 백준, BOJ]
 fullview: false
 comments: true
 description: 

@@ -3,8 +3,8 @@ layout: post
 title: 🚗TCP/IP 애플리케이션 계층
 date: 2020-12-11 14:55:00
 author: 'SeWonKim'
-categories: [Network]
-tags: [jekyll, CS, Network, TCPIP]
+categories: [CS, Network]
+tags: [CS, Network, TCPIP]
 fullview: false
 comments: true
 description: TCP/IP 쉽게, 더 쉽게 Chapter 2 요약

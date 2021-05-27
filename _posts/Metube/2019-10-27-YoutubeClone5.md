@@ -3,8 +3,8 @@ layout: post
 title: YCC📄Frontend - Pug / scss
 date: 2019-10-27 00:50:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders, pug, scss, webpack]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders, pug, scss, webpack]
 fullview: false
 comments: true
 description: Frontend 작업

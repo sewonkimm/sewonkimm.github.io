@@ -4,7 +4,7 @@ title: 모바일 웹 font-size 단위
 date: 2020-07-19 20:39:00
 author: "SeWonKim"
 categories: [Styling]
-tags: [jekyll, Styling, css, post, web, moblie]
+tags: [Styling, css,  web, moblie]
 fullview: false
 comments: true
 description: 모바일 웹 font-size 단위는 어떤 걸로 해야할까?

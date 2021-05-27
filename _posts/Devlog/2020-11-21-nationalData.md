@@ -3,9 +3,7 @@ layout: post
 title: 🔦 공공데이터포털 SERVICE KEY IS NOT REGISTERED ERROR
 date: 2020-11-21 10:43:00
 author: 'SeWonKim'
-categories: [Devlog]
-tags: [jekyll, Devlog, post]
-fullview: false
+categories: [Devlog, ETC]
 comments: true
 description: SERVICE KEY IS NOT REGISTERED ERROR 해결법~!
 ---

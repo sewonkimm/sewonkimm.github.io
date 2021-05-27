@@ -3,8 +3,8 @@ layout: post
 title: 📢Git 자주 쓰는 명령어 총정리
 date: 2021-01-02 20:45:00
 author: "SeWonKim"
-categories: [Git]
-tags: [jekyll, Git, Github]
+categories: [Git, ETC]
+tags: [Git, Github]
 fullview: false
 comments: true
 description: git 명령어들

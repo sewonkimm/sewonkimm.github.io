@@ -3,8 +3,8 @@ layout: post
 title: YCC📄Function3 - Upload and recording video
 date: 2019-10-29 19:32:00
 author: "SeWonKim"
-categories: [Youtube Clone Coding]
-tags: [jekyll, Youtube Clone Coding, Clone Coding, Nomadcoders]
+categories: [Youtube Clone Coding, Web]
+tags: [Nomadcoders]
 fullview: false
 comments: true
 description: Upload video & recording function

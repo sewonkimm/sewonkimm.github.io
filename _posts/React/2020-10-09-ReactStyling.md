@@ -3,8 +3,8 @@ layout: post
 title: 🎨 React Styling and CSS
 date: 2020-10-09 21:26:00
 author: "SeWonKim"
-categories: [React]
-tags: [jekyll, React, css]
+categories: [Web, React]
+tags: [React, css]
 fullview: false
 comments: true
 description: React에서의 스타일링

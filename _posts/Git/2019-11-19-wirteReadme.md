@@ -3,9 +3,8 @@ layout: post
 title: 🖌README.md 멋지게 작성하기
 date: 2019-11-19 10:14:00
 author: "SeWonKim"
-categories: [Git]
-tags: [jekyll, Git, Github, post]
-fullview: false
+categories: [Git, ETC]
+tags: [Git, Github]
 comments: true
 description: github Readme.md 작성법
 ---
