@@ -4,8 +4,8 @@ layout: default
 
 <div class="catalogue">
   {% for post in site.posts %} {% if post.sticky %} {% include
-  catalogue_items.html sticky='true' %} {% endif %} {% endfor %} {% for post in
-  paginator.posts %} {% include catalogue_items.html %} {% endfor %}
+  catalogue_item.html sticky='true' %} {% endif %} {% endfor %} {% for post in
+  paginator.posts %} {% include catalogue_item.html %} {% endfor %}
 </div>
 
 <div class="pagination">
