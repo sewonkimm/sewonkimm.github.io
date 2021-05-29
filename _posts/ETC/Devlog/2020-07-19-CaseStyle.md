@@ -3,7 +3,7 @@ layout: post
 title: Case style
 date: 2020-07-19 23:36:00
 author: "SeWonKim"
-categories: [Devlog, ETC]
+categories: [ETC, Devlog]
 comments: true
 description: Camel, Pascal, Snake, Kebab
 ---

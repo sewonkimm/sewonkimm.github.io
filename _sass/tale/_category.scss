@@ -1,28 +1,3 @@
-.category {
-    &-items,
-    &-item {
-        color: $blue;
-        font-family: $sans-serif;
-        font-weight: bold;
-    }
-
-    &-items {
-        display: block;
-    }
-
-    &-item {
-        margin-right: 0.3rem;
-
-        &:not(:first-child) {
-            margin-left: 0.3rem;
-        }
-
-        &:last-child {
-            margin-right: 0;
-        }
-    }
-}
-
 .categories {
     width: 50%;
     padding: 2rem 0 3rem;

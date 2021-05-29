@@ -3,7 +3,7 @@ layout: post
 title: Mac OS에서 서버 접속하는 방법!
 date: 2021-04-27 20:13:00
 author: 'SeWonKim'
-categories: [Devlog, ETC]
+categories: [ETC, Devlog]
 comments: true
 ---
 
