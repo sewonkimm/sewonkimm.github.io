@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🚁DB Aggregation
+title: 🚁DB Aggregation 집계함수
 date: 2020-10-15 11:00:00
 author: "SeWonKim"
 categories: [CS, SQL]
-tags: [etc, SQL]
+tags: [SQL]
 comments: true
-description: 집계함수
 ---
 
 ### sum, avg, count, max, min

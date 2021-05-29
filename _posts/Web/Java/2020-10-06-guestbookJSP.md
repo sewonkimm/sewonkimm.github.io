@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🎭java web - JSP 방명록
+title: java web - JSP 방명록
 date: 2020-10-06 10:57:00
 author: 'SeWonKim'
 categories: [Web, Java]
-tags: [TIL, Java, web, jsp]
+tags: [Java, web, jsp]
 comments: true
-description: JSP를 사용한 방명록 만들기
 ---
 
 ## 구현 화면

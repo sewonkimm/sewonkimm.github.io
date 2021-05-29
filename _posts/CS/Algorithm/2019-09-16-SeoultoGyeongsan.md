@@ -4,9 +4,8 @@ title: 프로그래머스:서울에서 경산까지
 date: 2019-09-16 14:36:00
 author: "SeWonKim"
 categories: [CS, Algorithm]
-tags: [알고리즘, Programmers, Dynamic, DP]
+tags: [알고리즘, DP]
 comments: true
-description: Programmers Coding Test
 ---
 
 ## Problem

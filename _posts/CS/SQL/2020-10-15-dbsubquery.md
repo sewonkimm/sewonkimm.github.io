@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🌈DB Subquery
+title: DB Subquery
 date: 2020-10-15 12:00:00
 author: "SeWonKim"
 categories: [CS, SQL]
-tags: [etc, SQL]
+tags: [SQL]
 comments: true
-description: Subquery
 ---
 
 # Subqeury

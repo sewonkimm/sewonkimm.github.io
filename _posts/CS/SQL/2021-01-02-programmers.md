@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🤓프로그래머스 SQL 고득점 kit
+title: 프로그래머스 SQL 고득점 kit 문제풀이
 date: 2021-01-01 18:10:00
 author: "SeWonKim"
 categories: [CS, SQL]
-tags: [etc, Programmers, SQL]
+tags: [SQL]
 comments: true
-description: 문제풀이
 ---
 
 # SELECT 

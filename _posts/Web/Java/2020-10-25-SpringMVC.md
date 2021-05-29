@@ -4,9 +4,8 @@ title: 🔮Spring MVC
 date: 2020-10-25 23:40:00
 author: 'SeWonKim'
 categories: [Web, Java]
-tags: [TIL, Java, web, spring, mvc]
+tags: [Java, web, spring, mvc]
 comments: true
-description: Spring web MVC
 ---
 
 # 목차

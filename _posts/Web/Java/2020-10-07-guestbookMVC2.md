@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🎭java web - 방명록 기능 구현
+title: java web - 방명록 기능 구현 (글쓰기, 삭제, 게시글 목록 보기, 특정 게시글 보기, 검색 구현)
 date: 2020-10-07 23:32:00
 author: 'SeWonKim'
 categories: [Web, Java]
-tags: [TIL, Java, web, mvc]
+tags: [Java, web, mvc]
 comments: true
-description: 글쓰기, 삭제, 게시글 목록 보기, 특정 게시글 보기, 검색 구현
 ---
 
 > [前 시리즈 : 로그인, 로그아웃, 회원가입 기능 구현](https://sewonkimm.github.io/java/2020/10/06/guestbookMVC1.html)

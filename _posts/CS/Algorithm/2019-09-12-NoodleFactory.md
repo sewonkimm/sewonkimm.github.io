@@ -4,9 +4,8 @@ title: 프로그래머스:라면공장
 date: 2019-09-12 18:26:00
 author: "SeWonKim"
 categories: [CS, Algorithm]
-tags: [알고리즘, Programmers, Priority queue]
+tags: [알고리즘, Programmers]
 comments: true
-description: Programmers Coding Test
 ---
 
 ## Problem

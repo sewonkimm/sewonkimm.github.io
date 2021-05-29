@@ -4,9 +4,8 @@ title: 세그먼트 트리
 date: 2020-10-04 18:10:00
 author: "SeWonKim"
 categories: [CS, Algorithm]
-tags: [알고리즘, Baekjoon, Tree]
+tags: [알고리즘, BOJ, 트리]
 comments: true
-description: Segment Tree
 ---
 
 num 배열의 `부분합을 구할 때` O(logN)의 속도로 구할 수 있도록 하는 알고리즘

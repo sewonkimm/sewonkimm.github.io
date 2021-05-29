@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 🔦 공공데이터포털 SERVICE KEY IS NOT REGISTERED ERROR
+title: 공공데이터포털 SERVICE KEY IS NOT REGISTERED ERROR 해결법
 date: 2020-11-21 10:43:00
 author: 'SeWonKim'
 categories: [Devlog, ETC]
 comments: true
-description: SERVICE KEY IS NOT REGISTERED ERROR 해결법~!
 ---
 
 ![image](https://user-images.githubusercontent.com/30452963/99864426-8c39c200-2be6-11eb-9d15-4750e6793248.png)

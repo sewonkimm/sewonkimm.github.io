@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🔅DB Modeling
+title: DB Modeling
 date: 2020-10-15 14:06:00
 author: "SeWonKim"
 categories: [CS, SQL]
-tags: [etc, SQL]
+tags: [SQL]
 comments: true
-description: 데이터베이스 모델링
 ---
 
 ## DB 모델링 순서

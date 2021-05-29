@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 👜Web worker 
+title: Web worker 
 date: 2020-12-14 19:58:00
 author: 'SeWonKim'
 categories: [Web, Javascript]
-tags: [TIL, web, javascript]
+tags: [web, javascript]
 comments: true
-description: 웹 워커
 ---
 
 # Web worker

@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🎭java web - Servlet 방명록
+title: java web - Servlet 방명록
 date: 2020-10-06 02:00:00
 author: 'SeWonKim'
 categories: [Web, Java]
-tags: [TIL, Java, web, servlet]
+tags: [Java, web, servlet]
 comments: true
-description: Servlet을 사용한 방명록 만들기
 ---
 
 ## 구현 화면

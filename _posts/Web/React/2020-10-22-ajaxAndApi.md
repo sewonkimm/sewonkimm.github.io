@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🤖 React AJAX와 APIs
+title: React AJAX와 APIs
 date: 2020-10-22 23:16:00
 author: "SeWonKim"
 categories: [Web, React]
-tags: [React, ajax, api]
+tags: [React, ajax]
 comments: true
-description: ajax 호출
 ---
 
 > [react 공식문서](https://ko.reactjs.org/docs/faq-ajax.html#how-can-i-make-an-ajax-call)

@@ -1,13 +1,18 @@
 ---
 layout: post
-title: 🍬Cookie와 Session
+title: Cookie와 Session
 date: 2020-10-25 20:36:00
 author: 'SeWonKim'
 categories: [Web, Java]
-tags: [TIL, Java, web, cookie, session]
+tags: [Java, web, cookie, session]
 comments: true
-description: coockie는 client, session은 server
 ---
+
+&nbsp;
+
+> coockie는 client, session은 server
+
+&nbsp;
 
 ### http protocol은 stateless 하다!
 

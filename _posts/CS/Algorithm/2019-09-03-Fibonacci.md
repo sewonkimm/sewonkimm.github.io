@@ -4,7 +4,7 @@ title: 프로그래머스:피보나치 수
 date: 2019-09-03 12:51:00
 author: "SeWonKim"
 categories: [CS, Algorithm]
-tags: [알고리즘, Programmers, Dynamic]
+tags: [알고리즘, DP]
 comments: true
 description: Programmers Coding Test
 ---

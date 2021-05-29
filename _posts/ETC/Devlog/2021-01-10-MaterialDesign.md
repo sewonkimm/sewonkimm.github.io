@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 짧은 시간에 높은 품질의 디자인을 뽑는 법
+title: 짧은 시간에 높은 품질의 디자인을 뽑는 법 - 디자인 시스템에 관하여
 date: 2021-01-10 20:08:00
 author: 'SeWonKim'
 categories: [Devlog, ETC]
 comments: true
-description: 디자인 시스템에 관하여
 ---
 
 저는 현재 SSAFY 과정을 이수 중입니다. 

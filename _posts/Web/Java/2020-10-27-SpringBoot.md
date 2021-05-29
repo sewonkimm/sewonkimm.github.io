@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 🍮Spring boot
+title: Spring boot 개념
 date: 2020-10-27 02:48:00
 author: "SeWonKim"
 categories: [Web, Java]
-tags: [TIL, Java, web, spring, springboot]
+tags: [Java, web, spring, springboot]
 comments: true
-description: Spring boot 개념
 ---
 
 # 목차
