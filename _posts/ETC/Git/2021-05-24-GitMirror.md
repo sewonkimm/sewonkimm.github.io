@@ -3,7 +3,7 @@ layout: post
 title: Repository 복사해오고 싶을 땐, Git mirror
 date: 2021-05-24 10:20:00
 author: "SeWonKim"
-categories: [Git, ETC]
+categories: [ETC, Git]
 tags: [Git, Github]
 comments: true
 ---

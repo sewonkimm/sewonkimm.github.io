@@ -3,7 +3,7 @@ layout: post
 title: remote branch 가져오기
 date: 2020-07-22 16:41:00
 author: "SeWonKim"
-categories: [Git, ETC]
+categories: [ETC, Git]
 tags: [Git, Github]
 comments: true
 ---

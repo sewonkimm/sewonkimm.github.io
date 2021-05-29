@@ -3,7 +3,7 @@ layout: post
 title: 취준 후 첫 면접
 date: 2019-10-12 00:02:00
 author: "SeWonKim"
-categories: [Interview, ETC]
+categories: [ETC, Interview]
 comments: true
 description: 취준 후 첫 면접 후기
 ---

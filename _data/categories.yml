@@ -1,11 +1,11 @@
 TIL:
   name: "TIL"
   children:
-    2019:
+    2019TIL:
       name: "2019TIL"
-    2020:
+    2020TIL:
       name: "2020TIL"
-    2021:
+    2021TIL:
       name: "2021TIL"
 CS:
   name: "CS"
@@ -20,8 +20,8 @@ CS:
       name: "Network"
     SQL:
       name: "SQL"
-web:
-  name: "Web"
+WEB:
+  name: "WEB"
   children:
     Java:
       name: "Java"

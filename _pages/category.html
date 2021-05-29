@@ -17,8 +17,7 @@ permalink: /category/
     category[1].name %} {% assign category_url = category[0] | prepend: page.url
     %}
     <li>
-      <!-- <a href="{{ category_url }}"> -->
-      <a>
+      <a href="{{ category_url }}">
         <i class="fas fa-folder fa-fw"></i>
         <span>{{ category_name }}</span>
         <span class="categories-post-count"
@@ -27,11 +26,10 @@ permalink: /category/
       </a>
       <ul class="child">
         {% for child in category[1].children %} {% assign child_name =
-        child[1].name %} {% assign child_url = child[0] | prepend: category_url
-        %}
+        child[1].name %} {% assign child_url = child[0] | prepend: '/' |
+        prepend: category_url %}
         <li>
-          <!-- <a href="{{ child_url }}"> -->
-          <a>
+          <a href="{{ child_url }}">
             <i class="fas fa-folder fa-fw"></i>
             <span>{{ child_name }}</span>
             <span class="categories-post-count"

@@ -3,7 +3,7 @@ layout: post
 title: SSAFY 2학기 첫번째 프로젝트 Ctrl Z 발표 회고
 date: 2021-02-27 18:05:00
 author: "SeWonKim"
-categories: [SSAFY, ETC]
+categories: [ETC, SSAFY]
 tags: [ssafy]
 comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Git 자주 쓰는 명령어 총정리
 date: 2021-01-02 20:45:00
 author: "SeWonKim"
-categories: [Git, ETC]
+categories: [ETC, Git]
 tags: [Git, Github]
 comments: true
 ---
