@@ -64,3 +64,12 @@ img {
 td {
   vertical-align: top;
 }
+
+div.badges {
+  & h4 {
+    text-align: left;
+  }
+  & img {
+    display: inline;
+  }
+}
