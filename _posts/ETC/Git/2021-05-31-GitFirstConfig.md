@@ -1,7 +1,7 @@
 ---
 layout: post
 title: push 할 때마다 매번 아이디, 비밀번호 치기 귀찮다면?
-date: 2021-05-24 10:20:00
+date: 2021-05-31 21:20:00
 author: "SeWonKim"
 categories: [ETC, Git]
 tags: [Git, Github]
