@@ -3,7 +3,7 @@ layout: post
 title: 🎅 React 이벤트 처리
 date: 2020-10-16 23:21:00
 author: "SeWonKim"
-categories: [Web, React]
+categories: [WEB, React]
 tags: [React, Eventlistener]
 comments: true
 description: Eventlistener

@@ -3,7 +3,7 @@ layout: post
 title: React에서 Proxy 사용해 CORS 문제 해결
 date: 2020-10-23 01:00:00
 author: "SeWonKim"
-categories: [Web, React]
+categories: [WEB, React]
 tags: [React, ajax, CORS]
 comments: true
 ---

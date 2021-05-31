@@ -3,7 +3,7 @@ layout: post
 title: java web - 방명록에 MVC 패턴 적용1 (Login, Logout 구현)
 date: 2020-10-06 14:17:00
 author: 'SeWonKim'
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java, web, mvc]
 comments: true
 ---

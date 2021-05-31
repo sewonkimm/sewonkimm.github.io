@@ -3,7 +3,7 @@ layout: post
 title: React AJAX와 APIs
 date: 2020-10-22 23:16:00
 author: "SeWonKim"
-categories: [Web, React]
+categories: [WEB, React]
 tags: [React, ajax]
 comments: true
 ---

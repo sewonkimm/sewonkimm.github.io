@@ -3,7 +3,7 @@ layout: post
 title: 🎨 React Styling and CSS
 date: 2020-10-09 21:26:00
 author: "SeWonKim"
-categories: [Web, React]
+categories: [WEB, React]
 tags: [React, css]
 comments: true
 description: React에서의 스타일링

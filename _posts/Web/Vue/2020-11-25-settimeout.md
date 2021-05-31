@@ -3,7 +3,7 @@ layout: post
 title: Vue - setTimeout() not working 
 date: 2020-11-25 22:42:00
 author: 'SeWonKim'
-categories: [Web, Vue]
+categories: [WEB, Vue]
 tags: [vue, web]
 comments: true
 description: Vue에서 setTimeout()이 적용이 안될 때

@@ -3,7 +3,7 @@ layout: post
 title: 🎨 React how to :hover in inline CSS
 date: 2020-10-12 21:35:00
 author: "SeWonKim"
-categories: [Web, React]
+categories: [WEB, React]
 tags: [React, css]
 comments: true
 description: inline css에서 hover 작성법 

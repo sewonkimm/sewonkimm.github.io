@@ -3,7 +3,7 @@ layout: post
 title: Spring boot 개념
 date: 2020-10-27 02:48:00
 author: "SeWonKim"
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java, web, spring, springboot]
 comments: true
 ---

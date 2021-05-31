@@ -3,7 +3,7 @@ layout: post
 title: java web - 방명록 기능 구현 (글쓰기, 삭제, 게시글 목록 보기, 특정 게시글 보기, 검색 구현)
 date: 2020-10-07 23:32:00
 author: 'SeWonKim'
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java, web, mvc]
 comments: true
 ---

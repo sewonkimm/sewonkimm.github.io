@@ -3,7 +3,7 @@ layout: post
 title: 💾java에서 txt파일 입력받는 법
 date: 2020-08-05 13:00:00
 author: "SeWonKim"
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java]
 comments: true
 ---

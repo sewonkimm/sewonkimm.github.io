@@ -3,7 +3,7 @@ layout: post
 title: 🔮Spring MVC
 date: 2020-10-25 23:40:00
 author: 'SeWonKim'
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java, web, spring, mvc]
 comments: true
 ---

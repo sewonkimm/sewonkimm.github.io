@@ -3,7 +3,7 @@ layout: post
 title: java web - JSP 방명록
 date: 2020-10-06 10:57:00
 author: 'SeWonKim'
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java, web, jsp]
 comments: true
 ---

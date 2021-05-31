@@ -3,7 +3,7 @@ layout: post
 title: 🔔 React를 할 줄 안다면 알아야할 것들 List!
 date: 2021-05-01 17:10:00
 author: 'SeWonKim'
-categories: [Web, React]
+categories: [WEB, React]
 tags: [React, web]
 comments: true
 description: 설명할 수 있나요?

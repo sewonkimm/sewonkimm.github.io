@@ -3,7 +3,7 @@ layout: post
 title: java web - Servlet 방명록
 date: 2020-10-06 02:00:00
 author: 'SeWonKim'
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java, web, servlet]
 comments: true
 ---

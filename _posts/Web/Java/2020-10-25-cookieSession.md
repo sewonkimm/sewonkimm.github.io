@@ -3,7 +3,7 @@ layout: post
 title: Cookie와 Session
 date: 2020-10-25 20:36:00
 author: 'SeWonKim'
-categories: [Web, Java]
+categories: [WEB, Java]
 tags: [Java, web, cookie, session]
 comments: true
 ---

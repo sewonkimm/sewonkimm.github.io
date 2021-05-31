@@ -3,7 +3,7 @@ layout: post
 title: 👶 vue props를 data로 전달하려면?
 date: 2021-01-28 11:30:00
 author: 'SeWonKim'
-categories: [Web, Vue]
+categories: [WEB, Vue]
 tags: [vue, web]
 comments: true
 description: 단방향데이터 흐름

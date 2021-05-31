@@ -3,7 +3,7 @@ layout: post
 title: 🎨 React + Typescript + Styled Component
 date: 2020-11-14 17:34:00
 author: 'SeWonKim'
-categories: [Web, React]
+categories: [WEB, React]
 tags: [React, css]
 comments: true
 description: CSS in React

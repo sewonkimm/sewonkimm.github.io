@@ -3,7 +3,7 @@ layout: post
 title: 모바일 웹 font-size 단위는 어떤 걸로 해야할까? - font-size 단위에 관하여
 date: 2020-07-19 20:39:00
 author: "SeWonKim"
-categories: [Web]
+categories: [WEB]
 tags: [css, web]
 comments: true
 ---
