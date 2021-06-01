@@ -5,7 +5,6 @@ date: 2019-10-12 00:02:00
 author: "SeWonKim"
 categories: [ETC, Interview]
 comments: true
-description: 취준 후 첫 면접 후기
 ---
 
 프로그래머스 잡페어 1차 코딩테스트를 통과하여 지원했던 회사에서 면접기회를 얻었다.  
