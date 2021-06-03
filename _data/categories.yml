@@ -44,3 +44,5 @@ ETC:
       name: "Interview"
     Devlog:
       name: "Devlog"
+    Book:
+      name: "Book"
