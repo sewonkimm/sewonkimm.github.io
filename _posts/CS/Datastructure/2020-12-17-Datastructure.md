@@ -4,7 +4,7 @@ title: 그림으로 정리한 알고리즘과 자료구조
 date: 2020-12-17 16:40:00
 author: "SeWonKim"
 categories: [CS, Data Structure]
-tags: [CS, 자료구조]
+tags: [CS, 자료구조, 독서]
 comments: true
 ---
 
