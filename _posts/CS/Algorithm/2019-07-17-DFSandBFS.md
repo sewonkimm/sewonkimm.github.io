@@ -4,12 +4,12 @@ title: 백준 1260:DFS & BFS
 date: 2019-07-17 10:06:00
 author: "SeWonKim"
 categories: [CS, Algorithm]
-tags: [알고리즘, 백준, BOJ]
+tags: [알고리즘,  BOJ]
 comments: true
 description: 
 ---
 
-[Baekjoon 1260](https://www.acmicpc.net/problem/1260)
+> [Baekjoon 1260](https://www.acmicpc.net/problem/1260)
 
 ## Problem
   1. DFS 탐색결과와 BFS 탐색결과 출력

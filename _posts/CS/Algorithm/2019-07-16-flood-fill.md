@@ -4,13 +4,13 @@ title: 백준 2667:단지번호 붙이기 (Flood-fill)
 date: 2019-07-16 10:09:28
 author: "SeWonKim"
 categories: [CS, Algorithm]
-tags: [알고리즘, 백준, BOJ]
+tags: [알고리즘,  BOJ]
 comments: true
 description: 
 ---
 
 
-[Baekjoon 2667](https://www.acmicpc.net/problem/2667)
+> [Baekjoon 2667](https://www.acmicpc.net/problem/2667)
 
 ## Problem
   1. 단지: 상하좌우로 연결된 집들의 모임
