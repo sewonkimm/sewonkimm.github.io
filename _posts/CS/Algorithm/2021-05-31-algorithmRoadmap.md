@@ -61,7 +61,7 @@ comments: true
 
 코딩테스트를 위한 알고리즘 분야는 대략 이렇습니다.
 
-```markdown
+&nbsp;
 
 1. [문자열](https://sewonkimm.github.io/cs/algorithm/2021/06/03/문자열.html)
 2. 반복과 재귀
@@ -75,7 +75,7 @@ comments: true
 10. 백트래킹
 11. [시뮬레이션](https://sewonkimm.github.io/cs/algorithm/2021/06/04/시뮬레이션.html)
 
-```
+&nbsp;
 
 백준 > 문제 > [알고리즘 분류](https://www.acmicpc.net/problem/tags) 에서도 분류별로 문제를 확인해 볼 수 있습니다. 10가지 유형을 파악한다고 코딩테스트를 쉽게 통과할 수 있는 것은 아니고, 짧은 시간 내에 문제를 풀 수 있도록 연습! 또 연습이 필요합니다.
 
