@@ -82,16 +82,33 @@ JS는 컴파일 언어가 아니기때문에 따로 테스트하기가 그렇습
   ```markdown
   수학적인 상수와 함수를 위한 내장 객체 Math를 알아야합니다.
 
-  절댓값 Math.abs()
-  올림 Math.ceil(), 반올림 Math.round(), 내림 Math.floor()
+  Math.min(a, b, c)
+  Math.max(a, b, c)
+  Math.pow(a, b)
+  Math.abs(a) 
+  Math.sqrt(a)
+  Math.floor(a) : 내림
+  Math.ceil(a) : 올림
+  Math.round(a) : 반올림
+  Math.random()
   ```
 
-- 반복문 & 조건문
+- 조건문
   
   ```markdown
-  js의 반복문으로는 for, forEach, map, reduce, filter 등을 활용할 수 있겠습니다.
+  기본적인 if-else 문과 switch문을 통해 조건문을 구현할 수 있습니다.
+  3항 연산자도 알아놓으면 유용합니다.
+  ```
+
+- 반복문
+
+  
+  ```markdown
+  for, forEach, while, map, reduce, filter 등을 활용할 수 있겠습니다.
   특히 map과 reduce, filter는 많이 사용하기도 하고, 실제 개발에서도 활용도가 높기 때문에 공부해두면 좋습니다.
   ```
+
+
 
 
 &nbsp;
