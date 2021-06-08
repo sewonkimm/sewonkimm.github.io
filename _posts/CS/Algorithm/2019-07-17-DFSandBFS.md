@@ -4,41 +4,18 @@ title: 백준 1260:DFS & BFS
 date: 2019-07-17 10:06:00
 author: "SeWonKim"
 categories: [CS, Algorithm]
-tags: [알고리즘,  BOJ]
+tags: [알고리즘, BOJ]
 comments: true
-description: 
 ---
 
 > [Baekjoon 1260](https://www.acmicpc.net/problem/1260)
 
-## Problem
-  1. DFS 탐색결과와 BFS 탐색결과 출력
-
-## Input
-  1. 정점 Node의 개수 N (1~1000)
-  2. 간선 Edge의 개수 M (1~10000)
-  3. 시작할 정점의 번호 V
-  4. 간선이 연결하는 두 정점의 번호 (M개)
-
-## Output
-  1. DFS 수행 결과
-  2. BFS 수행 결과
-
-
----
+DFS와 BFS 연습문제
 
 ## DFS
   * [Depth-First Search](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
 
-### IDEA
-  1. 인접리스트 vector<int> arr[1001]
-  2. 방문 체크 배열 bool check[1001]
-  3. dfs(int node) 함수 실행
-  
-    1. 현재 정점에 방문 체크
-    2. 현재 정점 출력
-    3. 현재 정점 인접 리스트 검사
-    4. 방문하지 않은 곳 dfs 수행
+### DFS == 재귀
   
   
 
@@ -48,25 +25,12 @@ description:
   queue를 사용하기 위해 <queue> 헤더파일을 include 해야한다.\
   방문 할 수 있는 정점을 queue에 넣고, 동시에 방문 체크한다.
   
-### IDEA
-  1. 인접리스트 vector<int> arr[1001]
-  2. 방문 체크 배열 bool check[1001]
-  3. 큐 queue<int> q
-  4. bfs(int node) 함수 실행
-  
-    1. 현재 정점 큐에 입력 & 방문 체크
-    2. 현재 정점 출력
-    3. x =queue.pop()
-    4. x의 인접리스트 검사
-    5. 방문하지 않은 곳 큐에 push
-    6. 큐가 empty 상태가 될 때까지 3~5과정 반복
- 
+### BFS == 큐
 
+<details>
+<summary>code - c++</summary>
+<div markdown="1">
 
----
-
-
-## Code
 ```cpp
 #include <iostream>
 #include <vector>
@@ -142,7 +106,87 @@ int main() {
 }
 ```
 
+</div>
+</details>
 
-## Review
-BFS 함수는 재귀를 이용하는 것이 아니라 queue를 이용하는 것이다.\
-방문 체크 배열은 DFS용과 BFS용 2개를 만들어서 사용했다. 만약 하나만 만든다면 BFS 시작 전 초기화 시켜줘야한다.
+<details>
+<summary>code - java</summary>
+<div markdown="1">
+
+```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
+public class Main {
+	static int N, M, V;
+	static boolean[][] graph;
+	static boolean[] dfsVisit;
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		N = Integer.parseInt(st.nextToken());	// 정점의 개수
+		M = Integer.parseInt(st.nextToken());	// 간선의 개수
+		V = Integer.parseInt(st.nextToken());	// 탐색을 시작할 정점의 번호
+		
+		graph = new boolean[N+1][N+1];
+		dfsVisit = new boolean[N+1];
+		for(int i=0; i<M; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			int node1 = Integer.parseInt(st.nextToken());
+			int node2 = Integer.parseInt(st.nextToken());
+			graph[node1][node2] = true;
+			graph[node2][node1] = true;
+		}
+		
+		dfsVisit[V] = true;
+		DFS(V);
+		
+		System.out.println();
+		BFS(V);
+	}
+	
+	private static void DFS(int v) {
+		// 재귀
+		System.out.print(v + " ");
+		
+		for(int i=1; i<=N; i++) {
+			if(graph[v][i] && !dfsVisit[i]) {
+				dfsVisit[i] = true;
+				DFS(i);
+			}
+		}
+	}
+	
+	private static void BFS(int v) {
+		// 큐
+		Queue<Integer> q = new LinkedList<Integer>();
+		boolean[] visit = new boolean[N+1];
+		
+		q.add(v);
+		
+		while(!q.isEmpty()) {
+			int node = q.poll();
+			visit[node] = true;
+			System.out.print(node + " ");
+			
+			for(int i=1; i<=N; i++) {
+				if(graph[node][i] && !visit[i]) {
+					q.add(i);
+					visit[i] = true;
+				}
+			}
+		}
+	}
+	
+}
+```
+
+</div>
+</details>
+
+# Review
+
+DFS = 재귀, BFS = 큐 임을 기억하자! 이것동 오랜만에 푸니까 빨리 빨리 안풀리네...
