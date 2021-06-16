@@ -15,7 +15,7 @@ description: Programmers skill check Lv3.
 
 ## Problem1
 
-타일 장식물 - [블로그 작성 글](https://sewonkimm.github.io/algorithm/2019/09/09/Tile.html)
+타일 장식물 - [블로그 작성 글](https://sewonkimm.github.io/cs/algorithm/2019/09/09/Tile.html)
 
 이 문제는 9월에 풀었던 문제다...!     
 그렇게 어렵지 않아서 금방 풀었다. 문제는 어디서 본 것 같았는데 풀이는 생각이 안나서 내가 생각한 대로 풀었고, 9월에 풀었던 코드와는 살짝 다르게 풀었다. 
@@ -58,7 +58,7 @@ red 이름은 그냥 문제에서 둘레 이미지에 빨간색으로 테두리 
 
 ## Problem2
 
-섬 연결하기 - [블로그 작성 글](https://sewonkimm.github.io/algorithm/2019/09/09/ConnectIsland.html)
+섬 연결하기 - [블로그 작성 글](https://sewonkimm.github.io/cs/algorithm/2019/09/09/ConnectIsland.html)
 
 앗...! 이 문제도 9월에 풀었던 문제다...! 심지어 첫번째 문제 풀었던 날에 풀었네;;;      
 그런데도 이렇게나 새롭다. 새삼 기록의 중요성을 느낀다.    
