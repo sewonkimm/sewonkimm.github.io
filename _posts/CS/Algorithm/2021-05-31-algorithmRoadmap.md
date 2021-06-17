@@ -68,7 +68,7 @@ comments: true
 3. 정렬
 4. 완전탐색 - 브루트포스 / 백트래킹 / 순열 / 조합 / 부분집합
 5. 자료구조 - 스택 / 리스트 / 트리
-6. BFS / DFS
+6. [BFS / DFS](https://sewonkimm.github.io/cs/algorithm/2021/06/08/bfsdfs.html)
 7. 최소신장트리(MST) - 크루스칼 / 프림 / 다익스트라
 8. 그리디
 9. 다이나믹 프로그래밍
