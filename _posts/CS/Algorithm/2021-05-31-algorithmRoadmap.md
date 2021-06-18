@@ -61,6 +61,8 @@ comments: true
 
 코딩테스트를 위한 알고리즘 분야는 대략 이렇습니다.
 
+<img width="1154" alt="image" src="https://user-images.githubusercontent.com/30452963/122512715-3f1ab300-d044-11eb-9c5d-2b76bc53e2e6.png">
+
 &nbsp;
 
 1. [문자열](https://sewonkimm.github.io/cs/algorithm/2021/06/03/문자열.html)
