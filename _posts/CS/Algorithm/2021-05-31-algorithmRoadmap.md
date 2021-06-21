@@ -68,14 +68,11 @@ comments: true
 1. [문자열](https://sewonkimm.github.io/cs/algorithm/2021/06/03/문자열.html)
 2. 반복과 재귀
 3. 정렬
-4. 완전탐색 - 브루트포스 / 백트래킹 / 순열 / 조합 / 부분집합
+4. [완전탐색](https://sewonkimm.github.io/cs/algorithm/2021/06/16/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89.html) - 브루트포스 / 그리디 / 백트래킹 / 순열 / 조합 / 부분집합 / BFS / DFS 
 5. 자료구조 - 스택 / 리스트 / 트리
-6. [BFS / DFS](https://sewonkimm.github.io/cs/algorithm/2021/06/08/bfsdfs.html)
-7. 최소신장트리(MST) - 크루스칼 / 프림 / 다익스트라
-8. 그리디
-9. 다이나믹 프로그래밍
-10. 백트래킹
-11. [시뮬레이션](https://sewonkimm.github.io/cs/algorithm/2021/06/04/시뮬레이션.html)
+6. 최소신장트리(MST) - 크루스칼 / 프림 / 다익스트라
+7. 다이나믹 프로그래밍
+8. [시뮬레이션](https://sewonkimm.github.io/cs/algorithm/2021/06/04/시뮬레이션.html)
 
 &nbsp;
 
