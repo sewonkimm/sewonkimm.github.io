@@ -6,7 +6,6 @@ author: "SeWonKim"
 categories: [WEB, React]
 tags: [React]
 comments: true
-description: React 자습서
 ---
 
 > [React 공식문서 - 파일구조](https://ko.reactjs.org/docs/faq-structure.html)

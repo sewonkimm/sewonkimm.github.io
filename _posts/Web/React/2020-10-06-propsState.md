@@ -6,7 +6,6 @@ author: "SeWonKim"
 categories: [WEB, React]
 tags: [React, props, state]
 comments: true
-description: React 자습서
 ---
 
 ## props

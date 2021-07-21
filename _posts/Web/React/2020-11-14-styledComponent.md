@@ -6,7 +6,6 @@ author: 'SeWonKim'
 categories: [WEB, React]
 tags: [React, css]
 comments: true
-description: CSS in React
 ---
 
 > [React Styling and CSS](https://ko.reactjs.org/docs/faq-styling.html)

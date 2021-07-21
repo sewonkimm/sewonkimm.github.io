@@ -6,7 +6,6 @@ author: "SeWonKim"
 categories: [WEB, React]
 tags: [React, Eventlistener]
 comments: true
-description: Eventlistener
 ---
 
 > [React Docs](https://ko.reactjs.org/docs/handling-events.html)

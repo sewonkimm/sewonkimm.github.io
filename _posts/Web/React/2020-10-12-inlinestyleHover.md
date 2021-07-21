@@ -6,7 +6,6 @@ author: "SeWonKim"
 categories: [WEB, React]
 tags: [React, css]
 comments: true
-description: inline css에서 hover 작성법 
 ---
 
 # 빠른 결론

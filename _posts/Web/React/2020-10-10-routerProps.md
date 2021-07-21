@@ -6,7 +6,6 @@ author: "SeWonKim"
 categories: [WEB, React]
 tags: [React, router, props]
 comments: true
-description: 그냥 props 전달하면 전달이 안될 때
 ---
 
 ### <Route path='/' component={board} />
