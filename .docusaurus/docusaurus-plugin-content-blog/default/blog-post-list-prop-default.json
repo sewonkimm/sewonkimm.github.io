@@ -1,0 +1,13 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome",
+      "permalink": "/blog/welcome"
+    },
+    {
+      "title": "MDX Blog Post",
+      "permalink": "/blog/mdx-blog-post"
+    }
+  ]
+}
