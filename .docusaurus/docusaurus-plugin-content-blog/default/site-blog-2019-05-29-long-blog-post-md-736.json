@@ -20,19 +20,15 @@
   "truncated": true,
   "authors": [
     {
-      "name": "Endilie Yacop Sucipto",
-      "title": "Maintainer of Docusaurus",
-      "url": "https://github.com/endiliey",
-      "imageURL": "https://github.com/endiliey.png",
-      "key": "endi"
+      "name": "Sewon Kim",
+      "title": "Front End Engineer @ Neurocle",
+      "url": "https://github.com/sewonkimm",
+      "imageURL": "/img/profile.png",
+      "key": "sewonkimm"
     }
   ],
   "prevItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"
-  },
-  "nextItem": {
-    "title": "First Blog Post",
-    "permalink": "/blog/first-blog-post"
   }
 }
