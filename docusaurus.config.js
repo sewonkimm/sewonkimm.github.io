@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'WonQueue',
-	tagline: '프로그래머 김세원의 개발 지식 창고',
+	title: 'Won & only FE Developer',
+	tagline: '선명한 기억보다 흐릿한 기록을 위한 공간입니다.',
 	url: 'https://your-docusaurus-test-site.com',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
@@ -54,7 +54,7 @@ const config = {
 						type: 'doc',
 						docId: 'intro',
 						position: 'left',
-						label: 'About',
+						label: 'Wiki',
 					},
 					{ to: '/blog', label: 'Blog', position: 'left' },
 					{
@@ -68,28 +68,15 @@ const config = {
 				style: 'dark',
 				links: [
 					{
-						title: 'Me',
+						title: 'Menu',
 						items: [
 							{
-								label: 'About',
-								to: '/',
+								label: 'Wiki',
+								to: '/docs/intro',
 							},
 							{
 								label: 'Blog',
 								to: '/blog',
-							},
-						],
-					},
-					{
-						title: 'Study',
-						items: [
-							{
-								label: 'JS',
-								to: '/',
-							},
-							{
-								label: 'React',
-								to: '/',
 							},
 						],
 					},
