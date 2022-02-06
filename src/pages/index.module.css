@@ -10,6 +10,14 @@
   overflow: hidden;
 }
 
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.subtitle {
+  white-space: pre-wrap;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
