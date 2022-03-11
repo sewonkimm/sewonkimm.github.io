@@ -5,9 +5,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Won & only FE Developer",
+  title: "회사원말고 프로그래머",
   tagline:
-    "'흐릿한 잉크가 뚜렷한 기억보다 낫다.'\n배운 것을 잊지 않기 위해 꾸준히 기록합니다.",
+    "돈보다 일의 가치를 중요하게 생각하는 개발자입니다.\n희미한 기록이 뚜렷한 기억보다 낫기에 꾸준히 기록합니다.",
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
