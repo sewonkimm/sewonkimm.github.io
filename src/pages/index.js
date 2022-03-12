@@ -18,7 +18,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="https://sewonkimm.notion.site/SeWon-Kim-5bbec56484054d23be7bc55900fb2b1f"
           >
-            어떤 개발자이지 더 알고싶은 분들을 위한 포트폴리오
+            어떤 개발자인지 더 알고싶은 분들을 위한 포트폴리오
           </Link>
         </div>
       </div>
