@@ -57,9 +57,7 @@ tags: [Blog, Docusaurus]
 
 
 
-:::tip
-
-### 재미있게 봤던 기술 블로그에 관한 포스트들
+:::tip 재미있게 봤던 기술 블로그에 관한 포스트들
 
 - [4년간의 개인 기술 블로그 운영 회고하기](https://www.holaxprogramming.com/2016/11/17/blahblah-writing-as-programmer/)
 - [내가 개발 블로그 플랫폼으로 Github과 Jekyll을 선택한 이유](https://wormwlrm.github.io/2018/07/07/Why-I-select-Github-and-Jekyll-for-my-development-blog.html)
