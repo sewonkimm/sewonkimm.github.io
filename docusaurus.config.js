@@ -15,7 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "sewonkimm", // Usually your GitHub org/user name.
   projectName: "sewonkimm.github.io", // Usually your repo name.
-
+  themes: ["@docusaurus/theme-live-codeblock"],
   presets: [
     [
       "classic",
