@@ -10,4 +10,4 @@ sidebar_position: 1
 - 한글판 [Link](https://www.typescriptlang.org/ko/docs/handbook/intro.html)
 :::
 
-1. [Typescript 개요](./tsbook1.md)
+1. [Typescript 개요](./01_tsbook1.md)
