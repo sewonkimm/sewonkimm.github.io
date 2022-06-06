@@ -11,3 +11,4 @@ sidebar_position: 1
 :::
 
 1. [Typescript 개요](./01_tsbook1.md)
+2. [기본 타입](./02_tsbook2.md)
