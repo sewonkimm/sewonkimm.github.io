@@ -14,3 +14,4 @@ sidebar_position: 1
 2. [기본 타입](./02_tsbook2.md)
 3. [Typescript로 할 수 있는 것](./03_tsbook3.md)
 4. [tsc; ts컴파일러](./04_tsbook4.md)
+5. [Typescript의 타입시스템](./05_tsbook5.md)
