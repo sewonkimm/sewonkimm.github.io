@@ -69,6 +69,8 @@ _'만약 어떤 새가 오리처럼 걷고, 헤엄치고, 꽥꽥거리는 소리
 
 ## 타입 단언(Type assertions)
 
+### angle-bracket과 as 문법
+
 타입 단언은 컴파일러에게 개발자가 더 구체적인 타입을 알려주는 것이다. 런타임에는 영향을 미치지 않는다. 두 가지 형태로 타입 단언을 할 수 있는데 angle-bracket 문법과 as 문법이다.
 
 ```ts
@@ -83,6 +85,18 @@ let strLength: number = (someValue as string).length;
 
 선호에 따라 두 문법 중 하나를 선택하지만 JSX와 함께 사용할 때에는 as 스타일의 단언만 허용된다.
 
+
+### null이 아님을 단언
+
+null이 아님을 단언하려면 접미사`!`를 넣어 표현할 수 있다.
+
+```ts
+function liveDangerously(x?: number | undefined) {
+  console.log(x!.toFixed());  // 오류 없음
+}
+```
+
+값이나 null이나 undefined가 아니라는 것을 개발자가 단언한다.
 
 ## 리터럴 타입
 
