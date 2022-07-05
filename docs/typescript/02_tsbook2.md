@@ -40,7 +40,22 @@ console.log(staticList[1].substring(1));    // number type에는 substring 메�
 
 ## Any
 
-타입을 알 수 없는 경우나 동적으로 받아오는 값들에 대한 타입을 표현할 때, 타입 검사를 하지 않고 컴파일 하기를 원하면 any를 사용한다. 
+타입을 알 수 없는 경우나 동적으로 받아오는 값들에 대한 타입을 표현할 때, 타입 검사를 하지 않고 컴파일 하기를 원하면 any를 사용한다.
+
+### Unknown
+
+unknown 타입은 any와 똑같은 표현이지만 any 보다는 더 안전하게 사용할 수 있다.
+
+```ts
+function f1(a: any) {
+    a.b();  // OK
+}
+
+function f2(a: unknown) {
+    a.b();  // NG
+}
+```
+
 
 ## Void
 
