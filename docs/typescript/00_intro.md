@@ -24,4 +24,4 @@ sidebar_position: 1
 4. [tsc; ts컴파일러](./04_tsbook4.md)
 5. [Typescript의 타입시스템](./05_tsbook5.md)
 6. [Narrowing; 좁히기](./06_tsbook6.md)
-
+7. [Functions](./07_tsbook7.md)
