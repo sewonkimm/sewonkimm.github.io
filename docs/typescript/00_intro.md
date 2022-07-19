@@ -26,3 +26,5 @@ sidebar_position: 1
 6. [Narrowing; 좁히기](./06_tsbook6.md)
 7. [Functions](./07_tsbook7.md)
 8. [Objects](./08_tsbook8.md)
+9. [Type으로 Type표현하기](./09_tsbook9.md)
+10. [Modules](./10_tsbook10.md)
