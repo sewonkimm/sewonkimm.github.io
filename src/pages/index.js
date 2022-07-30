@@ -16,9 +16,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://sewonkimm.notion.site/SeWon-Kim-5bbec56484054d23be7bc55900fb2b1f"
+            to="https://www.notion.so/sewonkimm/sewonkimm-86ac5079cdb446ae877c8da3fc3ed860"
           >
-            어떤 개발자인지 더 알고싶은 분들을 위한 포트폴리오
+            @sewonkimm
           </Link>
         </div>
       </div>
