@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "회사원말고 프로그래머",
+  title: "WONOLOG.",
   tagline:
     "돈보다 일의 가치를 중요하게 생각하는 개발자입니다.\n희미한 기록이 뚜렷한 기억보다 낫기에 꾸준히 기록합니다.",
   url: "https://sewonkimm-github-io.vercel.app/",
@@ -43,11 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "",
-        logo: {
-          alt: "WonQueue Logo",
-          src: "img/logo.svg",
-        },
+        title: "WONOLOG.",
         items: [
           {
             type: "doc",
