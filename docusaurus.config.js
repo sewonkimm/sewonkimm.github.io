@@ -78,7 +78,11 @@ const config = {
             items: [
               {
                 label: "Wiki",
-                to: "/docs/intro",
+                to: "/docs/wiki/intro",
+              },
+              {
+                label: "React",
+                to: "/docs/react/intro",
               },
               {
                 label: "Blog",
