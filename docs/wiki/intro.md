@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Won's wiki
+# Wiki
 
 :::info
 

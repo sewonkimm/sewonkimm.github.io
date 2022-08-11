@@ -43,15 +43,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: true,
         title: "WONOLOG.",
         items: [
           {
-            type: "doc",
-            docId: "intro",
+            type: "docSidebar",
             position: "left",
+            sidebarId: "wikiSidebar",
             label: "Wiki",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "reactSidebar",
+            label: "React",
+          },
+          {
+            to: "/blog",
+            label: "Blog",
+            position: "left",
+          },
           {
             href: "https://github.com/sewonkimm",
             label: "GitHub",
@@ -67,7 +78,11 @@ const config = {
             items: [
               {
                 label: "Wiki",
-                to: "/docs/intro",
+                to: "/docs/wiki/intro",
+              },
+              {
+                label: "React",
+                to: "/docs/react/intro",
               },
               {
                 label: "Blog",
