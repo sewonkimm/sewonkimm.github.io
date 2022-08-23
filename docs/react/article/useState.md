@@ -1,5 +1,9 @@
 ---
 sidebar_position: 2
+tags: ['react', '번역']
+last_update:
+  date: 4/7/2022
+  author: sewonkimm
 ---
 
 
