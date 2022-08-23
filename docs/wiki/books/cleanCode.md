@@ -1,10 +1,12 @@
 ---
 sidebar_position: 2
+tags: ['정리', 'TDD', '리팩터링']
+last_update:
+  date: 8/23/2022
+  author: sewonkimm
 ---
 
 # Clean Code
-
-**책의 키워드** : `단순함` `확장성` `TDD` `관심사 분리` `리팩터링`
 
 ## 14장  - 점진적인 개선
 > 2022.5.20
