@@ -13,12 +13,12 @@ export default function BlogPostItemWrapper(props) {
       <BlogPostItem {...props} />
       {comments && (
         <DiscussionEmbed
-          shortname="your-disqus-shortname"
+          shortname="wonolog"
           config={{
             url: slug,
             identifier: slug,
             title,
-            language: "en_US",
+            language: "ko_KR",
           }}
         />
       )}
