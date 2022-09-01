@@ -13,7 +13,8 @@ comments: true
 
 :::note 
 
-개발환경 : docusaurus @2.0.1  
+- 개발환경 : docusaurus @2.0.
+- Docusaurus theme : theme-classic  
 
 :::
 
@@ -62,14 +63,17 @@ comments: true
 
 아직 블로그 포스트가 미완성이라면 draft 항목을 true로 설정해주세요. 해당 항목이 true인 글은 dev 버전에서만 보이고, deploy 버전에서는 보이지 않습니다.
 
-## 4. swizzle 설치
+## 4.컴포넌트 swizzle
 
-다음 명령어로 swizzle을 설치합니다. 
+다음 swizzle CLI로 블로그 포스트 wrapping을 진행합니다.
+
 ```shell
 yarn swizzle @docusaurus/theme-classic BlogPostItem -- --wrap
 ```
 
-swizzle을 설치하고 `src/theme/BlogPostItem/index.js` 해당 path의 파일 내용에 DiscussionEmbeded를 추가해줍니다.
+Docusaurus의 swizzle 기능은 사용자 정의 레이아웃을 쉽게 만들 수 있도록 하는 기능입니다. [Swizzling api 문서](https://docusaurus.io/ko/docs/cli#docusaurus-swizzle)를 확인해보시면 blog post에 댓글을 추가하는 것 외에도 다양한 레이아웃을 손쉽게 추가해 줄 수 있습니다. 
+
+swizzle을 진행하고 `src/theme/BlogPostItem/index.js` 파일에서 블로그 포스트의 레이아웃에 댓글 컴포넌트를 추가합니다.  
 
 ```jsx
 import React from "react";
