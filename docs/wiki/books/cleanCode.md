@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-tags: ['정리', 'TDD', '리팩터링']
+tags: ['독후감']
 last_update:
   date: 8/23/2022
   author: sewonkimm
