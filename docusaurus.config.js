@@ -114,6 +114,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: "BV1E8YX7IZ",
+        apiKey: "b81a3e465983bf68e319448fa3d38284",
+        indexName: "wonolog",
+        contextualSearch: true,
+      },
     }),
 };
 
