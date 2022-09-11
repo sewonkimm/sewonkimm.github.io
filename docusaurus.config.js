@@ -49,6 +49,11 @@ const config = {
         title: "WONOLOG.",
         items: [
           {
+            to: "/",
+            label: "Blog",
+            position: "left",
+          },
+          {
             type: "docSidebar",
             position: "left",
             sidebarId: "wikiSidebar",
@@ -60,11 +65,7 @@ const config = {
             sidebarId: "reactSidebar",
             label: "React",
           },
-          {
-            to: "/",
-            label: "Blog",
-            position: "left",
-          },
+
           {
             href: "https://github.com/sewonkimm",
             label: "GitHub",
