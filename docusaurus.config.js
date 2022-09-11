@@ -6,8 +6,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "WONOLOG.",
-  tagline:
-    "돈보다 일의 가치를 중요하게 생각하는 개발자입니다.\n희미한 기록이 뚜렷한 기억보다 낫기에 꾸준히 기록합니다.",
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -15,6 +13,10 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "sewonkimm", // Usually your GitHub org/user name.
   projectName: "sewonkimm.github.io", // Usually your repo name.
+  i18n: {
+    defaultLocale: "ko",
+    locales: ["ko"],
+  },
   themes: ["@docusaurus/theme-live-codeblock"],
   presets: [
     [
@@ -28,6 +30,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: "/",
           // editUrl:
           //   "https://github.com/facebook/docusaurus/edit/main/website/blog/",
         },
@@ -46,6 +49,11 @@ const config = {
         title: "WONOLOG.",
         items: [
           {
+            to: "/",
+            label: "Blog",
+            position: "left",
+          },
+          {
             type: "docSidebar",
             position: "left",
             sidebarId: "wikiSidebar",
@@ -57,14 +65,15 @@ const config = {
             sidebarId: "reactSidebar",
             label: "React",
           },
-          {
-            to: "/blog",
-            label: "Blog",
-            position: "left",
-          },
+
           {
             href: "https://github.com/sewonkimm",
             label: "GitHub",
+            position: "right",
+          },
+          {
+            href: "https://sewonkimm.notion.site/sewonkimm-86ac5079cdb446ae877c8da3fc3ed860",
+            label: "Resume",
             position: "right",
           },
         ],
@@ -85,7 +94,7 @@ const config = {
               },
               {
                 label: "Blog",
-                to: "/blog",
+                to: "/",
               },
             ],
           },
