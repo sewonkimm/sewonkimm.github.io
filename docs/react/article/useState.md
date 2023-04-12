@@ -17,7 +17,7 @@ Abdo Amin의 아티클 [Why you shouldn’t always use “useState”](https://j
 
 
 
-![useSate useRef](/img/react_1/image1.jpeg)
+![useSate useRef](/img/react/image1.jpeg)
 
 ## TL;DR;
 
@@ -207,7 +207,7 @@ useState hook이 어떻게 동작하는지에 대한 일러스트입니다.
 만약 당신이 클로져에 대해 들어본 적이 있다면 더 이해가 쉬울 거에요.
 
 
-![useSate](/img/react_1/image2.png)
+![useSate](/img/react/image2.png)
 
 > '클로져'는 함수가 외부에서 실행되었더라도 처음 생성됐을 때의 scope에 접근할 수 있다는 것을 의미합니다.
 
