@@ -1,26 +1,30 @@
 ---
-sidebar_position: 2
-tags: ['react']
+sidebar_position: 1
+tags: ['react', '리액트 컴포넌트 패턴']
 last_update:
   date: 5/9/2023
   author: sewonkimm
 ---
 
-# 리액트 컴포넌트 패턴
+# Container/Presentational Pattern
 
-## Container/Presentational Pattern
 
-뷰와 어플리케이션 로직을 분리하는 패턴. 하나의 컴포넌트에 뷰와 로직을 같이 구현하면 재사용이 어렵고 의존도가 높아지므로 이를 분리한다.
+뷰와 어플리케이션 로직을 분리하는 패턴.
+
+![Container/Presentational Pattern](./containerPresentation.png)
 
 - Container 컴포넌트 : **무슨** 데이터를 유저에게 보여줄지 신경쓰는 컴포넌트 (ex. 데이터 fetching)
 - Presentation 컴포넌트 : 데이터를 **어떻게** 보여줄지 신경쓰는 컴포넌트
 
 
-![Container/Presentational Pattern](./containerPresentation.png)
 
-### Hooks로 대체되다.
+### 장점
 
-Container 컴포넌트에서 fetchDogs라는 메소드를 실행해 Dogs 데이터를 Presentation 컴포넌트에 전달한다. Presentation 컴포넌트는 Props로 받아온 데이터를 출력한다. 최근에는 hooks이 도입되면서 많은 패턴들이 hooks로 대체되었다. 
+하나의 컴포넌트에 뷰와 로직을 같이 구현하면 재사용이 어렵고 의존도가 높아지는데 그런 문제를 해결할 수 있다.
+
+### 단점; Hooks로 대체되다.
+
+Container 컴포넌트에서 fetchDogs라는 메소드를 실행해 Dogs 데이터를 Presentation 컴포넌트에 전달하고, Presentation 컴포넌트는 Props로 받아온 데이터를 출력한다. 최근에는 hooks이 도입되면서 많은 패턴들이 hooks로 대체되었다. 
 
 ![Hooks](./containerPresentationHooks.png)
 
@@ -48,12 +52,8 @@ export default function DogImages() {
 }
 ```
 
-:::note 참고
+:::note References
 
 https://www.patterns.dev/posts/presentational-container-pattern
 
 :::
-
-## 
-
- 
