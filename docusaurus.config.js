@@ -30,7 +30,9 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          routeBasePath: "/",
+          routeBasePath: "/blog",
+          blogSidebarTitle: "All posts",
+          blogSidebarCount: "ALL",
           // editUrl:
           //   "https://github.com/facebook/docusaurus/edit/main/website/blog/",
         },
@@ -49,7 +51,7 @@ const config = {
         title: "WONOLOG.",
         items: [
           {
-            to: "/",
+            to: "/blog",
             label: "Blog",
             position: "left",
           },
@@ -94,7 +96,7 @@ const config = {
               },
               {
                 label: "Blog",
-                to: "/",
+                to: "/blog",
               },
             ],
           },
