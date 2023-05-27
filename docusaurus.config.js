@@ -49,6 +49,11 @@ const config = {
       navbar: {
         hideOnScroll: true,
         title: "WONOLOG.",
+        logo: {
+          src: "title",
+          href: "/blog",
+          target: "_self",
+        },
         items: [
           {
             to: "/blog",
