@@ -11,10 +11,25 @@ export default function BlogPostItemWrapper(props) {
   const { frontMatter, slug, title } = metadata;
   const { comments = true } = frontMatter;
   const { pathname } = location;
-  const showComments = comments && pathname !== "/";
+  const isNotList = pathname !== "/blog";
+  const showComments = comments && isNotList;
 
+  const handleMouseEnter = (e) => {
+    e.target.style.color = --ifm - font - color - base;
+  };
   return (
     <>
+      {isNotList && (
+        <div style={{ marginBottom: 16 }}>
+          <a
+            className="custom-link"
+            href="/blog"
+            onMouseEnter={handleMouseEnter}
+          >
+            글 목록 보기
+          </a>
+        </div>
+      )}
       <BlogPostItem {...props} />
       <h1>{comments}</h1>
       {showComments && (
