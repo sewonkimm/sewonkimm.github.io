@@ -51,7 +51,7 @@ const config = {
         title: "WONOLOG.",
         logo: {
           src: "title",
-          href: "/",
+          href: "/blog",
           target: "_self",
         },
         items: [
