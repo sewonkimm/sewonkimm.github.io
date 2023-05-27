@@ -29,12 +29,12 @@ const config = {
           showLastUpdateTime: true,
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: true, // When set to false, the "x min read" won't be shown
+          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
+            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           routeBasePath: "/blog",
           blogSidebarTitle: "All posts",
           blogSidebarCount: "ALL",
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/edit/main/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -51,7 +51,7 @@ const config = {
         title: "WONOLOG.",
         logo: {
           src: "title",
-          href: "/blog",
+          href: "/",
           target: "_self",
         },
         items: [
