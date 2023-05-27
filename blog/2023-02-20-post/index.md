@@ -31,6 +31,9 @@ function foo(mode) {
 ```
 이 때, 위의 코드에서 0과 1이 무엇을 의미하는지 코드만 보고는 알 수가 없고, 이로인해 추후 유지보수가 어려워질 수 있습니다.
 
+
+<!--truncate-->
+
 ```javascript
 
 const FORMAL = 0;

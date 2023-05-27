@@ -11,6 +11,8 @@ comments: true
 
 <br />
 
+<!--truncate-->
+
 ## 회사 안에서의 개발
 
 ### 1. Major update; 개발자 수와 개발 속도는 비례하지 않는다
