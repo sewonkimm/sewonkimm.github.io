@@ -1,12 +1,18 @@
 ---
-sidebar_position: 3
 tags: ['독후감']
 last_update:
-  date: 11/16/2022
+  date: 06/08/2023
   author: sewonkimm
 ---
 
-# Refactoring; 코드 품질을 개선하는 객체지향 사고법
+# 리팩터링 2판
+> 리팩터링 2판. : 코드 구조를 체계적으로 개선하여 효율적인 리팩터링 구현하기
+
+:::warning
+
+작성중인 문서입니다.
+
+:::
 
 ## 서문
 > 2022.11.16

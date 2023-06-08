@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 tags: ['독후감']
 last_update:
   date: 8/23/2022
@@ -8,6 +7,11 @@ last_update:
 
 # Clean Code
 
+:::warning
+
+작성중인 문서입니다.
+
+:::
 ## 14장  - 점진적인 개선
 > 2022.5.20
 
