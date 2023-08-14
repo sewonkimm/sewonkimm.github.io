@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 last_update:
-  date: 14/8/2022
+  date: 8/14/2022
   author: sewonkimm
 ---
 
