@@ -72,7 +72,12 @@ const config = {
             sidebarId: "reactSidebar",
             label: "React",
           },
-
+          {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "bookSidebar",
+            label: "Book",
+          },
           {
             href: "https://github.com/sewonkimm",
             label: "GitHub",
@@ -98,6 +103,10 @@ const config = {
               {
                 label: "React",
                 to: "/docs/react/intro",
+              },
+              {
+                label: "Book",
+                to: "/docs/book/intro",
               },
               {
                 label: "Blog",
