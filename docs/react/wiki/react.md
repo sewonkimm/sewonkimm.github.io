@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: ['react', 'Wiki']
+tags: ['React', 'Wiki']
 last_update:
   date: 9/17/2023
   author: sewonkimm
