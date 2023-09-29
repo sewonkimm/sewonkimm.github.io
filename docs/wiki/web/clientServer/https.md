@@ -19,3 +19,5 @@ HTTP의 P는 Protocol로 통신 규약이다. 웹 브라우저가 서버로부�
 [HTTP 요청 메서드](https://developer.mozilla.org/ko/docs/Web/HTTP/Methods)로 자주 쓰이는 것들에는 GET, POST, PUT, DELETE 와 같은 것들이 있다. GET은 가장 일반적인 요청 방식이고, POST는 폼에서 주로 사용된다. 보통은 서버의 api 명세에 맞게 요청하면 된다. CONNECT, TRACE, TRACK 메서드의 경우에는 보안상 위험이 있어 잘 사용되지 않는다.
 
 :::
+
+## HTTPS
