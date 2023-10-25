@@ -19,7 +19,7 @@ last_update:
 ## 목록
 
 1. [Request](./request.md)
-2. Https
-3. CORS
+2. [Https](./https.md)
+3. [CORS](./cors.md)
 4. File upload
 5. Error handling
