@@ -1,7 +1,8 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,7 +18,10 @@ const config = {
     defaultLocale: "ko",
     locales: ["ko"],
   },
-  themes: ["@docusaurus/theme-live-codeblock"],
+  themes: ["@docusaurus/theme-live-codeblock", "@docusaurus/theme-mermaid"],
+  markdown: {
+    mermaid: true,
+  },
   presets: [
     [
       "classic",
@@ -42,6 +46,12 @@ const config = {
         gtag: {
           trackingID: "G-TJY9MJ7NPP",
           anonymizeIP: true,
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
         },
       }),
     ],
@@ -131,14 +141,18 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} sewonkimm, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        additionalLanguages: ["bash", "diff", "json"],
+        theme: lightTheme,
+        darkTheme: darkTheme,
       },
       algolia: {
         appId: "BV1E8YX7IZ",
         apiKey: "b81a3e465983bf68e319448fa3d38284",
         indexName: "wonolog",
         contextualSearch: true,
+      },
+      mermaid: {
+        theme: { light: "neutral", dark: "forest" },
       },
     }),
 };
