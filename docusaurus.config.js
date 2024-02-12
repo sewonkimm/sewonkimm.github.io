@@ -18,7 +18,10 @@ const config = {
     defaultLocale: "ko",
     locales: ["ko"],
   },
-  themes: ["@docusaurus/theme-live-codeblock"],
+  themes: ["@docusaurus/theme-live-codeblock", "@docusaurus/theme-mermaid"],
+  markdown: {
+    mermaid: true,
+  },
   presets: [
     [
       "classic",
@@ -147,6 +150,9 @@ const config = {
         apiKey: "b81a3e465983bf68e319448fa3d38284",
         indexName: "wonolog",
         contextualSearch: true,
+      },
+      mermaid: {
+        theme: { light: "neutral", dark: "forest" },
       },
     }),
 };
