@@ -10,6 +10,13 @@ last_update:
 
 프로젝트의 폴더 구조는 프로젝트의 규모와 팀의 규모에 따라 달라진다. 궁극의 폴더 구조는 없으며 상황에 맞게 적절한 폴더 구조를 선택하는 것이 중요하다.
 
+:::tip 참고
+
+- [Evolution of a React folder structure and why to group by features right away](https://profy.dev/article/react-folder-structure#world-domination-colocation)
+- [How to structure your React projects](https://joyofcode.xyz/react-project-structure#use-path-aliases)
+- [Delightful React file / Directory structure](https://www.joshwcomeau.com/react/file-structure/)
+:::
+
 ## 1. 파일 타입 중심의 폴더 구조
 
 ```
