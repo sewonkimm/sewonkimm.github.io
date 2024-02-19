@@ -3,7 +3,7 @@ title: 글쓰는 개발자가 되기 위한 블로그 v3.0
 date:  2022-03-12T21:00
 slug: /3.0
 authors: [sewonkimm]
-tags: [개발일지, Blog]
+tags: [Blog, 글쓰기]
 comments: true
 ---
 

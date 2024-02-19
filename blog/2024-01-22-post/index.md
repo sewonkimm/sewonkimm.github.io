@@ -3,7 +3,7 @@ title: 글쓰기 연습
 date:  2024-01-22T20:30
 slug: /writing
 authors: [sewonkimm]
-tags: [Blog, 글또, 회고]
+tags: [Blog, 글또, 회고, 글쓰기]
 comments: true
 ---
 
