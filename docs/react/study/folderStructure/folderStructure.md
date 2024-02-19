@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: ['react', 'folderStructure', '설계']
+tags: ['react', 'folderStructure', '설계', 'Wiki']
 last_update:
   date: 2/17/2024
   author: sewonkimm

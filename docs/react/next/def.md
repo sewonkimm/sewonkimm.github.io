@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: ['react', 'next.js']
+tags: ['react', 'next.js', 'Wiki']
 last_update:
   date: 4/12/2023
   author: sewonkimm

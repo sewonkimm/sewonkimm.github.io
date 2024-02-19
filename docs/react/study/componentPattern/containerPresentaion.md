@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: ['react', '리액트 컴포넌트 패턴']
+tags: ['react', '리액트 컴포넌트 패턴', 'Wiki']
 last_update:
   date: 5/9/2023
   author: sewonkimm

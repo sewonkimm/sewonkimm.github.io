@@ -3,7 +3,7 @@ title: 작은 것 챙기기 - 상수화
 date:  2023-02-20T23:05
 slug: /dev/refactoring
 authors: [sewonkimm]
-tags: [개발일지]
+tags: [지식]
 comments: true
 ---
 
