@@ -12,11 +12,9 @@ last_update:
 ## 용어
 
 1. Redux: state container
-2. Redux Toolkit(RTK): Redux 로직 작성을 위한 라이브러리, Redux에서 공식적으로 추천하는 방법
-  - 장점으로는 Redux 코드 작성 단순화, 실수 방지가 있다.
-3. Store: 애플리케이션의 state 저장소
-4. Action: state를 변경하는 객체
-5. Reducer: 상태트리를 어떻게 변경할지 명시한 함수
+2. Store: 애플리케이션의 state 저장소
+3. Action: state를 변경하는 객체
+4. Reducer: 상태트리를 어떻게 변경할지 명시한 함수
 
 전체적으로 보면 이런 느낌이다.
 
@@ -42,12 +40,12 @@ reducer가 store에 있는 state를 변경해주는 경비원 같은 느낌
 Redux는 단독 js 라이브러리이지만 아래 3가지 라이브러리와 묶어서 패키지로 많이 사용된다.
 
 1. [React redux](https://github.com/reduxjs/react-redux)
-2. [Redux toolkit](./rtk.md)
+2. [Redux toolkit](./rtk.md)(Redux 로직 작성을 위한 라이브러리, Redux에서 공식적으로 추천하는 방법)
 3. [Redux devtools extension](https://github.com/reduxjs/redux-devtools/tree/main/extension)
 
 ---
 
-## 부록
+## Example
 
 ### Action
 
