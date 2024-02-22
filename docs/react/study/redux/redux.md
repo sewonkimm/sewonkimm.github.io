@@ -44,3 +44,93 @@ Redux는 단독 js 라이브러리이지만 아래 3가지 라이브러리와 �
 1. [React redux](https://github.com/reduxjs/react-redux)
 2. [Redux toolkit](./rtk.md)
 3. [Redux devtools extension](https://github.com/reduxjs/redux-devtools/tree/main/extension)
+
+---
+
+## 부록
+
+### Action
+
+type과 payload 필드를 가진 자바스크립트 객체
+
+```javascript
+const addTodoAction = {
+  type: 'todos/todoAdded',  // action 설명 : domain/eventName
+  payload: 'Buy milk'       // 추가 정보
+}
+```
+
+### Action creator
+
+action을 생성하는 함수. action 객체를 반환한다.
+
+```javascript
+const addTodo = text => {
+  return {
+    type: 'todos/todoAdded',
+    payload: text
+  }
+}
+```
+
+### Reducer
+
+state와 action을 받아서 새로운 state를 반환하는 함수
+
+```javascript
+const initialState = {
+  value: 0
+}
+
+function counterReducer(state = initialState, action) {
+  if (action.type === 'counter/increment') {
+    return {
+      ...state,
+      value: state.value + 1
+    }
+  }
+  return state
+}
+```
+
+이름이 reducer인 이유는 redux reducer function이 [Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) 메서드와 동일한 원리로 동작하기 때문이다.
+
+### Store
+
+reducer를 전달하여 생성한다. getState() 메소드를 통해 현재 state 값을 읽을 수 있다.
+
+```javascript
+import { configureStore } from '@reduxjs/toolkit'
+
+const store = configureStore({ reducer: counterReducer })
+
+console.log(store.getState())
+// {value: 0}
+```
+
+### Dispatch
+
+action을 store에 전달하는 메소드
+
+```javascript
+store.dispatch({ type: 'counter/increment' })
+
+console.log(store.getState())
+// {value: 1}
+```
+
+![redux](./redux.png)
+
+위 그림에서 1번을 문장으로 표현하면 `action을 dispatch한다`고 표현할 수 있다.
+
+### Selectors
+
+state에서 특정 값을 가져오는 함수. 애플리케이션이 커서 state 값을 가져올 때 특정 로직이 반복되는 경우에 selector를 사용하면 편하다.
+
+```javascript
+const selectCounterValue = state => state.value
+
+const currentValue = selectCounterValue(store.getState())
+console.log(currentValue)
+// 2
+```
