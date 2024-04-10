@@ -11,6 +11,7 @@ last_update:
 
 ## 🟢 읽은 책
 
+- 2024.04 - 익스트림 프로그래밍; Cynthia Andres, Kent Beck
 - 2024.04 - 리액트 훅을 활용한 마이크로 상태 관리; 다이시 카토
 - 2024.02 - [소프트 스킬](./Review/softSkill.md); 존 손메즈
 - 2024.01 - 애자일 & 스크럼 프로젝트 관리; 이재왕
@@ -54,7 +55,6 @@ last_update:
 ## 🟡 읽고 있는 책
 
 - 개발자 원칙
-- 익스트림 프로그래밍; Cynthia Andres, Kent Beck
 
 ## 🔴 읽고 싶은 책
 
