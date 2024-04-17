@@ -81,10 +81,12 @@ const Snackbar = ({ message, action }) => {
     <div className={classes.root}>
       <div
         className={classes.message}
-        style={{
-          maxWidth: calc(100% - ${buttonWidth}px),
-          // action 버튼의 크기에 따라 동적으로 변경
-        }}
+        style={
+          {
+            maxWidth: `calc(100% - ${buttonWidth}px)`,
+            // action 버튼의 크기에 따라 동적으로 변경
+          } 
+        }
       >
         {message}
       </div>
@@ -154,9 +156,11 @@ const Snackbar = ({ message, action }) => {
     <div className={classes.root}>
       <div
         className={classes.message}
-        style={{
-          maxWidth: calc(100% - ${buttonWidth}px),
-        }}
+        style={ 
+          {
+            maxWidth: `calc(100% - ${buttonWidth}px)`,
+          } 
+        }
       >
         {message}
       </div>
