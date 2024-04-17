@@ -35,3 +35,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .custom-link:hover {
   color: #fc9010;
 }
+
+p {
+  line-height: 32px;
+}
