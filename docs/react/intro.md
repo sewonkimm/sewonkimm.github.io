@@ -24,8 +24,10 @@ React를 다루며 학습한 내용을 기록합니다.
 
 ### Article
 
-- 2022.4.7 - [[번역] Why you shouldn’t always use “useState”](./article/useState.md)
-- 2023.4 - [[번역]The Most Common React Design Patterns](./article/reactDesignPattern.md)
+- [[번역] Why you shouldn’t always use “useState”](./article/useState.md)
+- [[번역]What is React?](./article/whatIsReact.md)
+- [[번역]The Most Common React Design Patterns](./article/reactDesignPattern.md)
+
 ### Study
 
 - 리액트 컴포넌트 패턴
