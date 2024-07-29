@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 last_update:
-  date: 4/10/2024
+  date: 7/29/2024
   author: sewonkimm
 ---
 
@@ -56,6 +56,7 @@ last_update:
 
 - 러닝 타입스크립트; 조시 골드버그
 - 가상면접 사례로 배우는 대규모 시스템 설계 기초; 알렉스 쉬
+- 프로그래머의 길, 멘토에게 묻다; 데이브 후버
 
 ## 🔴 읽고 싶은 책
 
