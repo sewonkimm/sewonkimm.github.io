@@ -26,7 +26,7 @@ React를 다루며 학습한 내용을 기록합니다.
 
 - [[번역] Why you shouldn’t always use “useState”](./article/useState.md)
 - [[번역]What is React?](./article/whatIsReact.md)
-- [[번역]The Most Common React Design Patterns](./article/reactDesignPattern.md)
+- [[번역]The Most Common React Design Patterns](./article/reactDesignPattern/index.md)
 
 ### Study
 
