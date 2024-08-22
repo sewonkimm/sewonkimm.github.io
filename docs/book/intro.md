@@ -11,7 +11,7 @@ last_update:
 
 ## 🟢 읽은 책
 
-- 2024.08 - 프로그래머의 길, 멘토에게 묻다; 데이브 후버
+- 2024.08 - [프로그래머의 길, 멘토에게 묻다](./Review/apprenticeshipPatterns.md); 데이브 후버
 - 2024.04 - 익스트림 프로그래밍; Cynthia Andres, Kent Beck
 - 2024.04 - 리액트 훅을 활용한 마이크로 상태 관리; 다이시 카토
 - 2024.02 - [소프트 스킬](./Review/softSkill.md); 존 손메즈
