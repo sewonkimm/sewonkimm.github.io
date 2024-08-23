@@ -18,7 +18,6 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
   const { comments = true } = frontMatter;
   const showComments = comments && isNotList;
 
-  console.log(metadata);
   return (
     <>
       {isNotList && (
