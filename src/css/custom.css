@@ -31,9 +31,8 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .custom-link {
   color: #1c1e21;
 }
-
-.custom-link:hover {
-  color: #fc9010;
+html[data-theme="dark"] .custom-link {
+  color: #e3e3e3;
 }
 
 p {
