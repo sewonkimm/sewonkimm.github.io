@@ -3,6 +3,8 @@ import BlogPostItem from "@theme-original/BlogPostItem";
 import type BlogPostItemType from "@theme/BlogPostItem";
 import type { WrapperProps } from "@docusaurus/types";
 import { useLocation } from "@docusaurus/router";
+import { useBlogPost } from "@docusaurus/plugin-content-blog/client";
+import { DiscussionEmbed } from "disqus-react";
 
 type Props = WrapperProps<typeof BlogPostItemType>;
 
@@ -11,7 +13,12 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
   const { pathname } = location;
   const isNotList = pathname !== "/blog";
 
-  console.log(isNotList);
+  const { metadata } = useBlogPost();
+  const { frontMatter, slug, title } = metadata as any;
+  const { comments = true } = frontMatter;
+  const showComments = comments && isNotList;
+
+  console.log(metadata);
   return (
     <>
       {isNotList && (
@@ -21,7 +28,21 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
           </a>
         </div>
       )}
+
       <BlogPostItem {...props} />
+
+      <h1>{comments}</h1>
+      {showComments && (
+        <DiscussionEmbed
+          shortname="wonolog"
+          config={{
+            url: slug,
+            identifier: slug,
+            title,
+            language: "ko_KR",
+          }}
+        />
+      )}
     </>
   );
 }
