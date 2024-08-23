@@ -1,6 +1,6 @@
 ---
 title: 다국어 서비스 개발자가 마주친 7가지 어려움
-date:  2023-12-05T21:00
+date: 2023-12-05T21:00
 slug: /dev/i18n/tips
 authors: [sewonkimm]
 tags: [개발일지, 다국어, i18n]
@@ -14,8 +14,6 @@ comments: true
 # 다국어 서비스 개발의 어려움
 
 여러 언어를 동시에 지원하다 보면 생각지 못했던 어려움을 자주 마주치게 됩니다. 영어를 모국어로 사용하는 사람이 한국어를 배울 때, 가장 많은 학습 시간을 요구한다고 하는데요. 그만큼 두 언어가 차이점이 많아서 그렇다고 합니다. 다국어 시스템을 운영하다 보면, 이런 차이를 놓치기가 쉽습니다.
-
-
 
 ## 1. 복수형과 단수형 표기
 
@@ -42,13 +40,11 @@ comments: true
 다음과 같이 언어키를 작성하면 i18n 라이브러리에서 자동으로 복수형과 단수형을 구분하여 표기해줍니다.
 
 ```ts
-const file = t('file', { count: 1 }); // "1 file"
-const file2 = t('file', { count: 2 }); // "2 files"
+const file = t("file", { count: 1 }); // "1 file"
+const file2 = t("file", { count: 2 }); // "2 files"
 ```
 
-
 ## 2. 수량사 표기
-
 
 ![수량사](./quantifier.png)
 
@@ -74,9 +70,7 @@ const emailTitle = `${count} ${t('email.title_notice')}`;
 
 코드로 봤을 땐 크게 문제가 없지만, 언어의 어순이 다르고, 한국어에서는 '명'이라는 수량사가 빠졌기 때문에 매우 어색하게 느껴질 수밖에 없는데요.(휴먼 번역체의 느낌이 납니다🤖)
 
-
 수량사(數量詞)는 '개', '장'과 같은 수량의 표현입니다. 예를 들어, 영어에서는 `import 10 files`라는 표현을 한국어로는 `10개의 파일 가져오기`라고 표현할 수 있습니다.
-
 
 이때 if-else 문으로 언어마다 어순을 다르게 처리해줄 수 있는데 그렇게 되면 언어 JSON파일만 보고 문장을 파악하기 어려워지고, 새로운 언어가 추가될 때마다 if-else문을 추가해줘야 합니다. 조건이 추가될 때마다 코드가 복잡해지고, 가독성은 떨어지며, 확장성도 떨어지기 때문에 i18n의 [interpolation](https://www.i18next.com/translation-function/interpolation)을 사용하는 것이 좋습니다.
 
@@ -105,7 +99,6 @@ const emailTitle = t('email.title_notice', { COUNT: count });
 ```
 
 Interpolation을 사용하면 수량사 표기 뿐만 아니라 언어별로 어순이 달라지는 문제도 쉽게 해결할 수 있습니다.
-
 
 ## 3. 어순
 
@@ -157,7 +150,6 @@ const placeholders = placeholderObjects.map(
 
 이 문제를 해결하기 위한 방법으로는 괄호로 `이메일를(을) 입력해주세요`와 같이 표기하는 방법이 있습니다. 하지만 이 방법은 가독성을 떨어뜨리고, 한국 제품이 아닌 것 같은 느낌을 유저에게 줄 수 있습니다.
 
-
 ### Plugins
 
 저는 이 문제를 해결하기 위해서 [i18next-korean-postposition-processor](https://github.com/Perlmint/i18next-korean-postposition-processor#i18next-korean-postposition-processor)라는 플러그인을 사용했습니다. 이 플러그인은 한국어의 조사 표기를 자동으로 처리해주는 플러그인입니다.
@@ -167,13 +159,13 @@ const placeholders = placeholderObjects.map(
 ```ts
 import processor, {
   KoreanPostpositionProcessor,
-} from 'i18next-korean-postposition-processor';
+} from "i18next-korean-postposition-processor";
 
 i18next
   .use(processor)
   .use(new KoreanPostpositionProcessor())
   .init({
-    postProcess: ['korean-postposition'],
+    postProcess: ["korean-postposition"],
   });
 ```
 
@@ -188,7 +180,6 @@ i18next
 
 이외에도 유용한 [플러그인](https://www.i18next.com/principles/plugins)이 있으니 필요한 플러그인을 찾아보시는 것을 추천드립니다.
 
-
 ## 5. 문장의 길이가 달라져 UI가 깨지는 경우
 
 한국어, 일본어는 중국어와는 달리 외래어 표기가 많은 편입니다. 예를 들어, 영어로 "Classification"이라는 단어가 다른 언어에서는 아래와 같이 번역될 수 있는데요.
@@ -198,7 +189,6 @@ i18next
 
 한국어, 중국어는 단어의 길이가 짧아지는 경우가 많고, 외래어를 가타카나로 표기하는 일본어는 길어지는 경향이 있습니다. 제품 디자이너가 n개국어를 전부 고려해 화면마다 x3의 작업을 한다면 다행이지만 현실적으로 리소스 관리가 어렵고, 한가지 언어를 기준으로 디자인되는 경우가 대부분이기에 번역이 적용된 문구에 UI가 깨지는 경우가 많습니다.
 
-
 ![brokenUI](./brokenUI.png)
 
 (번역이 적용되며 문장이 길어지면 이렇게 깨져 보일 수 있습니다)
@@ -207,13 +197,11 @@ i18next
 
 ![tooltip](./tooltip.png)
 
-웹 서비스에서만 사용할 수 있겠지만 **hover하면 toopltip이 나오는 형태**로 UI가 깨지지 않고 문구를 읽을 수 있도록 하는 것도 괜찮은 방법이라고 생각합니다.
-
-
+웹 서비스에서만 사용할 수 있겠지만 **hover하면 toopltip이 나오는 형태**로 UI가 깨지지 않고 문구를 읽을 수 있도록 하는 것도 괜찮은 방법이라고 생각합니다.
 
 ## 6. 동적인 스타일 처리
 
-특정 문구를 **bold 처리**하거나 _다른 스타일_을 일부에만 적용해야하는 경우가 있습니다. 이럴 때에는 대부분 문구를 분리해서 처리하면 되지만 부득이한 이유로 분리하기 어렵다면 Trans 컴포넌트를 사용하면 됩니다.
+특정 문구를 **bold 처리**하거나 **다른 스타일**을 일부에만 적용해야하는 경우가 있습니다. 이럴 때에는 대부분 문구를 분리해서 처리하면 되지만 부득이한 이유로 분리하기 어렵다면 Trans 컴포넌트를 사용하면 됩니다.
 
 ### Trans 컴포넌트
 
@@ -269,8 +257,6 @@ function MyComponent({ person, messages }) {
 
 이렇게 Trans 컴포넌트를 사용하면 name과 count를 interpolation으로 처리하여서 한 문장 안에 다른 스타일이 적용되는 것을 어순까지 고려해 해결할 수 있습니다.
 
-
-
 ## 7. 이미지의 번역
 
 ![현지화](./localization.jpeg)
@@ -278,8 +264,6 @@ function MyComponent({ person, messages }) {
 일본 애니메이션이 한국 방송에 방영될 때에는 위의 사진처럼 현지화 작업이 진행되는 경우가 많습니다.
 
 제품 현지화에 있어서는 문자열 번역과 더불어 이미지 번역도 이슈가 되는데요. 이미지 번역은 개발자가 독자적으로 진행할 수 없고, 이미지를 만들어 넘겨주는 디자인팀과 협업해서 진행해야 합니다. 그 경우 두 팀의 리소스가 많이 소모되기 때문에 이미지에 문구가 포함되지 않는 것이 리소스 관리 측면에서는 제일 좋고, 이미지 추가를 신중히 진행하는 것이 좋습니다.
-
-
 
 글로벌 서비스를 처음 개발해보면서 겪었던 어려움은 위에서 언급한 7가지보다 많지만 가장 흔하게 볼 수 있었던 사례들만 모아보았습니다. 저는 새로운 언어 배우는 것을 좋아해서 다국어 지원 관련 업무를 몰입하여 수행할 수 있었는데요. 단순 번역이 아니라 '현지화' 관점에서 생각해 보는 것도 업무 수행에 도움이 될 것 같습니다.
 
