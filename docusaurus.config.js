@@ -93,11 +93,6 @@ const config = {
             label: "Book",
           },
           {
-            href: "https://github.com/sewonkimm",
-            label: "GitHub",
-            position: "right",
-          },
-          {
             href: "https://sewonkimm.notion.site/sewonkimm-86ac5079cdb446ae877c8da3fc3ed860",
             label: "Resume",
             position: "right",
