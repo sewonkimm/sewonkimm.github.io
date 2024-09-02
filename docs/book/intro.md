@@ -15,7 +15,7 @@ last_update:
 - 2024.08 - [프로그래머의 길, 멘토에게 묻다](./Review/apprenticeshipPatterns.md); 데이브 후버
 - 2024.04 - 익스트림 프로그래밍; Cynthia Andres, Kent Beck
 - 2024.04 - 리액트 훅을 활용한 마이크로 상태 관리; 다이시 카토
-- 2024.02 - [소프트 스킬](./Review/softSkill.md); 존 손메즈
+- 2024.02 - [소프트 스킬](./Review/softSkill.mdx); 존 손메즈
 - 2024.01 - 애자일 & 스크럼 프로젝트 관리; 이재왕
 
 <details>
@@ -30,7 +30,7 @@ last_update:
 - 2023.07 - 클린 애자일; 로버트 C. 마틴 🧡
 - 2023.07 - 자바스크립트 코딩 기법과 핵심 패턴; 스토얀 스테파노프
 - 2023.04 - [리팩터링 2판](./Review/refactoring.md); 마틴 파울러
-- 2023.01 - [코어 자바스크립트](./Review/coreJS.md); 정재남
+- 2023.01 - [코어 자바스크립트](./Review/coreJS.mdx); 정재남
 
 </details>
 
