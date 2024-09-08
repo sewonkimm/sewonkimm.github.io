@@ -71,7 +71,7 @@ const config = {
         items: [
           {
             to: "/blog",
-            label: "Blog",
+            label: "Posts",
             position: "left",
           },
           {
@@ -123,7 +123,7 @@ const config = {
                 to: "/docs/book/intro",
               },
               {
-                label: "Blog",
+                label: "Posts",
                 to: "/blog",
               },
             ],
