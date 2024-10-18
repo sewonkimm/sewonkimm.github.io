@@ -71,7 +71,7 @@ const config = {
         items: [
           {
             to: "/blog",
-            label: "Blog",
+            label: "Posts",
             position: "left",
           },
           {
@@ -118,7 +118,7 @@ const config = {
                 to: "/docs/book/intro",
               },
               {
-                label: "Blog",
+                label: "Posts",
                 to: "/blog",
               },
             ],
@@ -126,6 +126,14 @@ const config = {
           {
             title: "More",
             items: [
+              {
+                label: "모든 Posts 태그 보기",
+                href: "https://sewonkimm-github-io.vercel.app/blog/tags",
+              },
+              {
+                label: "모든 Docs 태그 보기",
+                href: "https://sewonkimm-github-io.vercel.app/docs/tags",
+              },
               {
                 label: "GitHub",
                 href: "https://github.com/sewonkimm",
