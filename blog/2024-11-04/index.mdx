@@ -156,7 +156,8 @@ graph LR;
 앞서 소개한 방식들 중 어떤 방식을 선택하더라도 CSS가 파싱되어 렌더트리가 생성되는데요.
 CSS를 파싱하는 동안에는 JS의 실행이 차단되기 때문에 CSS 적용 방식이 렌더링 성능에 영향을 미칩니다.
 CSS-in-JS는 이런 문제를 해결해주는데요.
-JS코드 내에서 CSS를 작성하고, 관리하는 방식으로 Styled components, Emotion 등이 있습니다.
+CSS모델을 문서레벨이 아니라 컴포넌트 레벨로 추상화하고, 중복 및 의존성을 줄여 유지보수를 쉽게 합니다.
+JS코드 내에서 CSS를 작성하고 관리하는 방식으로, Styled components, Emotion 등이 있습니다.
 
 <ImageLayout src={cssInJs} description="https://2024.stateofcss.com" />
 
@@ -179,6 +180,9 @@ const Button = styled.button`
 
 #### 장점
 
+- gloabl namespace를 신경쓸 필요 없음: CSS로 컴파일할 때, 고유이름 생성되기 때문에 클래스 이름 충돌 문제가 없습니다.
+- JS와 CSS 상태 공유
+- CSS 로드 우선순위 이슈가 없음
 - 동적 스타일링: css 문법을 거의 그대로 사용하면서도 스타일링을 동적으로 처리할 수 있습니다. 덕분에 테마 적용도 쉽습니다.
 - SSR(서버사이드 렌더링) 최적화: 서버사이드 렌더링을 통해 초기 HTML에 필요한 스타일만 삽입해 사용자에게 빠르게 보여줄 수 있습니다.
   초기 로딩 속도를 향상하는 데 이점이 있습니다.
