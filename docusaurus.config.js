@@ -6,7 +6,7 @@ const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "WONOLOG.",
+  title: "Insight Nest",
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -62,11 +62,16 @@ const config = {
     ({
       navbar: {
         hideOnScroll: true,
-        title: "WONOLOG.",
+        title: "Insight Nest",
         logo: {
-          src: "title",
+          alt: "Insight Nest Logo",
+          src: "img/logo.png",
+          srcDark: "img/logo.png",
           href: "/blog",
           target: "_self",
+          width: 32,
+          height: 32,
+          className: "custom-navbar-logo-class",
         },
         items: [
           {
@@ -156,7 +161,7 @@ const config = {
       algolia: {
         appId: "BV1E8YX7IZ",
         apiKey: "b81a3e465983bf68e319448fa3d38284",
-        indexName: "wonolog",
+        indexName: "Insight Nest",
         contextualSearch: true,
       },
       mermaid: {

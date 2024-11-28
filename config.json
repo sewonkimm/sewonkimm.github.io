@@ -1,5 +1,5 @@
 {
-  "index_name": "wonolog",
+  "index_name": "Insight Nest",
   "start_urls": ["https://sewonkimm-github-io.vercel.app/"],
   "sitemap_urls": ["https://sewonkimm-github-io.vercel.app/sitemap.xml"],
   "sitemap_alternate_links": true,
