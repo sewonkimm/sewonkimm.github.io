@@ -33,7 +33,7 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
       <h1>{comments}</h1>
       {showComments && (
         <DiscussionEmbed
-          shortname="wonolog"
+          shortname="Insight Nest"
           config={{
             url: slug,
             identifier: slug,
