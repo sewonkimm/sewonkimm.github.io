@@ -64,9 +64,14 @@ const config = {
         hideOnScroll: true,
         title: "Insight Nest",
         logo: {
-          src: "title",
+          alt: "Insight Nest Logo",
+          src: "img/logo.png",
+          srcDark: "img/logo.png",
           href: "/blog",
           target: "_self",
+          width: 32,
+          height: 32,
+          className: "custom-navbar-logo-class",
         },
         items: [
           {
