@@ -39,7 +39,13 @@ export default function About() {
               </p>
             </div>
           </div>
-          <button>커리어 ChangeLog 보러가기</button>
+          <button
+            onClick={() => {
+              window.open(`/careerChangelog`, "_self");
+            }}
+          >
+            커리어 체인지로그 보러가기
+          </button>
         </div>
 
         {/* Fun Facts or Personal Interests */}
