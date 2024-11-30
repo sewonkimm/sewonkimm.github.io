@@ -74,7 +74,11 @@ const config = {
           className: "custom-navbar-logo-class",
         },
         items: [
-          { to: "/about", label: "About", position: "left" },
+          {
+            to: "https://sewonkimm-github-io.vercel.app/about",
+            label: "About",
+            position: "left",
+          },
           {
             to: "/blog",
             label: "Posts",
@@ -108,7 +112,7 @@ const config = {
             items: [
               {
                 label: "About",
-                to: "/about",
+                to: "https://sewonkimm-github-io.vercel.app/about",
               },
             ],
           },
