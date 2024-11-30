@@ -75,6 +75,11 @@ const config = {
         },
         items: [
           {
+            to: "https://sewonkimm-github-io.vercel.app/about",
+            label: "About",
+            position: "left",
+          },
+          {
             to: "/blog",
             label: "Posts",
             position: "left",
@@ -97,21 +102,20 @@ const config = {
             sidebarId: "bookSidebar",
             label: "Book",
           },
-          {
-            href: "https://github.com/sewonkimm",
-            label: "GitHub",
-            position: "right",
-          },
-          {
-            href: "https://sewonkimm.notion.site/sewonkimm-86ac5079cdb446ae877c8da3fc3ed860",
-            label: "Resume",
-            position: "right",
-          },
         ],
       },
       footer: {
         style: "dark",
         links: [
+          {
+            title: "Info",
+            items: [
+              {
+                label: "About",
+                to: "https://sewonkimm-github-io.vercel.app/about",
+              },
+            ],
+          },
           {
             title: "Menu",
             items: [
