@@ -74,6 +74,7 @@ const config = {
           className: "custom-navbar-logo-class",
         },
         items: [
+          { to: "/about", label: "About", position: "left" },
           {
             to: "/blog",
             label: "Posts",
@@ -97,16 +98,20 @@ const config = {
             sidebarId: "bookSidebar",
             label: "Book",
           },
-          {
-            href: "https://sewonkimm.notion.site/sewonkimm-86ac5079cdb446ae877c8da3fc3ed860",
-            label: "Resume",
-            position: "right",
-          },
         ],
       },
       footer: {
         style: "dark",
         links: [
+          {
+            title: "Info",
+            items: [
+              {
+                label: "About",
+                to: "/about",
+              },
+            ],
+          },
           {
             title: "Menu",
             items: [
