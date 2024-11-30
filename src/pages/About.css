@@ -16,22 +16,31 @@ b {
   color: var(--ifm-color-primary);
 }
 
+.introSection {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
 img.profile {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
 }
 
 button {
   align-self: flex-end;
   padding: 10px 20px;
   border: 2px solid var(--ifm-color-primary);
-  border-radius: 5px;
+  border-radius: 12px;
   background-color: white;
   cursor: pointer;
 }
 button:hover {
-  background-color: rgb(241, 241, 241);
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+li {
+  line-height: 32px;
 }
 
 /** In mobile view, reduce the padding */
