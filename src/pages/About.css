@@ -48,4 +48,10 @@ li {
   .root {
     padding: 30px 30px;
   }
+
+  .introSection {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
 }
