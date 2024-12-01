@@ -125,7 +125,7 @@ const config = {
               },
               {
                 label: "React",
-                to: "/docs/react/intro",
+                to: "/docs/react/react",
               },
               {
                 label: "Book",
