@@ -75,7 +75,7 @@ const config = {
         },
         items: [
           {
-            to: "https://sewonkimm-github-io.vercel.app/about",
+            to: "/About",
             label: "About",
             position: "left",
           },
@@ -112,7 +112,7 @@ const config = {
             items: [
               {
                 label: "About",
-                to: "https://sewonkimm-github-io.vercel.app/about",
+                to: "/About",
               },
             ],
           },
