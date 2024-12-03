@@ -7,7 +7,7 @@ export default function About() {
   const currentYear = new Date().getFullYear();
   return (
     <Layout title="About" description="Introduce">
-      <div className="root">
+      <div className="AboutRoot">
         {/* About me */}
         <h1>안녕하세요👋</h1>
         <div className="container">
