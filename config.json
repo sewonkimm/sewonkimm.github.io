@@ -31,5 +31,8 @@
       "url_without_anchor",
       "type"
     ]
+  },
+  "future": {
+    "experimental_faster": true
   }
 }
