@@ -7,6 +7,7 @@ const darkTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Insight Nest",
+  trailingSlash: false,
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -171,6 +172,12 @@ const config = {
       mermaid: {
         theme: { light: "neutral", dark: "forest" },
       },
+      metadata: [
+        {
+          name: "google-site-verification",
+          content: "hCg4d07seg-vSR7kdrATeTmYsEhQJLK-7odzXLA40x8",
+        },
+      ],
     }),
 };
 
