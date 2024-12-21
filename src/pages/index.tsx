@@ -10,10 +10,6 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary")}>
       <div className="container">
         <h1>{siteConfig.title}</h1>
-
-        <Link className="button button--secondary button--lg" to="./about">
-          About me
-        </Link>
       </div>
     </header>
   );
