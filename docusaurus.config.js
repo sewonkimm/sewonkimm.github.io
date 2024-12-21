@@ -7,7 +7,6 @@ const darkTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Insight Nest",
-  trailingSlash: false,
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
