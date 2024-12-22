@@ -44,6 +44,10 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.1",
-    "@docusaurus/types": "3.5.1"
+    "@docusaurus/types": "3.5.1",
+    "@tsconfig/docusaurus": "^2.0.3",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2"
   }
 }

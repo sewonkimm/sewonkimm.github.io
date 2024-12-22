@@ -1,11 +1,10 @@
-// Note: type annotations allow type checking and IDEs autocompletion
+import type { Config } from "@docusaurus/types";
+import { themes } from "prism-react-renderer";
 
-const { themes } = require("prism-react-renderer");
 const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
   title: "Insight Nest",
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
@@ -26,7 +25,7 @@ const config = {
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
@@ -53,13 +52,13 @@ const config = {
           ignorePatterns: ["/tags/**"],
           filename: "sitemap.xml",
         },
-      }),
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       navbar: {
         hideOnScroll: true,
         title: "Insight Nest",
@@ -171,7 +170,7 @@ const config = {
       mermaid: {
         theme: { light: "neutral", dark: "forest" },
       },
-    }),
+    },
 };
 
 module.exports = config;
