@@ -12,6 +12,10 @@
   flex-direction: column;
 }
 
+.AboutRoot .container ol li {
+  margin-top: 8px;
+}
+
 b {
   color: var(--ifm-color-primary);
 }
