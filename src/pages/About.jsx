@@ -9,7 +9,7 @@ export default function About() {
     <Layout title="About" description="Introduce">
       <div className="AboutRoot">
         {/* About me */}
-        <h1>안녕하세요👋</h1>
+        <h1>안녕하세요👋 소프트웨어 개발자 김세원입니다.</h1>
         <div className="container">
           <div className="introSection">
             <img
@@ -21,8 +21,8 @@ export default function About() {
             />
             <div>
               <p>
-                제 이름은 김세원입니다. 저는 현재 뉴로클에서 프런트엔드
-                엔지니어로 {currentYear - 2021}년째 일하고 있습니다.
+                저는 현재 뉴로클에서 프런트엔드 엔지니어로 {currentYear - 2021}
+                년째 일하고 있습니다.
               </p>
               <p>
                 기술로 <b>사람들을 도와주고 싶어요</b>. 특정 직군으로 저를 'OO
@@ -49,28 +49,26 @@ export default function About() {
         </div>
 
         {/* Fun Facts or Personal Interests */}
-        <h2>More info:</h2>
         <div className="container">
-          <li>
-            MBTI보다 강점 혁명을 좋아합니다. 제 강점은 지적 사고, 배움, 수집,
-            집중, 발상이에요!
-          </li>
-          <li>
-            장르 불문하고 책을 좋아합니다. 책과 관련된{" "}
+          <h2>More info:</h2>
+          <ol>
+            <li>제 강점은 무엇일까요?</li>
+            MBTI보다 강점 혁명을 좋아합니다! 지적 사고, 배움, 수집, 집중, 발상이
+            제 대표적인 강점이에요😆
+            <li>취미는 독서</li>
+            다양한 장르를 읽으며, 별도의{" "}
             <a href="https://blog.naver.com/sewon_library/223323496616">
-              블로그
+              독서 블로그
             </a>
-            는 따로 운영하고 있습니다.
-          </li>
-          <li>
-            달리기를 꾸준히 하고 있습니다. 목표는 풀 마라톤 달리기에요. 최대
-            기록은 하프 마라톤 달리기입니다. 둘레길 걷기, 등산도 즐겨합니다.
-          </li>
-          <li>
-            해외 생활에 관심이 많습니다. 대만에서 교환 학생 생활을 했어요.
-            您好！歡迎光臨來到我的部落格🙂
-          </li>
-          <li>미니멀리스트입니다. 가볍고, 실용적인 게 좋아요.</li>
+            도 운영하고 있어요. 책에서 얻은 지혜를 삶에 녹이는 걸 좋아합니다.
+            <li>건강한 신체에 건강한 정신이 깃든다!</li>
+            달리기를 꾸준히 하고 있습니다. 하프 마라톤을 완주한 경험이 있고,
+            목표는 풀 마라톤 도전이에요. 둘레길 걷기와 등산도 좋아합니다🏃‍♀️
+            <li>會說中文的韓國工程師很少見，對吧？</li>
+            대만에서 교환 학생 생활을 했어요. 해외 생활에도 관심이 많습니다🌏
+            <li>미니멀리스트입니다.</li>
+            실용적이고 가벼운 삶을 추구합니다.
+          </ol>
         </div>
       </div>
     </Layout>
