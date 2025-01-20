@@ -4,6 +4,15 @@ description: 저의 커리어를 릴리즈 노트 형태로 작성합니다.
 hide_table_of_contents: false
 ---
 
+## v1.1.4
+> 2025.01
+<br />
+
+### Added
+- [Neuro-T 4.3](https://www.aitimes.kr/news/articleView.html?idxno=33605) 출시
+- 한겨레 Technical Writing과 기술 번역 21기 수강 시작
+
+
 ## v1.1.3
 > 2024.09
 <br />
