@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 last_update:
-  date: 1/20/2025
+  date: 1/31/2025
   author: sewonkimm
 ---
 
@@ -15,7 +15,7 @@ last_update:
 
 <details>
 <summary>2025</summary>
-1. 2024.01 - 함께 자라기; 김창준
+1. 2025.01 - 함께 자라기; 김창준
 </details>
 
 <details>
