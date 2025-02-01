@@ -15,7 +15,7 @@ last_update:
 
 <details>
 <summary>2025</summary>
-1. 2025.01 - 함께 자라기; 김창준
+1. 2025.01 - [함께 자라기](./Review/growupTogether.mdx); 김창준
 </details>
 
 <details>
