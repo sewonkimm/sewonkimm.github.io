@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 last_update:
-  date: 1/31/2025
+  date: 2/18/2025
   author: sewonkimm
 ---
 
@@ -71,6 +71,8 @@ last_update:
 
 - 이공계 X의 글쓰기책; 유키 히로시
 - 구글 엔지니어는 이렇게 일한다
+- 소프트웨어 장인; 산드로 만쿠소
+- 업무 시각화; 도미니카 드그란디스
 
 ## 🔴 읽고 싶은 책
 
