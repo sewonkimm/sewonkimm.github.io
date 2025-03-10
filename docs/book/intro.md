@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 last_update:
-  date: 2/24/2025
+  date: 3/10/2025
   author: sewonkimm
 ---
 
@@ -15,8 +15,9 @@ last_update:
 
 <details>
 <summary>2025</summary>
-1. 2025.01 - 일의 감각; 조수용
-2. 2025.01 - [함께 자라기](./Review/growupTogether.mdx); 김창준 🧡
+1. 2025.02 - 업무 시각화; 도미니카 드그란디스
+2. 2025.01 - 일의 감각; 조수용
+3. 2025.01 - [함께 자라기](./Review/growupTogether.mdx); 김창준 🧡
 </details>
 
 <details>
@@ -74,7 +75,7 @@ last_update:
 - 이공계 X의 글쓰기책; 유키 히로시
 - 구글 엔지니어는 이렇게 일한다
 - 소프트웨어 장인; 산드로 만쿠소
-- 업무 시각화; 도미니카 드그란디스
+
 
 ## 🔴 읽고 싶은 책
 
