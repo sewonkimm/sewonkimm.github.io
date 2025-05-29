@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Insight Nest",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Insight Nest Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.About": {
+    "message": "About",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Posts": {
+    "message": "Posts",
+    "description": "Navbar item with label Posts"
+  },
+  "item.label.Wiki": {
+    "message": "Wiki",
+    "description": "Navbar item with label Wiki"
+  },
+  "item.label.React": {
+    "message": "React",
+    "description": "Navbar item with label React"
+  },
+  "item.label.Book": {
+    "message": "Book",
+    "description": "Navbar item with label Book"
+  }
+}

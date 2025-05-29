@@ -15,7 +15,17 @@ const config: Config = {
   projectName: "sewonkimm.github.io", // Usually your repo name.
   i18n: {
     defaultLocale: "ko",
-    locales: ["ko"],
+    locales: ["ko", "en"],
+    localeConfigs: {
+      ko: {
+        label: "한국어",
+        direction: "ltr",
+      },
+      en: {
+        label: "English",
+        direction: "ltr",
+      },
+    },
   },
   themes: ["@docusaurus/theme-live-codeblock", "@docusaurus/theme-mermaid"],
   markdown: {
@@ -100,6 +110,10 @@ const config: Config = {
             position: "left",
             sidebarId: "bookSidebar",
             label: "Book",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
           },
         ],
       },

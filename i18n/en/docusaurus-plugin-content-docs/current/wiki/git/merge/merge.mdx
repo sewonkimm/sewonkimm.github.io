@@ -1,0 +1,53 @@
+---
+sidebar_position: 3
+tags: ["git"]
+last_update:
+  date: 6/18/2024
+  author: sewonkimm
+---
+
+import Table from './Table';
+
+# PR merge하기
+
+:::note
+[github docs - About pull request merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges)
+:::
+
+세가지 방법으로 PR을 merge할 수 있다.
+
+<Table />
+
+## Squash merge
+
+회사에서 개발할 때 주로 Squash merge를 사용해서 PR을 merge한다.
+
+### 주의사항
+
+:::warning
+PR 머지 후에도 해당 브랜치를 계속 사용해야 하는 경우에는 Squash merge를 사용하지 말자!
+:::
+
+Github은 PR을 생성 시, Head 브랜치와 Base 브랜치가 공통으로 가지고 있는 가장 최근 커밋을 식별한다. 이를 `공통 조상 커밋`이라고 한다.
+
+squash and merge를 하면, 공통 조상 커밋 이후 Head 브랜치의 모든 변경사항을 포함한 커밋을 Base 브랜치의 공통 조상 커밋 이후 커밋으로 squash하여 새로운 커밋을 생성한다. 이 커밋은 Base 브랜치에는 있지만 Head 브랜치에는 없으므로 두 브랜치의 공통 조상 커밋은 Squash 전과 변함 없다. 이 상태에서 Head 브랜치에서 또 다른 PR을 생성하면, 공통 조상 커밋 이후의 Head 브랜치 변경사항을 잡기 때문에 이전 PR에서 작업한 커밋이 또 Changes에 포함된다.
+
+장기적으로 작업하는 브랜치에서 conflict가 난다면 반복적으로 동일한 conflict를 해결해야 하므로 비효율적이다.
+
+## Rebase and merge
+
+### git rebase와는 다르다
+
+Github에서의 rebase와 git rebase는 동일하게 동작하지 않는다. Github에서 rebase하게 되면 기존 Base 브랜치의 커밋에도 새 커밋 SHA가 부여된다.
+
+### Rebase and merge가 안되는 경우
+
+회사에서 개발중인 프로젝트의 브랜치 전략은 git flow 전략이다. 릴리즈용 master 브랜치가 있고, 그 브랜치에서 develop 브랜치를 만들어 작업한다. 각 개발자는 develop 브랜치를 기준으로 feature 브랜치를 만들어 작업하는데 한 버전을 릴리즈 한 후 develop 브랜치를 master에 붙일 때, 커밋 히스토리를 모두 기록하기 위해 Rebase and merge 방식으로 PR을 merge해왔다.
+
+몇 백개의 커밋이 있는 PR을 Rebase and merge하려고 하면 항상 conflict가 발생하는데 master에서는 develop 브랜치가 생성된 시점 이후로 작업된 커밋이 없으니 상식적으로 불가능한 일이라 Rebase and merge 방식으로 PR을 병합하려고 할 때 conflict이 발생하는 이유를 찾아보았다.
+
+1. 두 브랜치가 같은 파일의 동일한 부분을 수정한 경우
+2. 두 브랜치가 같은 내용을 서로 다른 방식으로 변경한 경우
+3. 파일을 삭제하거나 수정한 경우
+
+내가 직면한 에러는 이 세가지 경우에 포함되지는 않지만 중간에 master를 develop에 머지한 흔적이 있었다. 정확한 이유는 모르겠으나 conflict난 부분을 다루는 게 까다로워 merge commit을 생성하는 방식으로 PR을 merge했다.

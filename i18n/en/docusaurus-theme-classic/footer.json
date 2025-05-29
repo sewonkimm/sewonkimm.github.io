@@ -1,0 +1,50 @@
+{
+  "link.title.Info": {
+    "message": "Info",
+    "description": "The title of the footer links column with title=Info in the footer"
+  },
+  "link.title.Menu": {
+    "message": "Menu",
+    "description": "The title of the footer links column with title=Menu in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.About": {
+    "message": "About",
+    "description": "The label of footer link with label=About linking to /About"
+  },
+  "link.item.label.Wiki": {
+    "message": "Wiki",
+    "description": "The label of footer link with label=Wiki linking to /docs/wiki/intro"
+  },
+  "link.item.label.React": {
+    "message": "React",
+    "description": "The label of footer link with label=React linking to /docs/react/react"
+  },
+  "link.item.label.Book": {
+    "message": "Book",
+    "description": "The label of footer link with label=Book linking to /docs/book/intro"
+  },
+  "link.item.label.Posts": {
+    "message": "Posts",
+    "description": "The label of footer link with label=Posts linking to /blog"
+  },
+  "link.item.label.모든 Posts 태그 보기": {
+    "message": "모든 Posts 태그 보기",
+    "description": "The label of footer link with label=모든 Posts 태그 보기 linking to https://sewonkimm-github-io.vercel.app/blog/tags"
+  },
+  "link.item.label.모든 Docs 태그 보기": {
+    "message": "모든 Docs 태그 보기",
+    "description": "The label of footer link with label=모든 Docs 태그 보기 linking to https://sewonkimm-github-io.vercel.app/docs/tags"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/sewonkimm"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 sewonkimm, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
