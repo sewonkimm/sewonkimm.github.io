@@ -5,7 +5,7 @@ const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
 const config: Config = {
-  title: "Insight Nest",
+  title: "From Code to Docs",
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -71,9 +71,9 @@ const config: Config = {
     {
       navbar: {
         hideOnScroll: true,
-        title: "Insight Nest",
+        title: "From Code to Docs",
         logo: {
-          alt: "Insight Nest Logo",
+          alt: "Title logo",
           src: "img/logo.png",
           srcDark: "img/logo.png",
           href: "/blog",
@@ -178,7 +178,7 @@ const config: Config = {
       algolia: {
         appId: "BV1E8YX7IZ",
         apiKey: "b81a3e465983bf68e319448fa3d38284",
-        indexName: "Insight Nest",
+        indexName: "From Code to Docs",
         contextualSearch: true,
       },
       mermaid: {
