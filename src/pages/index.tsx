@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import "./index.css";
 
 import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 // 정적으로 생성된 블로그 포스트 목록 가져오기
 import blogPostList from "@generated/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
@@ -36,15 +37,19 @@ function HomePageContent() {
     <main>
       <div className="container content">
         <p>
-          저는 프런트엔드 개발자로 3년간 제품을 만들다, 이제는 그 기술을 더 많은
-          사람들에게 잘 전달하기 위해 문서를 작성하고 있습니다.
+          <Translate>
+            저는 프런트엔드 개발자로 3년간 제품을 만들다, 이제는 그 기술을 더
+            많은 사람들에게 잘 전달하기 위해 문서를 작성하고 있습니다.
+          </Translate>
           <br />
-          <b>{siteConfig.title}</b>는 제 커리어의 여정이자, 기술과 사람을
-          연결하는 과정의 기록입니다.
+          <b>{siteConfig.title}</b>
+          <Translate>
+            는 제 커리어의 여정이자, 기술과 사람을 연결하는 과정의 기록입니다.
+          </Translate>
         </p>
 
         <Link className="button button--secondary" to="/about">
-          💁🏻‍♀️ 소개 더 보기
+          <Translate>💁🏻‍♀️ 소개 더 보기</Translate>
         </Link>
       </div>
 
@@ -52,7 +57,9 @@ function HomePageContent() {
 
       <section className="latestPosts">
         <div className="container">
-          <h2 className="text--center">📝최신 글</h2>
+          <h2 className="text--center">
+            <Translate>📝최신 글</Translate>
+          </h2>
           <ul>
             {recentPosts.map((post) => (
               <li
@@ -71,7 +78,7 @@ function HomePageContent() {
         </div>
 
         <Link className="button button--secondary" to="/blog">
-          더 많은 글 보기
+          <Translate>🗂️ 더 많은 글 보기</Translate>
         </Link>
       </section>
     </main>
