@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Insight Nest",
+    "message": "From Code to Docs",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Insight Nest Logo",
+    "message": "Title Logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.About": {
