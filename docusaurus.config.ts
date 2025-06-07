@@ -6,6 +6,7 @@ const darkTheme = themes.dracula;
 
 const config: Config = {
   title: "From Code to Docs",
+  tagline: "Writing documentations with a developer’s perspective",
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
