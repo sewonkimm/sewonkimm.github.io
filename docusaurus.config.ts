@@ -28,7 +28,23 @@ const config: Config = {
       },
     },
   },
-  themes: ["@docusaurus/theme-live-codeblock", "@docusaurus/theme-mermaid"],
+  themes: [
+    "@docusaurus/theme-live-codeblock",
+    "@docusaurus/theme-mermaid",
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        language: ["en", "ko"],
+
+        // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
+        // forceIgnoreNoIndex: true,
+      },
+    ],
+  ],
   markdown: {
     mermaid: true,
   },
@@ -175,12 +191,6 @@ const config: Config = {
         additionalLanguages: ["bash", "diff", "json"],
         theme: lightTheme,
         darkTheme: darkTheme,
-      },
-      algolia: {
-        appId: "BV1E8YX7IZ",
-        apiKey: "b81a3e465983bf68e319448fa3d38284",
-        indexName: "From Code to Docs",
-        contextualSearch: true,
       },
       mermaid: {
         theme: { light: "neutral", dark: "forest" },
