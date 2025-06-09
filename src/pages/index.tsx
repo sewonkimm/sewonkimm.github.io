@@ -48,7 +48,7 @@ function HomePageContent() {
           </Translate>
         </p>
 
-        <Link className="button button--secondary" to="/about">
+        <Link className="button button--secondary" to="/About">
           <Translate>💁🏻‍♀️ 소개 더 보기</Translate>
         </Link>
       </div>
