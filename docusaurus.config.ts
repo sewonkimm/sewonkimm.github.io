@@ -77,7 +77,7 @@ const config: Config = {
           alt: "Title logo",
           src: "img/logo.png",
           srcDark: "img/logo.png",
-          href: "/blog",
+          href: "/",
           target: "_self",
           width: 32,
           height: 32,
