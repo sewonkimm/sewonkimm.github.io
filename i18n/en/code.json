@@ -463,5 +463,17 @@
   },
   "📝최신 글": {
     "message": "📝 Latest posts"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results outside \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results within \"{context}\""
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Everywhere"
   }
 }
