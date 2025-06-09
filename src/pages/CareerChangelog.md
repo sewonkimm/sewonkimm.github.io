@@ -12,7 +12,7 @@ hide_table_of_contents: false
 - 테크니컬 커뮤니케이터 직무 시작
 
 ### Deprecated
-- [글또 10기 활동 종료](/blog/writing/geultto/10/review) 
+- 글또 10기 활동 종료
 - 한겨레 Technical Writing과 기술 번역 21기 수료
 
 ---
