@@ -4,6 +4,20 @@ description: 저의 커리어를 릴리즈 노트 형태로 작성합니다.
 hide_table_of_contents: false
 ---
 
+## v2.0.0
+> 2025.04
+<br />
+
+### Added
+- 테크니컬 커뮤니케이터 직무 시작
+
+### Deprecated
+- 글또 10기 활동 종료
+- 한겨레 Technical Writing과 기술 번역 21기 수료
+
+---
+
+
 ## v1.1.4
 > 2025.01
 <br />

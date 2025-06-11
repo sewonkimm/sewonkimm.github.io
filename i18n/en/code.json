@@ -448,5 +448,32 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "저는 프런트엔드 개발자로 3년간 제품을 만들다, 이제는 그 기술을 더 많은 사람들에게 잘 전달하기 위해 문서를 작성하고 있습니다.": {
+    "message": "After 3 years of building products as a frontend developer, I now focus on writing documentation to better communicate technology to more people."
+  },
+  "는 제 커리어의 여정이자, 기술과 사람을 연결하는 과정의 기록입니다.": {
+    "message": "captures my journey through tech and communication, bridging code and people."
+  },
+  "💁🏻‍♀️ 소개 더 보기": {
+    "message": "💁🏻‍♀️ See full introduction"
+  },
+  "🗂️ 더 많은 글 보기": {
+    "message": "🗂️ Read more posts"
+  },
+  "📝최신 글": {
+    "message": "📝 Latest posts"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results outside \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results within \"{context}\""
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Everywhere"
   }
 }

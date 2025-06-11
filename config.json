@@ -1,5 +1,5 @@
 {
-  "index_name": "Insight Nest",
+  "index_name": "From Code to Docs",
   "start_urls": ["https://sewonkimm-github-io.vercel.app/"],
   "sitemap_urls": ["https://sewonkimm-github-io.vercel.app/sitemap.xml"],
   "sitemap_alternate_links": true,
