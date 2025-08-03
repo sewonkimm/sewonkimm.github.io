@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: master # The branch where the content will be stored
+  branch: post # The branch where the content will be stored
   repo: sewonkimm/sewonkimm.github.io
 
 # These lines should *not* be indented
