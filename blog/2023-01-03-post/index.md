@@ -2,7 +2,7 @@
 title: 2022 year in review
 date:  2023-01-03T00:35
 slug: /review/2022
-authors: [sewonkimm]
+authors: [sewonkimm_frontend]
 tags: [회고]
 comments: true
 ---

@@ -1,8 +1,17 @@
-sewonkimm:
+sewonkimm_frontend:
   name: Sewon Kim
-  title: SW Engineer @ Neurocle
+  title: 소프트웨어 엔지니어 @Neurocle
   url: https://github.com/sewonkimm
-  image_url: /img/profile.jpg
+  image_url: /img/profile_frontend.webp
+  socials:
+    x: sewonkimmm
+    github: sewonkimm
+
+sewonkimm_technicalWriter:
+  name: Sewon Kim
+  title: 테크니컬 라이터 @Neurocle
+  url: https://github.com/sewonkimm
+  image_url: /img/profile_technicalWriter.webp
   socials:
     x: sewonkimmm
     github: sewonkimm

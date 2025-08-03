@@ -2,7 +2,7 @@
 title: 끝날 때까지 끝난 게 아니다
 date: 2024-03-15T01:50
 slug: /article/90percent
-authors: [sewonkimm]
+authors: [sewonkimm_frontend]
 tags: [번역]
 comments: true
 ---
