@@ -2,7 +2,7 @@
 title: 글쓰기 연습
 date:  2024-01-22T20:30
 slug: /writing/geultto/9/seminar
-authors: [sewonkimm]
+authors: [sewonkimm_frontend]
 tags: [글또, 회고, 글쓰기]
 comments: true
 ---

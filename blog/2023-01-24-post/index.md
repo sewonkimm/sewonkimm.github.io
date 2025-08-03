@@ -2,7 +2,7 @@
 title: 2021 오픈소스 컨트리뷰션 참가로 배운 것
 date: 2023-01-24T23:30
 slug: /dev/crackingvue
-authors: [sewonkimm]
+authors: [sewonkimm_frontend]
 tags: [회고]
 comments: true
 ---

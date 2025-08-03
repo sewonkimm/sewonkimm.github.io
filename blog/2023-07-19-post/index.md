@@ -2,7 +2,7 @@
 title: 첫 직장, 스타트업에서의 2년
 date:  2023-07-26T23:50
 slug: /review/neurocle
-authors: [sewonkimm]
+authors: [sewonkimm_frontend]
 tags: [회고]
 comments: true
 ---
