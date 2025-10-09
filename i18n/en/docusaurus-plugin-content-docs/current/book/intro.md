@@ -1,26 +1,24 @@
 ---
 sidebar_position: 1
 last_update:
-  date: 3/10/2025
+  date: 10/10/2025
   author: sewonkimm
 ---
 
 # Book list
 
-> 어떤 것을 알고싶을 때, 관련 책을 최소 10권 이상 읽으면 어느 정도 알게 된다고 생각합니다. 그래서 독서 목록을 만들어 꾸준히 읽어나갑니다.
+> When I want to learn about something, I believe reading at least 10 books on the subject gives me a solid grasp of it. So I create reading lists and manage steadily.
 
-## 🟢 읽은 책
+## 🟢 Read
 
+- 2025.08 - 결국 문제를 뚫고 성장하는 사람; 서현직 🧡
+- 2025.08 - 이공계 X의 글쓰기책; 유키 히로시
+- 2025.06 - 소스코드: 더 비기닝; 빌 게이츠
 - 2025.03 - 데이터 스토리; 낸시 두아르테
 - 2025.03 - 나의 첫 커리어 브랜딩; 백종화
-
-
-<details>
-<summary>2025</summary>
-1. 2025.02 - 업무 시각화; 도미니카 드그란디스
-2. 2025.01 - 일의 감각; 조수용
-3. 2025.01 - [함께 자라기](./Review/growupTogether.mdx); 김창준 🧡
-</details>
+- 2025.02 - 업무 시각화; 도미니카 드그란디스
+- 2025.01 - 일의 감각; 조수용
+- 2025.01 - [함께 자라기](./Review/growupTogether.mdx); 김창준 🧡
 
 <details>
 <summary>2024(9)</summary>
@@ -72,14 +70,12 @@ last_update:
 
 </details>
 
-## 🟡 읽고 있는 책
-
-- 이공계 X의 글쓰기책; 유키 히로시
-- 구글 엔지니어는 이렇게 일한다
-- 소프트웨어 장인; 산드로 만쿠소
+## 🟡 Reading
 
 
-## 🔴 읽고 싶은 책
+
+
+## 🔴 Wish to Read
 
 ### Technical Writing
 
@@ -126,8 +122,10 @@ last_update:
 - 소프트웨어 엔지니어링 생산성 돌아보기; 케이틀린 샤도우스키
 - 필독! 개발자 온보딩 가이드; 크리스 리코미니
 
-## ⚫️ 그만 읽은 책
+## ⚫️ Gave Up
 
+- 구글 엔지니어는 이렇게 일한다
+- 소프트웨어 장인; 산드로 만쿠소
 - 실리콘 밸리의 목소리; 벤 타노프, 모이라 와이글
 - 새로운 CSS 레이아웃; 레이철 앤드루
 - 러닝 타입스크립트; 조시 골드버그
