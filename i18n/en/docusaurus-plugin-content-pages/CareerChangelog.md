@@ -1,7 +1,30 @@
 ---
 title: Career Changelog
-description: 저의 커리어를 릴리즈 노트 형태로 작성합니다. 
+description: Summarizing my career in release notes format. 
 hide_table_of_contents: false
+---
+
+## v2.0.1
+> 2025.09
+<br />
+
+### Added
+- Released [Neuro-T/R 4.5](https://www.hellot.net/news/article.html?no=105521) (Published web manual)
+- Authored web manual for Neuro-T Engine Alpha version
+- Authored web manual for AutoLink
+
+
+## v2.0.0
+> 2025.04
+<br />
+
+### Added
+- Started role as a Technical Communicator
+
+### Deprecated
+- Completed 글또 10th activity
+- Completed 한겨레 21st Technical Writing and Technical Translation course
+
 ---
 
 ## v1.1.4
@@ -9,8 +32,8 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 4.3](https://www.aitimes.kr/news/articleView.html?idxno=33605) 출시
-- 한겨레 Technical Writing과 기술 번역 21기 수강 시작
+- Released [Neuro-T 4.3](https://www.aitimes.kr/news/articleView.html?idxno=33605) 
+- Enrolled in 한겨레 21st Technical Writing and Technical Translation course
 
 
 ## v1.1.3
@@ -18,11 +41,11 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 4.2](https://www.aitimes.com/news/articleView.html?idxno=160804) 출시
-- [글또 10기 활동 시작](/blog/writing/geultto/10/preview)
+- Released [Neuro-T 4.2](https://www.aitimes.com/news/articleView.html?idxno=160804)
+- [Started activity in 글또 10th](/blog/writing/geultto/10/preview)
 
 ### Improved
-- Neuro-T 4.1.1, 4.1.2 출시
+- Released Neuro-T 4.1.1, 4.1.2 
 
 
 ---
@@ -32,11 +55,11 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 4.1](https://www.aitimes.com/news/articleView.html?idxno=160804) 출시
+- Released [Neuro-T 4.1](https://www.aitimes.com/news/articleView.html?idxno=160804)
 
 
 ### Deprecated
-- [글또 9기 활동 종료](/blog/writing/geultto/9/review) 
+- [Completed 글또 9th activity](/blog/writing/geultto/9/review) 
 
 ---
 
@@ -45,11 +68,11 @@ hide_table_of_contents: false
 <br />
 
 ### Improved
-- Neuro-T 4.0.1, 4.0.2, 4.0.3 출시
+- Released Neuro-T 4.0.1, 4.0.2, 4.0.3
 
 ### Fixed 
-- [애자일 개발 프로세스 적용](/blog/review/agile)
-- 클린 애자일 독서 후, 사내 전파
+- [Applied Agile development process](/blog/review/agile)
+- Shared insights from 【Clean Agile】 book with the team after reading
 
 ---
 
@@ -58,14 +81,14 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 4.0](https://www.fajournal.com/news/articleView.html?idxno=14391) 출시
-- Generation 센터 설계 및 개발
-- socket 통신을 사용한 API 기능 개발
-- OOP 스타일 코드 작성 시도
-- 글또 9기 활동 시작
+- Released [Neuro-T 4.0](https://www.fajournal.com/news/articleView.html?idxno=14391)
+- Designed and developed the Generation Center
+- Developed API features using socket communication
+- Practiced object-oriented programming (OOP) style
+- Started activity in 글또 9th
 
 ### Improved
-- 사무실 양재 → 고덕 이전
+- Relocated office from 양재 to 고덕
 
 ---
 
@@ -74,14 +97,14 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 3.2](http://www.industrynews.co.kr/news/articleView.html?idxno=49393) 출시
-- VAC 개발 패턴 시도
+- Released [Neuro-T 3.2](http://www.industrynews.co.kr/news/articleView.html?idxno=49393)
+- Attempted VAC design pattern for internal development
 
 ### Improved
-- Neuro-T 3.1.1, 3.1.2 출시 
-- File import/export 기능 개발 시, 업무 진행률 시각화
-- 팀의 생산성 향상에 관심
-- [리팩터링](/docs/book/Review/refactoring) 독서 후, 프로젝트에 직접 적용을 통해 팀원과 내용 공유
+- Released Neuro-T 3.1.1, 3.1.2
+- Visualized progress during file import/export development
+- Focused on enhancing team productivity
+- Applied insights from 【[Refactoring](/docs/book/Review/refactoring)】 to project and shared knowledge with team members
 
 ---
 
@@ -90,15 +113,15 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 3.1](https://www.aitimes.kr/news/articleView.html?idxno=26478) 출시
-- Infernece 센터 설계 및 개발
-- [뉴로클 채용 페이지](https://www.neurocle-career.com/) 배포
+- Released [Neuro-T 3.1](https://www.aitimes.kr/news/articleView.html?idxno=26478)
+- Designed and developed the Inference Center
+- Deployed [Neurocle Career Center](https://www.neurocle-career.com/)
 
 ### Improved
-- Neuro-T 3.0.1, 3.0.2 출시 
+- Released Neuro-T 3.0.1, 3.0.2
 
 ### Fixed
-- 언어 관리 시스템 [Locize 도입](/blog/dev/i18n/locize)
+- [Introduced Locize](/blog/dev/i18n/locize) for language management
 
 ---
 
@@ -107,7 +130,7 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 3.0 출시](https://www.aitimes.kr/news/articleView.html?idxno=25190)
+- Released [Neuro-T 3.0](https://www.aitimes.kr/news/articleView.html?idxno=25190)
 
 
 ---
@@ -117,11 +140,11 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- IT동아리 넥스터즈 20기 - 쿠키팡 개발
-- 사내 면접 참여 
+- Participated in Nexters 20th club - Developed frontend of 쿠키팡
+- Participated in internal interviews
 
 ### Deprecated
-- 오픈소스 컨트리뷰션 활동 종료
+- Completed open source contribution activities
 
 ---
 
@@ -130,12 +153,12 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- 사내 FE wiki 구성 
-- [Neuro-X 2.4 출시](https://www.industrynews.co.kr/news/articleView.html?idxno=44843) 
+- Organized internal FE Wiki
+- Released[Neuro-X 2.4](https://www.industrynews.co.kr/news/articleView.html?idxno=44843) 
   
 ### Fixed
-- lint, prettier 적용
-- [코드 리뷰 프로세스 개선](/blog/docs/documentation/first)
+- Applied lint and prettier
+- [Improved code review process](/blog/docs/documentation/first)
 
 ---
 
@@ -145,13 +168,13 @@ hide_table_of_contents: false
 
 
 ### Initial Release
-- ⎡[뉴로클](https://www.neuro-cle.com/)⎦ 입사
+- Joined ⎡[Neurocle](https://www.neuro-cle.com/)⎦ 
  
 ### Added
-- [오픈소스 컨트리뷰션 멘티 참여 - Cracking vue.js](/blog/dev/crackingvue)
+- Participated as mentee in [Cracking vue.js](/blog/dev/crackingvue) open source project
 
 ### Deprecated
-- SSAFY 4기 수료
+- Completed SSAFY 4th program
 
 
 ---
@@ -162,11 +185,11 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- SSAFY 4기 입과
-- IT동아리 넥스터즈 14기 - 체크해방 개발
+- Joined SSAFY 4th program
+- Participated in Nexters 14th club - Developed frontend of 체크해방
 
 ### Improved
-- Java spring, Vue, React 학습 
+- Studied Java spring, Vue, React 
 
 
 ---
@@ -177,8 +200,8 @@ hide_table_of_contents: false
 
 
 ### Deprecated
-- ICT 학점연계 프로젝트 인턴십 수료
-- 디지털콘텐츠학과, ES연계전공 졸업
+- Completed ICT internship program
+- Graduated from Department of Digital Contents and ES interdisciplinary program
 
 ---
 ## v.0.3.1
@@ -186,7 +209,7 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- 네이버 웨일 브라우저 extension ⎡[모지모지 이모지](https://store.whale.naver.com/detail/ilglkcbgchmaadclmokfkcdmnanniakn)⎦ 개발
+- Developed ⎡[모지모지 이모지](https://store.whale.naver.com/detail/ilglkcbgchmaadclmokfkcdmnanniakn)⎦, a Naver Whale browser extension
 ---
 
 ## v0.3.0
@@ -194,11 +217,11 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- ICT 학점연계 프로젝트 인턴십 - 트라이캐치미디어 프런트엔드 개발
-- React 학습 
+- Frontend development for ICT internship project at 트라이캐치미디어
+- Studied React
 
 ### Deprecated
-- 교환학생 종료
+- Completed exchange student program
 
 ---
 
@@ -207,7 +230,7 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- 국립 타이베이대학교 컴퓨터공학과(國立臺北大學資訊工程學系) 교환학생
+- Studied as an exchange student at Department of Computer Science, National Taipei University(國立臺北大學資訊工程學系)
 
 ---
 
@@ -216,17 +239,17 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- VR 게임 콘텐츠 개발 
-- [축제 VR 촬영](https://edu.donga.com/news/articleView.html?idxno=10284) 
-- [VR 역사탐방 콘텐츠 '궁궐은 살아있다'](https://www.enewstoday.co.kr/news/articleView.html?idxno=1078531) 콘텐츠 제작
-- 3학년 복학
-- ES 연계전공 복수 전공
+- Developed VR game content
+- Produced [VR video content](https://edu.donga.com/news/articleView.html?idxno=10284) 
+- Produced [VR history content '궁궐은 살아있다'](https://www.enewstoday.co.kr/news/articleView.html?idxno=1078531) 
+- Returned to junior year
+- Started dual major in ES program
 
 ### Improved
-- HTML, CSS, JS 학습
+- Studied HTML, CSS, JavaScript
 
 ### Deprecated
-- ⎡나인브이알⎦ 퇴사
+- Resigned from ⎡NineVR⎦
 
 
 ---
@@ -236,8 +259,8 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- 학생 창업 기업 ⎡[나인브이알](https://magazine.hankyung.com/job-joy/article/202102188859d)⎦ 초기 멤버
-- VR월드 앱 개발  
+- Co-founded ⎡[NineVR](https://magazine.hankyung.com/job-joy/article/202102188859d)⎦, a student startup
+- Developed application, VR World
 
 ---
 
@@ -246,10 +269,10 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- 세종대학교 디지털콘텐츠학과 입학
+- Enrolled in Department of Digital Contents(Software), Sejong University, Korea.
 
 ### Improved
-- C++, Java 학습
+- Studied C++, Java
 
 ---
 
@@ -258,5 +281,4 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- C 학습 - 윤성우의 열혈 C 프로그래밍
-
+- Studied C programming with 【윤성우의 열혈 C 프로그래밍】

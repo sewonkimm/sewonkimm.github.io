@@ -4,6 +4,16 @@ description: 저의 커리어를 릴리즈 노트 형태로 작성합니다.
 hide_table_of_contents: false
 ---
 
+## v2.0.1
+> 2025.09
+<br />
+
+### Added
+- [Neuro-T/R 4.5](https://www.hellot.net/news/article.html?no=105521) 출시 (웹 매뉴얼 배포)
+- Neuro-T Engine 알파 버전 웹 매뉴얼 작성
+- AutoLink 웹 매뉴얼 작성 
+
+
 ## v2.0.0
 > 2025.04
 <br />
@@ -63,7 +73,7 @@ hide_table_of_contents: false
 
 ### Fixed 
 - [애자일 개발 프로세스 적용](/blog/review/agile)
-- 클린 애자일 독서 후, 사내 전파
+- 【클린 애자일】 독서 후, 사내 전파
 
 ---
 
@@ -95,7 +105,7 @@ hide_table_of_contents: false
 - Neuro-T 3.1.1, 3.1.2 출시 
 - File import/export 기능 개발 시, 업무 진행률 시각화
 - 팀의 생산성 향상에 관심
-- [리팩터링](/docs/book/Review/refactoring) 독서 후, 프로젝트에 직접 적용을 통해 팀원과 내용 공유
+- 【[리팩터링](/docs/book/Review/refactoring)】 독서 후, 프로젝트에 직접 적용을 통해 팀원과 내용 공유
 
 ---
 
@@ -272,5 +282,5 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- C 학습 - 윤성우의 열혈 C 프로그래밍
+- C 학습 【윤성우의 열혈 C 프로그래밍】
 
