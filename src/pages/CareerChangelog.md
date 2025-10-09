@@ -4,6 +4,16 @@ description: 저의 커리어를 릴리즈 노트 형태로 작성합니다.
 hide_table_of_contents: false
 ---
 
+## v2.0.1
+> 2025.09
+<br />
+
+### Added
+- [Neuro-T/R 4.5](https://www.hellot.net/news/article.html?no=105521) 출시 (웹 매뉴얼 배포)
+- Neuro-T Engine 알파 버전 웹 매뉴얼 작성
+- AutoLink 웹 매뉴얼 작성 
+
+
 ## v2.0.0
 > 2025.04
 <br />
