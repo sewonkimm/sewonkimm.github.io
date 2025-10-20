@@ -58,5 +58,9 @@
   "sidebar.bookSidebar.category.Review": {
     "message": "Review",
     "description": "The label for category Review in sidebar bookSidebar"
+  },
+  "sidebar.wikiSidebar.category.Technical Writing": {
+    "message": "Technical Writing",
+    "description": "The label for category Technical Writing in sidebar wikiSidebar"
   }
 }
