@@ -30,25 +30,17 @@ img.profile {
   border-radius: 50%;
 }
 
-.AboutRoot button {
+.AboutRoot .button--secondary {
   align-self: flex-end;
   padding: 10px 20px;
   border: 2px solid var(--ifm-color-primary);
   border-radius: 12px;
-  background-color: white;
-  cursor: pointer;
+  color: var(--ifm-font-color-base);
 }
-.AboutRoot button:hover {
+.AboutRoot .button--secondary:hover {
   background-color: var(--ifm-color-primary);
   color: white;
-}
-html[data-theme="dark"] .AboutRoot button {
-  background-color: #1b1b1d;
-  color: #e3e3e3;
-}
-html[data-theme="dark"] .AboutRoot button:hover {
-  background-color: var(--ifm-color-primary);
-  color: white;
+  text-decoration: none;
 }
 
 .AboutRoot li {
