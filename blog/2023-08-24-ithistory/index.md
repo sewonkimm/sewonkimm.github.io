@@ -1,11 +1,10 @@
 ---
-tags: ['독후감']
-last_update:
-  date: 08/24/2023
-  author: sewonkimm
+title: 거의 모든 IT의 역사
+date: 2023-08-24
+slug: /book/ithistory
+authors: [sewonkimm_frontend]
+tags: [독후감]
 ---
-
-# 거의 모든 IT의 역사
 
 ## 역사를 잊은 개발자에게 미래는 없다
 

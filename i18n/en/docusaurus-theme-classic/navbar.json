@@ -19,12 +19,24 @@
     "message": "Wiki",
     "description": "Navbar item with label Wiki"
   },
-  "item.label.React": {
-    "message": "React",
-    "description": "Navbar item with label React"
+  "item.label.전체 글": {
+    "message": "All Posts",
+    "description": "Navbar item with label 전체 글"
   },
-  "item.label.Book": {
-    "message": "Book",
-    "description": "Navbar item with label Book"
+  "item.label.회고": {
+    "message": "Retrospective",
+    "description": "Navbar item with label 회고"
+  },
+  "item.label.개발": {
+    "message": "Dev",
+    "description": "Navbar item with label 개발"
+  },
+  "item.label.글쓰기": {
+    "message": "Writing",
+    "description": "Navbar item with label 글쓰기"
+  },
+  "item.label.독후감": {
+    "message": "Book Review",
+    "description": "Navbar item with label 독후감"
   }
 }
