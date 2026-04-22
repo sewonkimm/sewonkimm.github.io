@@ -42,6 +42,14 @@ img.profile {
   background-color: var(--ifm-color-primary);
   color: white;
 }
+html[data-theme="dark"] .AboutRoot button {
+  background-color: #1b1b1d;
+  color: #e3e3e3;
+}
+html[data-theme="dark"] .AboutRoot button:hover {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
 
 .AboutRoot li {
   line-height: 32px;
