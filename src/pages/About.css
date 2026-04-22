@@ -16,7 +16,7 @@
   margin-top: 8px;
 }
 
-b {
+.AboutRoot b {
   color: var(--ifm-color-primary);
 }
 
@@ -30,7 +30,7 @@ img.profile {
   border-radius: 50%;
 }
 
-button {
+.AboutRoot button {
   align-self: flex-end;
   padding: 10px 20px;
   border: 2px solid var(--ifm-color-primary);
@@ -38,12 +38,12 @@ button {
   background-color: white;
   cursor: pointer;
 }
-button:hover {
+.AboutRoot button:hover {
   background-color: var(--ifm-color-primary);
   color: white;
 }
 
-li {
+.AboutRoot li {
   line-height: 32px;
 }
 
