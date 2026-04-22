@@ -47,6 +47,11 @@ img.profile {
   line-height: 32px;
 }
 
+.AboutRoot a:not(.button) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /** In mobile view, reduce the padding */
 @media screen and (max-width: 996px) {
   .AboutRoot {
