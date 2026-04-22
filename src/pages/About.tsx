@@ -36,7 +36,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <Link className="button button--secondary" to="/careerChangelog">
+          <Link className="button button--secondary" to="/CareerChangelog">
             커리어 체인지로그 보러가기
           </Link>
         </div>
