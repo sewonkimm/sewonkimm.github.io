@@ -1,9 +1,9 @@
 ---
 title: 글로벌 시대, 다국어 지원하는 웹사이트 만들기
 date:  2023-08-01T22:10
-slug: /dev/i18n/tutorial
+slug: /dev/i18n-tutorial
 authors: [sewonkimm_frontend]
-tags: [개발일지, 다국어, i18n]
+tags: [개발, i18n]
 comments: true
 ---
 

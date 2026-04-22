@@ -1,7 +1,7 @@
 ---
 title: 2023 year in review
 date:  2024-01-06T21:45
-slug: /review/2023
+slug: /career/review-2023
 authors: [sewonkimm_frontend]
 tags: [회고]
 comments: true
