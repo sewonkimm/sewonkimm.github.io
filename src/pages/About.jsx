@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
 import "./About.css";
 import Profile from "../../static/img/profile_400.png";
 
@@ -35,13 +36,9 @@ export default function About() {
               </p>
             </div>
           </div>
-          <button
-            onClick={() => {
-              window.open(`/careerChangelog`, "_self");
-            }}
-          >
+          <Link className="button button--secondary" to="/careerChangelog">
             커리어 체인지로그 보러가기
-          </button>
+          </Link>
         </div>
 
         <p>
