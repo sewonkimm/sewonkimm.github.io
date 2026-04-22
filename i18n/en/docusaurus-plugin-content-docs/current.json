@@ -62,5 +62,25 @@
   "sidebar.wikiSidebar.category.Technical Writing": {
     "message": "Technical Writing",
     "description": "The label for category 'Technical Writing' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.React": {
+    "message": "React",
+    "description": "The label for category 'React' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Concepts": {
+    "message": "Concepts",
+    "description": "The label for category 'Concepts' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.컴포넌트 패턴": {
+    "message": "컴포넌트 패턴",
+    "description": "The label for category '컴포넌트 패턴' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Redux": {
+    "message": "Redux",
+    "description": "The label for category 'Redux' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Article": {
+    "message": "Article",
+    "description": "The label for category 'Article' in sidebar 'wikiSidebar'"
   }
 }
