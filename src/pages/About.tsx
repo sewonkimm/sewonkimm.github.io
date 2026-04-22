@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
 import "./About.css";
 import Profile from "../../static/img/profile_400.png";
 
@@ -22,9 +23,9 @@ export default function About() {
             <div>
               <p>
                 저는 현재 뉴로클에서 테크니컬 커뮤니케이터로{" "}
-                {currentYear - 2021}
+                {currentYear - 2025}
                 년째 일하고 있습니다. 첫 커리어는 프런트엔드 엔지니어로
-                시작하여, 뉴로클에서 약 3년간 근무했어요.
+                시작하여, 뉴로클에서 약 {currentYear - 2021}년간 근무했어요.
               </p>
               <p>
                 딥러닝 모델을 생성하는 소프트웨어를 개발하며 기술에 대한
@@ -35,13 +36,9 @@ export default function About() {
               </p>
             </div>
           </div>
-          <button
-            onClick={() => {
-              window.open(`/careerChangelog`, "_self");
-            }}
-          >
+          <Link className="button button--secondary" to="/CareerChangelog">
             커리어 체인지로그 보러가기
-          </button>
+          </Link>
         </div>
 
         <p>
@@ -56,18 +53,27 @@ export default function About() {
         <div className="container">
           <h2>TMI:</h2>
           <ol>
-            <li>제 강점은 무엇일까요?</li>
-            MBTI보다 강점 혁명을 좋아합니다! 지적 사고, 배움, 수집, 집중, 발상이
-            제 대표적인 강점이에요😆
-            <li>취미는 독서</li>
-            다양한 장르를 읽으며, 별도의{" "}
-            <a href="https://blog.naver.com/sewon_library/223323496616">
-              독서 블로그
-            </a>
-            도 운영하고 있어요. 책에서 얻은 지혜를 삶에 녹여내고 싶습니다.
-            <li>건강한 신체에 건강한 정신이 깃든다!</li>
-            달리기를 꾸준히 하고 있습니다. 하프 마라톤까지 완주해 봤고, 최종
-            목표는 풀 마라톤 완주입니다. 🏃‍♀️
+            <li>
+              제 강점은 무엇일까요?
+              <br />
+              MBTI보다 강점 혁명을 좋아합니다! 지적 사고, 배움, 수집, 집중,
+              발상이 제 대표적인 강점이에요😆
+            </li>
+            <li>
+              취미는 독서
+              <br />
+              다양한 장르를 읽으며, 별도의{" "}
+              <a href="https://blog.naver.com/sewon_library/223323496616">
+                독서 블로그
+              </a>
+              도 운영하고 있어요. 책에서 얻은 지혜를 삶에 녹여내고 싶습니다.
+            </li>
+            <li>
+              건강한 신체에 건강한 정신이 깃든다!
+              <br />
+              달리기를 꾸준히 하고 있습니다. 하프 마라톤까지 완주해 봤고, 최종
+              목표는 풀 마라톤 완주입니다. 🏃‍♀️
+            </li>
           </ol>
         </div>
       </div>

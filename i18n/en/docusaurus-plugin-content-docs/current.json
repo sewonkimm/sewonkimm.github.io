@@ -5,19 +5,19 @@
   },
   "sidebar.wikiSidebar.category.Web": {
     "message": "Web",
-    "description": "The label for category Web in sidebar wikiSidebar"
+    "description": "The label for category 'Web' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.웹에서의 Client-Server 통신": {
     "message": "웹에서의 Client-Server 통신",
-    "description": "The label for category 웹에서의 Client-Server 통신 in sidebar wikiSidebar"
+    "description": "The label for category '웹에서의 Client-Server 통신' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.Javascript": {
     "message": "Javascript",
-    "description": "The label for category Javascript in sidebar wikiSidebar"
+    "description": "The label for category 'Javascript' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.CSS": {
     "message": "CSS",
-    "description": "The label for category CSS in sidebar wikiSidebar"
+    "description": "The label for category 'CSS' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.DevOps": {
     "message": "DevOps",
@@ -25,11 +25,11 @@
   },
   "sidebar.wikiSidebar.category.Git": {
     "message": "Git",
-    "description": "The label for category Git in sidebar wikiSidebar"
+    "description": "The label for category 'Git' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.Linux": {
     "message": "Linux",
-    "description": "The label for category Linux in sidebar wikiSidebar"
+    "description": "The label for category 'Linux' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.Design": {
     "message": "Design",
@@ -37,19 +37,19 @@
   },
   "sidebar.reactSidebar.category.React": {
     "message": "React",
-    "description": "The label for category React in sidebar reactSidebar"
+    "description": "The label for category 'React' in sidebar 'reactSidebar'"
   },
   "sidebar.reactSidebar.category.컴포넌트 패턴": {
     "message": "컴포넌트 패턴",
-    "description": "The label for category 컴포넌트 패턴 in sidebar reactSidebar"
+    "description": "The label for category '컴포넌트 패턴' in sidebar 'reactSidebar'"
   },
   "sidebar.reactSidebar.category.Redux": {
     "message": "Redux",
-    "description": "The label for category Redux in sidebar reactSidebar"
+    "description": "The label for category 'Redux' in sidebar 'reactSidebar'"
   },
   "sidebar.reactSidebar.category.Article": {
     "message": "Article",
-    "description": "The label for category Article in sidebar reactSidebar"
+    "description": "The label for category 'Article' in sidebar 'reactSidebar'"
   },
   "sidebar.reactSidebar.category.Next.js": {
     "message": "Next.js",
@@ -57,10 +57,10 @@
   },
   "sidebar.bookSidebar.category.Review": {
     "message": "Review",
-    "description": "The label for category Review in sidebar bookSidebar"
+    "description": "The label for category 'Review' in sidebar 'bookSidebar'"
   },
   "sidebar.wikiSidebar.category.Technical Writing": {
     "message": "Technical Writing",
-    "description": "The label for category Technical Writing in sidebar wikiSidebar"
+    "description": "The label for category 'Technical Writing' in sidebar 'wikiSidebar'"
   }
 }

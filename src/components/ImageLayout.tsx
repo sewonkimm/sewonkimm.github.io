@@ -1,5 +1,5 @@
 import React from "react";
-import "./ImageLayout.css";
+import styles from "./ImageLayout.module.css";
 
 type Props = {
   src: string;
@@ -9,9 +9,9 @@ type Props = {
 };
 const ImageLayout = ({ src, description, width, height }: Props) => {
   return (
-    <div className="root">
+    <div className={styles.root}>
       <img src={src} alt={description || ""} width={width} height={height} />
-      {description && <p className="description">{description}</p>}
+      {description && <p className={styles.description}>{description}</p>}
     </div>
   );
 };
