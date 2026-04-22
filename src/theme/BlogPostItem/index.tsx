@@ -15,8 +15,8 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
   const isNotList = pathname !== "/blog";
 
   const { metadata } = useBlogPost();
-  const { frontMatter } = metadata as any;
-  const { comments = true } = frontMatter;
+  const { frontMatter } = metadata;
+  const comments = (frontMatter as Record<string, unknown>).comments ?? true;
   const showComments = comments && isNotList;
 
   return (
