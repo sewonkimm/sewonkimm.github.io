@@ -3,7 +3,7 @@ title: Docusaurus에 Disqus로 댓글 추가하기
 date: 2022-09-01T23:00
 slug: /dev/disqus
 authors: [sewonkimm_frontend]
-tags: [개발일지, Blog]
+tags: [개발]
 comments: true
 ---
 

@@ -1,0 +1,30 @@
+{
+  "redirects": [
+    { "source": "/blog/3.0", "destination": "/blog/writing/blog-v3", "permanent": true },
+    { "source": "/blog/review/2022", "destination": "/blog/career/review-2022", "permanent": true },
+    { "source": "/blog/dev/crackingvue", "destination": "/blog/career/crackingvue", "permanent": true },
+    { "source": "/blog/review/neurocle", "destination": "/blog/career/neurocle", "permanent": true },
+    { "source": "/blog/dev/i18n/tutorial", "destination": "/blog/dev/i18n-tutorial", "permanent": true },
+    { "source": "/blog/writing/geultto/9/map", "destination": "/blog/writing/geultto-9-map", "permanent": true },
+    { "source": "/blog/dev/i18n/tips", "destination": "/blog/dev/i18n-tips", "permanent": true },
+    { "source": "/blog/dev/i18n/locize", "destination": "/blog/dev/i18n-locize", "permanent": true },
+    { "source": "/blog/review/2023", "destination": "/blog/career/review-2023", "permanent": true },
+    { "source": "/blog/writing/geultto/9/seminar", "destination": "/blog/writing/geultto-9-seminar", "permanent": true },
+    { "source": "/blog/review/processTF", "destination": "/blog/career/process-tf", "permanent": true },
+    { "source": "/blog/article/90percent", "destination": "/blog/translation/90percent", "permanent": true },
+    { "source": "/blog/dev/react/callback-ref", "destination": "/blog/dev/react-callback-ref", "permanent": true },
+    { "source": "/blog/writing/geultto/9/review", "destination": "/blog/writing/geultto-9-review", "permanent": true },
+    { "source": "/blog/life/desk", "destination": "/blog/career/desk-setup", "permanent": true },
+    { "source": "/blog/work/allotment", "destination": "/blog/career/task-allotment", "permanent": true },
+    { "source": "/blog/review/agile", "destination": "/blog/career/agile", "permanent": true },
+    { "source": "/blog/writing/geultto/10/preview", "destination": "/blog/writing/geultto-10-preview", "permanent": true },
+    { "source": "/blog/dev/css/styling", "destination": "/blog/dev/css-styling", "permanent": true },
+    { "source": "/blog/docs/documentation/first", "destination": "/blog/writing/first-pr", "permanent": true },
+    { "source": "/blog/review/2024", "destination": "/blog/career/review-2024", "permanent": true },
+    { "source": "/blog/docs/documentation/standard", "destination": "/blog/writing/documentation-standard", "permanent": true },
+    { "source": "/blog/debugging", "destination": "/blog/dev/debugging", "permanent": true },
+    { "source": "/blog/career/tw/1", "destination": "/blog/career/tw-1", "permanent": true },
+    { "source": "/blog/review/2025", "destination": "/blog/career/review-2025", "permanent": true },
+    { "source": "/blog/career/tw/2", "destination": "/blog/career/tw-2", "permanent": true }
+  ]
+}

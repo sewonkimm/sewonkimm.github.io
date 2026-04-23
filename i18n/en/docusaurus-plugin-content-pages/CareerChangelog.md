@@ -104,7 +104,7 @@ hide_table_of_contents: false
 - Released Neuro-T 3.1.1, 3.1.2
 - Visualized progress during file import/export development
 - Focused on enhancing team productivity
-- Applied insights from 【[Refactoring](/docs/book/Review/refactoring)】 to project and shared knowledge with team members
+- Applied insights from 【[Refactoring](/blog/book/refactoring)】 to project and shared knowledge with team members
 
 ---
 

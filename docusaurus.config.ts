@@ -106,27 +106,23 @@ const config: Config = {
             position: "left",
           },
           {
-            to: "/blog",
+            type: "dropdown",
             label: "Posts",
             position: "left",
+            items: [
+              { to: "/blog", label: "전체 글" },
+              { to: "/blog/tags/회고", label: "회고" },
+              { to: "/blog/tags/개발", label: "개발" },
+              { to: "/blog/tags/글쓰기", label: "글쓰기" },
+              { to: "/blog/tags/독후감", label: "독후감" },
+              { to: "/blog/tags/테크니컬라이팅", label: "테크니컬라이팅" },
+            ],
           },
           {
             type: "docSidebar",
             position: "left",
             sidebarId: "wikiSidebar",
             label: "Wiki",
-          },
-          {
-            type: "docSidebar",
-            position: "left",
-            sidebarId: "reactSidebar",
-            label: "React",
-          },
-          {
-            type: "docSidebar",
-            position: "left",
-            sidebarId: "bookSidebar",
-            label: "Book",
           },
           {
             type: "localeDropdown",
@@ -152,14 +148,6 @@ const config: Config = {
               {
                 label: "Wiki",
                 to: "/docs/wiki/intro",
-              },
-              {
-                label: "React",
-                to: "/docs/react/react",
-              },
-              {
-                label: "Book",
-                to: "/docs/book/intro",
               },
               {
                 label: "Posts",

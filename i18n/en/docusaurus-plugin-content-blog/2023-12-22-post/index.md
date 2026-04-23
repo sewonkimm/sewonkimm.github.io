@@ -3,7 +3,7 @@ title: Locize로 언어키 관리 생산성을 높인 방법
 date: 2023-12-22T01:00
 slug: /dev/i18n/locize
 authors: [sewonkimm_frontend]
-tags: [개발일지, 다국어, i18n]
+tags: [개발, i18n, 개발도구]
 comments: true
 ---
 

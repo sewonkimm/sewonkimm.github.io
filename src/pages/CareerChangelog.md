@@ -43,7 +43,7 @@ hide_table_of_contents: false
 
 ### Added
 - [Neuro-T 4.2](https://www.aitimes.com/news/articleView.html?idxno=160804) 출시
-- [글또 10기 활동 시작](/blog/writing/geultto/10/preview)
+- [글또 10기 활동 시작](/blog/writing/geultto-10-preview)
 
 ### Improved
 - Neuro-T 4.1.1, 4.1.2 출시
@@ -60,7 +60,7 @@ hide_table_of_contents: false
 
 
 ### Deprecated
-- [글또 9기 활동 종료](/blog/writing/geultto/9/review) 
+- [글또 9기 활동 종료](/blog/writing/geultto-9-review) 
 
 ---
 
@@ -72,7 +72,7 @@ hide_table_of_contents: false
 - Neuro-T 4.0.1, 4.0.2, 4.0.3 출시
 
 ### Fixed 
-- [애자일 개발 프로세스 적용](/blog/review/agile)
+- [애자일 개발 프로세스 적용](/blog/career/agile)
 - 【클린 애자일】 독서 후, 사내 전파
 
 ---
@@ -105,7 +105,7 @@ hide_table_of_contents: false
 - Neuro-T 3.1.1, 3.1.2 출시 
 - File import/export 기능 개발 시, 업무 진행률 시각화
 - 팀의 생산성 향상에 관심
-- 【[리팩터링](/docs/book/Review/refactoring)】 독서 후, 프로젝트에 직접 적용을 통해 팀원과 내용 공유
+- 【[리팩터링](/blog/book/refactoring)】 독서 후, 프로젝트에 직접 적용을 통해 팀원과 내용 공유
 
 ---
 
@@ -122,7 +122,7 @@ hide_table_of_contents: false
 - Neuro-T 3.0.1, 3.0.2 출시 
 
 ### Fixed
-- 언어 관리 시스템 [Locize 도입](/blog/dev/i18n/locize)
+- 언어 관리 시스템 [Locize 도입](/blog/dev/i18n-locize)
 
 ---
 
@@ -159,7 +159,7 @@ hide_table_of_contents: false
   
 ### Fixed
 - lint, prettier 적용
-- [코드 리뷰 프로세스 개선](/blog/docs/documentation/first)
+- [코드 리뷰 프로세스 개선](/blog/writing/first-pr)
 
 ---
 
@@ -172,7 +172,7 @@ hide_table_of_contents: false
 - ⎡[뉴로클](https://www.neuro-cle.com/)⎦ 입사
  
 ### Added
-- [오픈소스 컨트리뷰션 멘티 참여 - Cracking vue.js](/blog/dev/crackingvue)
+- [오픈소스 컨트리뷰션 멘티 참여 - Cracking vue.js](/blog/career/crackingvue)
 
 ### Deprecated
 - SSAFY 4기 수료
