@@ -115,6 +115,7 @@ const config: Config = {
               { to: "/blog/tags/개발", label: "개발" },
               { to: "/blog/tags/글쓰기", label: "글쓰기" },
               { to: "/blog/tags/독후감", label: "독후감" },
+              { to: "/blog/tags/테크니컬라이팅", label: "테크니컬라이팅" },
             ],
           },
           {
