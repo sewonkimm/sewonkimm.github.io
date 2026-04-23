@@ -11,7 +11,7 @@ last_update:
 
 뷰와 어플리케이션 로직을 분리하는 패턴.
 
-![Container/Presentational Pattern](./containerPresentation.png)
+![Container/Presentational Pattern](/img/docs/wiki/react/concepts/componentPattern/containerPresentation.png)
 
 - Container 컴포넌트 : **무슨** 데이터를 유저에게 보여줄지 신경쓰는 컴포넌트 (ex. 데이터 fetching)
 - Presentation 컴포넌트 : 데이터를 **어떻게** 보여줄지 신경쓰는 컴포넌트
@@ -26,7 +26,7 @@ last_update:
 
 Container 컴포넌트에서 fetchDogs라는 메소드를 실행해 Dogs 데이터를 Presentation 컴포넌트에 전달하고, Presentation 컴포넌트는 Props로 받아온 데이터를 출력한다. 최근에는 hooks이 도입되면서 많은 패턴들이 hooks로 대체되었다. 
 
-![Hooks](./containerPresentationHooks.png)
+![Hooks](/img/docs/wiki/react/concepts/componentPattern/containerPresentationHooks.png)
 
 ```javascript
 // hooks

@@ -18,7 +18,7 @@ last_update:
 
 전체적으로 보면 이런 느낌이다.
 
-![redux](./redux.png)
+![redux](/img/docs/wiki/react/concepts/redux/redux.png)
 
 reducer가 store에 있는 state를 변경해주는 경비원 같은 느낌
 
@@ -117,7 +117,7 @@ console.log(store.getState())
 // {value: 1}
 ```
 
-![redux](./redux.png)
+![redux](/img/docs/wiki/react/concepts/redux/redux.png)
 
 위 그림에서 1번을 문장으로 표현하면 `action을 dispatch한다`고 표현할 수 있다.
 

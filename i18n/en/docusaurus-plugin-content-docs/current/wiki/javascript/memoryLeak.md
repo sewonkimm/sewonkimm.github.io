@@ -28,7 +28,7 @@ last_update:
 
 개발자 도구 👉 memory
 
-![Inspect](memoryLeak/inspect.png)
+![Inspect](/img/docs/wiki/javascript/memoryLeak/inspect.png)
 
 :::info 참고할 만한 페이지
 

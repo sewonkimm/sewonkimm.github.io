@@ -21,7 +21,7 @@ UI를 모델링하기 위해 우리가 사용하는 DOM 들은 다음과 같다.
 3. Accessibility Tree
 4. React DOM 
 
-![React DOM](reactDOM.png)
+![React DOM](/img/docs/wiki/react/concepts/virtualDom/reactDOM.png)
 
 React DOM 같은 경우는 위의 이미지와 같이 React가 JSX를 트리로 변환한 것을 말한다. 
 

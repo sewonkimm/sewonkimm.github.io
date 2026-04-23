@@ -1,6 +1,6 @@
 import React from "react";
-import mergeCommitImage from "./mergeCommit.webp";
-import squashCommitImage from "./squashCommit.webp";
+import mergeCommitImage from "@site/static/img/docs/wiki/git/merge/mergeCommit.webp";
+import squashCommitImage from "@site/static/img/docs/wiki/git/merge/squashCommit.webp";
 
 export default function Table(): JSX.Element {
   return (

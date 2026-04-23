@@ -92,7 +92,7 @@ export default function App() {
 app.tsx 파일을 살펴보면 분할 화면 컴포넌트를 어떤 방식으로든 어떤 자식과도 완전히 재사용할 수 있도록 하는 몇 가지 Props가 있음을 알 수 있습니다. 
 
 브라우저에서 위의 코드를 실행한 결과를 살펴봅시다.
-![splitscreen](./splitscreen.png)
+![splitscreen](/img/docs/wiki/react/article/reactDesignPattern/splitscreen.png)
 
 
 ### 목록 (List)
@@ -224,7 +224,7 @@ export default function App() {
 이제 코드 실행 결과를 살펴보겠습니다.
 
 
-![list](./list.png)
+![list](/img/docs/wiki/react/article/reactDesignPattern/list.png)
 
 
 ### 모달
@@ -333,7 +333,7 @@ export default function App() {
 
 실행 결과를 살펴보겠습니다.
 
-![modal](./modal.png)
+![modal](/img/docs/wiki/react/article/reactDesignPattern/modal.png)
 
 
 이번 글에서는 레이아웃 컴포넌트라는 리액트 디자인 패턴에 대해 배웠습니다. 분할 화면, 목록, 모달과 같은 리액트 레이아웃 컴포넌트의 예시와 올바른 사용법에 대해 이야기했습니다.

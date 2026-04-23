@@ -8,7 +8,7 @@ last_update:
 
 # Request
 
-![request](./request.png)
+![request](/img/docs/wiki/web/clientServer/request.png)
 
 서버에 요청하는 방법을 알아보자!
 

@@ -10,7 +10,7 @@ type Props = {
 const ImageLayout = ({ src, description, width, height }: Props) => {
   return (
     <div className={styles.root}>
-      <img src={src} alt={description || ""} width={width} height={height} />
+      <img src={src} alt={description || ""} width={width} height={height} loading="lazy" />
       {description && <p className={styles.description}>{description}</p>}
     </div>
   );
