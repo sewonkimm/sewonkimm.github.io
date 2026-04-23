@@ -111,11 +111,11 @@ const config: Config = {
             position: "left",
             items: [
               { to: "/blog", label: "전체 글" },
-              { to: "/blog/tags/회고", label: "회고" },
-              { to: "/blog/tags/개발", label: "개발" },
-              { to: "/blog/tags/글쓰기", label: "글쓰기" },
-              { to: "/blog/tags/독후감", label: "독후감" },
               { to: "/blog/tags/테크니컬라이팅", label: "테크니컬라이팅" },
+              { to: "/blog/tags/글쓰기", label: "글쓰기" },
+              { to: "/blog/tags/개발", label: "개발" },
+              { to: "/blog/tags/독후감", label: "독후감" },
+              { to: "/blog/tags/회고", label: "회고" },
             ],
           },
           {
