@@ -28,17 +28,17 @@ React에서 렌더링이 의미하는 것
 
 ### React DevTools로 가상 렌더링 확인하기
 
-![reactDevTools](./reactDevTools.png)
+![reactDevTools](/img/docs/wiki/react/concepts/reactDevTools.png)
 
 `React DevTools > View settings` 경로로 접근해서 `Highlight updates when components render` 항목을 체크하면 repaint 가 되는 부분을 확인할 수 있다.
 
-![rerender](./rerender.gif)
+![rerender](/img/docs/wiki/react/concepts/rerender.gif)
 ### Chrome DevTools로 실제 렌더링 확인하기
 
-![ChromeDevTools](./chromeDevTools.png)
+![ChromeDevTools](/img/docs/wiki/react/concepts/chromeDevTools.png)
 
 `Chrome DevTools > More tools > Rendering > Paint flashing` 경로로 접근해서 `Paint flashing` 항목을 체크하면 repaint 가 되는 부분을 확인할 수 있다.
 
-![paintFlashing](./paintFlashing.gif)
+![paintFlashing](/img/docs/wiki/react/concepts/paintFlashing.gif)
 
 두 방법으로 리렌더링을 체크해보면 react의 리렌더링과 실제 DOM의 리렌더링이 다르다는 것을 알 수 있다.

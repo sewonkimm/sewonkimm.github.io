@@ -38,5 +38,9 @@
   "item.label.독후감": {
     "message": "Book Review",
     "description": "Navbar item with label 독후감"
+  },
+  "item.label.테크니컬라이팅": {
+    "message": "테크니컬라이팅",
+    "description": "Navbar item with label 테크니컬라이팅"
   }
 }

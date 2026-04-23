@@ -16,7 +16,7 @@ import { join, extname } from "path";
 const MAX_WIDTH = 1200;
 const JPEG_QUALITY = 80;
 const PNG_QUALITY = 80;
-const DIRS = ["blog", "docs", "static"];
+const DIRS = ["static"];
 const EXTENSIONS = new Set([".png", ".jpg", ".jpeg"]);
 
 async function getImageFiles(dir) {

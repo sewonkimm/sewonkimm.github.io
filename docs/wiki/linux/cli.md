@@ -22,7 +22,7 @@ last_update:
 
 일단 이것을 이해하려면 컴퓨터가 어떻게 생겨먹었는지 알아야한다. 
 
-![computer1](./cli/computer1.png)
+![computer1](/img/docs/wiki/linux/cli/computer1.png)
 
 간단하게 하드웨어와 소프트웨어로 구분된다. 여기에서 주목해야하는 것은 소프트웨어. OS는 컴퓨터에 설치된 소프트웨어로 OS를 통해 하드웨어를 조작한다. 우리가 사용하는 모든 프로그램(크롬, VSC, 곰플레이어 등...)은 다 OS 위에서 돌아간다.
 
@@ -32,7 +32,7 @@ last_update:
 
 OS는 Kernal과 User space로 구분할 수 있다.
 
-![computer2](./cli/computer2.png)
+![computer2](/img/docs/wiki/linux/cli/computer2.png)
 
 커널은 physical device들과 직접 상호작용하고, 컴퓨터 자원을 프로그램에 적절히 할당하는 역할을 한다. OS의 핵심 부분.
 
@@ -41,7 +41,7 @@ OS는 Kernal과 User space로 구분할 수 있다.
 
 쉘이란 커널과 상호작용하도록 해주는 user space의 프로그램이다. 
 
-![shell](./cli/shell.jpg)
+![shell](/img/docs/wiki/linux/cli/shell.jpg)
 
 커널을 감싸고 있기때문에 shell(껍데기)이라 불린다. 
 
@@ -52,7 +52,7 @@ OS는 Kernal과 User space로 구분할 수 있다.
 쉘에 직접 접근하지 않고, 터미널을 통해서 쉘에 명령을 내린다. 터미널은 쉘을 실행하는 곳이라고 할 수 있다. 비유하자면 터미널은 TV고, 쉘은 TV를 켜야 볼 수 있는 방송프로그램인 것이다.
 
 
-![computer3](./cli/computer3.png)
+![computer3](/img/docs/wiki/linux/cli/computer3.png)
 
 고대에는 하나의 컴퓨터에 여러명이 케이블로 접속했는데 이때 터미널을 통해 접속했다고 한다. 현대에 PC가 보급된 이후에는 터미널을 많이 사용하지는 않지만 원격접속이나 컴퓨터 직접 제어를 위해 터미널을 사용한다. 터미널을 콘솔이라고 부르기도 하는데 모든 컴퓨터에는 콘솔이 내장되어있다. 
 
@@ -72,7 +72,7 @@ echo $SHELL
 ```
 명령어로 현재 사용중인 셸을 확인할 수 있다.
 
-![shellType](./cli/shellType.png)
+![shellType](/img/docs/wiki/linux/cli/shellType.png)
 
 나는 zsh를 사용중이다. 그냥 맥북 사면 일단 설치하라길래 블로그 보고 따라했었는데 sh의 확장버전이고 다양한 플러그인과 테마가 지원되는 장점이 있다고 한다. oh my zsh는 zsh에서 사용되는 플러그인 프레임워크다.
 
