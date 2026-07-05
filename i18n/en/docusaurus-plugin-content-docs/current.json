@@ -82,5 +82,13 @@
   "sidebar.wikiSidebar.category.Article": {
     "message": "Article",
     "description": "The label for category 'Article' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.CS": {
+    "message": "CS",
+    "description": "The label for category 'CS' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.프론트엔드": {
+    "message": "프론트엔드",
+    "description": "The label for category '프론트엔드' in sidebar 'wikiSidebar'"
   }
 }
