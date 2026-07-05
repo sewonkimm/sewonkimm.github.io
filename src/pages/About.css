@@ -16,7 +16,7 @@
   margin-top: 8px;
 }
 
-b {
+.AboutRoot b {
   color: var(--ifm-color-primary);
 }
 
@@ -30,21 +30,26 @@ img.profile {
   border-radius: 50%;
 }
 
-button {
+.AboutRoot .button--secondary {
   align-self: flex-end;
   padding: 10px 20px;
   border: 2px solid var(--ifm-color-primary);
   border-radius: 12px;
-  background-color: white;
-  cursor: pointer;
+  color: var(--ifm-font-color-base);
 }
-button:hover {
+.AboutRoot .button--secondary:hover {
   background-color: var(--ifm-color-primary);
   color: white;
+  text-decoration: none;
 }
 
-li {
+.AboutRoot li {
   line-height: 32px;
+}
+
+.AboutRoot a:not(.button) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /** In mobile view, reduce the padding */

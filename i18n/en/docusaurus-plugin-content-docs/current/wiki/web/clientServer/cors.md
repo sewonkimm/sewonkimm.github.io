@@ -24,7 +24,7 @@ CORS 에러를 눈으로 확인해보자.
 1. Chrome dev tools를 연다.
 2. 콘솔에 다음 명령어를 쳐본다. `fetch('https://cors-demo.glitch.me/', {mode:'cors'})`
 
-![CORS](./cors1.png)
+![CORS](/img/docs/wiki/web/clientServer/cors1.png)
 
 CORS 에러를 확인할 수 있다. 
 

@@ -33,7 +33,7 @@ comments: true
 
 부끄럽지만 배포에 대해서는 아는 것이 없습니다... 당시 주변 분들이 많이 언급하셔서 한 번 사용해보려고 썼습니다. Vercel에서 git repository를 연결하기만하면 손 쉽게 배포되기 때문에 어려운 것은 없었습니다.
 
-![PR](./image1.png)
+![PR](/img/blog/2022-03-12-post/image1.png)
 
 간편하고 Pull request 작성하면 preview도 만들어주는 점이 좋습니다. 연결한 김에 Sonar cloud로 정적 분석도구도 달아줬습니다.
 

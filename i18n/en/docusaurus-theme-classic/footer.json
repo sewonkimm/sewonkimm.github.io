@@ -19,14 +19,6 @@
     "message": "Wiki",
     "description": "The label of footer link with label=Wiki linking to /docs/wiki/intro"
   },
-  "link.item.label.React": {
-    "message": "React",
-    "description": "The label of footer link with label=React linking to /docs/react/react"
-  },
-  "link.item.label.Book": {
-    "message": "Book",
-    "description": "The label of footer link with label=Book linking to /docs/book/intro"
-  },
   "link.item.label.Posts": {
     "message": "Posts",
     "description": "The label of footer link with label=Posts linking to /blog"
