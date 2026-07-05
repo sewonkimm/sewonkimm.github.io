@@ -4,15 +4,64 @@ description: 저의 커리어를 릴리즈 노트 형태로 작성합니다.
 hide_table_of_contents: false
 ---
 
-## v2.0.1
+
+## v2.0.5
+> 2026.06
+<br />
+
+### Added
+- Knowledge Center 1차 MVP 배포. 프로젝트 매니징
+- 사내 BizOps TF 참여. Metabase 시스템 구축
+- 【미친 성장】 독서 후, 사내 스터디 진행
+
+### Improved 
+- VoC 입력/처리/분석 프로세스 구축
+
+---
+
+## v2.0.4
+> 2026.02
+<br />
+
+### Added
+- Knowledge Center 기획
+- 사내 북클럽 2기 진행
+  
+### Improved 
+- NDC 1.2 배포. 기획 및 프로젝트 매니징
+
+---
+
+## v2.0.3
+> 2025.11
+<br />
+
+### Improved
+- Neuro-T Engine 베타 버전 출시
+
+---
+
+## v2.0.2
 > 2025.09
 <br />
 
 ### Added
-- [Neuro-T/R 4.5](https://www.hellot.net/news/article.html?no=105521) 출시 (웹 매뉴얼 배포)
-- Neuro-T Engine 알파 버전 웹 매뉴얼 작성
-- AutoLink 웹 매뉴얼 작성 
+- Neuro-T Engine 알파 버전 출시
+- AutoLink 베타 버전 출시
 
+### Improved
+- [Neuro-T/R 4.5](https://www.hellot.net/news/article.html?no=105521) 출시 (웹 매뉴얼 배포)
+
+---
+
+## v2.0.1
+> 2025.05
+<br />
+
+### Added
+- Power BI 통계 구축
+
+---
 
 ## v2.0.0
 > 2025.04
@@ -20,6 +69,7 @@ hide_table_of_contents: false
 
 ### Added
 - 테크니컬 커뮤니케이터 직무 시작
+- 사내 CS 오퍼레이팅 프로세스 정비. CS 오퍼레이팅 자동화
 
 ### Deprecated
 - 글또 10기 활동 종료
@@ -36,6 +86,7 @@ hide_table_of_contents: false
 - [Neuro-T 4.3](https://www.aitimes.kr/news/articleView.html?idxno=33605) 출시
 - 한겨레 Technical Writing과 기술 번역 21기 수강 시작
 
+---
 
 ## v1.1.3
 > 2024.09
@@ -47,7 +98,7 @@ hide_table_of_contents: false
 
 ### Improved
 - Neuro-T 4.1.1, 4.1.2 출시
-
+- NDC 1.0 출시 및 전사 공유
 
 ---
 
@@ -82,14 +133,8 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 4.0](https://www.fajournal.com/news/articleView.html?idxno=14391) 출시
-- Generation 센터 설계 및 개발
-- socket 통신을 사용한 API 기능 개발
-- OOP 스타일 코드 작성 시도
+- [Neuro-T 4.0](https://www.fajournal.com/news/articleView.html?idxno=14391) 출시 (Generation 센터 설계 및 개발, socket 통신을 사용한 API 기능 개발)
 - 글또 9기 활동 시작
-
-### Improved
-- 사무실 양재 → 고덕 이전
 
 ---
 
@@ -99,11 +144,10 @@ hide_table_of_contents: false
 
 ### Added
 - [Neuro-T 3.2](http://www.industrynews.co.kr/news/articleView.html?idxno=49393) 출시
-- VAC 개발 패턴 시도
+- 백오피스 NDC(Neurocle Data Center) 사이드 개발
 
 ### Improved
 - Neuro-T 3.1.1, 3.1.2 출시 
-- File import/export 기능 개발 시, 업무 진행률 시각화
 - 팀의 생산성 향상에 관심
 - 【[리팩터링](/docs/book/Review/refactoring)】 독서 후, 프로젝트에 직접 적용을 통해 팀원과 내용 공유
 
@@ -114,8 +158,7 @@ hide_table_of_contents: false
 <br />
 
 ### Added
-- [Neuro-T 3.1](https://www.aitimes.kr/news/articleView.html?idxno=26478) 출시
-- Infernece 센터 설계 및 개발
+- [Neuro-T 3.1](https://www.aitimes.kr/news/articleView.html?idxno=26478) 출시 (Infernece 센터 설계 및 개발)
 - [뉴로클 채용 페이지](https://www.neurocle-career.com/) 배포
 
 ### Improved
