@@ -38,7 +38,7 @@ function HomePageContent() {
       <div className="container content">
         <p>
           <Translate>
-            저는 프런트엔드 개발자로 3년간 제품을 만들다, 이제는 그 기술을 더
+            저는 프런트엔드 개발자로 3년간 제품을 만들다가 이제는 그 기술을 더
             많은 사람들에게 잘 전달하기 위해 문서를 작성하고 있습니다.
           </Translate>
           <br />
