@@ -2,11 +2,18 @@
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
+    "types": ["@docusaurus/module-type-aliases", "@docusaurus/theme-classic"],
     "paths": {
       "@site/*": ["./*"],
       "@generated/*": ["./.docusaurus/*"]
     }
   },
-  "include": ["src", "docusaurus.config.ts", "sidebars.ts", "plugins/*"],
+  "include": [
+    "src",
+    "docusaurus.config.ts",
+    "sidebars.ts",
+    "plugins/*",
+    "eslint.config.mjs"
+  ],
   "exclude": [".docusaurus"]
 }

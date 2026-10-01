@@ -8,7 +8,7 @@
  */
 
 import { readdir, stat, mkdir, rename, readFile, writeFile, rm } from "fs/promises";
-import { join, dirname, extname, relative, resolve } from "path";
+import { join, dirname, extname, relative } from "path";
 
 const IMAGE_EXTS = new Set([".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"]);
 const ROOT = process.cwd();

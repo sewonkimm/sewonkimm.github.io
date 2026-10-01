@@ -2,6 +2,11 @@
   "name": "FromCodetoDocs",
   "version": "3.1.0",
   "private": true,
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=22.22.0 <23",
+    "yarn": "^1.22.22"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -13,26 +18,31 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "start:en": "docusaurus start --locale en",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "validate": "yarn typecheck && yarn lint && yarn build",
     "prepare": "husky",
     "optimize-images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
-    "@docusaurus/core": "3.10.1",
-    "@docusaurus/faster": "3.10.1",
-    "@docusaurus/plugin-content-blog": "3.10.1",
-    "@docusaurus/plugin-content-pages": "3.10.1",
-    "@docusaurus/plugin-google-gtag": "3.10.1",
-    "@docusaurus/plugin-sitemap": "3.10.1",
-    "@docusaurus/preset-classic": "3.10.1",
-    "@docusaurus/theme-live-codeblock": "3.10.1",
-    "@docusaurus/theme-mermaid": "3.10.1",
-    "@easyops-cn/docusaurus-search-local": "^0.50.0",
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/faster": "3.10.2",
+    "@docusaurus/plugin-content-blog": "3.10.2",
+    "@docusaurus/plugin-content-docs": "3.10.2",
+    "@docusaurus/plugin-content-pages": "3.10.2",
+    "@docusaurus/plugin-google-gtag": "3.10.2",
+    "@docusaurus/plugin-sitemap": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@docusaurus/theme-live-codeblock": "3.10.2",
+    "@docusaurus/theme-mermaid": "3.10.2",
+    "@docusaurus/theme-common": "3.10.2",
+    "@easyops-cn/docusaurus-search-local": "^0.55.3",
     "@giscus/react": "^3.1.0",
-    "@mdx-js/react": "^3.0.1",
+    "@mdx-js/react": "^3.1.1",
     "clsx": "^2.1.1",
-    "prism-react-renderer": "^2.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "prism-react-renderer": "^2.4.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "browserslist": {
     "production": [
@@ -47,16 +57,24 @@
     ]
   },
   "resolutions": {
-    "webpack": "5.97.1"
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "webpack": "5.111.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.10.1",
-    "@docusaurus/tsconfig": "3.10.1",
-    "@docusaurus/types": "3.10.1",
-    "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2",
+    "@docusaurus/module-type-aliases": "3.10.2",
+    "@docusaurus/theme-classic": "3.10.2",
+    "@docusaurus/tsconfig": "3.10.2",
+    "@docusaurus/types": "3.10.2",
+    "@eslint/js": "^10.0.1",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "eslint": "^10.11.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
     "husky": "^9.1.7",
-    "sharp": "^0.34.5",
-    "typescript": "^5.7.2"
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.71.0"
   }
 }

@@ -1,6 +1,11 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
+
+### Prerequisites
+
+- Node.js 22.22.0
+- Yarn 1.22.22
 
 ### Installation
 
@@ -23,6 +28,14 @@ $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Validation
+
+```
+$ yarn validate
+```
+
+This runs TypeScript checking, ESLint, and the production build for every locale.
 
 ### Deployment
 

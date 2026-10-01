@@ -10,7 +10,6 @@ const config: Config = {
   url: "https://sewonkimm-github-io.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "sewonkimm", // Usually your GitHub org/user name.
   projectName: "sewonkimm.github.io", // Usually your repo name.
@@ -47,6 +46,9 @@ const config: Config = {
   ],
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
   },
   presets: [
     [
@@ -60,7 +62,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true, // When set to false, the "x min read" won't be shown
-          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
+          readingTime: ({ content, defaultReadingTime }) =>
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           routeBasePath: "/blog",
           blogSidebarTitle: "All posts",
